@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/parrot.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/parrot.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://lucaseo.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"flat"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="이번 포스트에서는 Streamlit기반 웹 어플리케이션을 Heroku에 배포하는 과정을 다루어 보겠습니다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)">
+<meta property="og:url" content="https://lucaseo.github.io/2020/03/29/20200329-1/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="이번 포스트에서는 Streamlit기반 웹 어플리케이션을 Heroku에 배포하는 과정을 다루어 보겠습니다.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/20200313-1/streamlit_logo_1.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/7.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/1.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/2.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/3.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/6.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/4.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/5.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/9.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/8.png">
+<meta property="article:published_time" content="2020-03-29T05:12:54.000Z">
+<meta property="article:modified_time" content="2020-03-29T09:15:22.342Z">
+<meta property="article:author" content="SEO Wonyoung">
+<meta property="article:tag" content="python">
+<meta property="article:tag" content="streamlit">
+<meta property="article:tag" content="heroku">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lucaseo.github.io/2020/03/29/20200329-1/20200313-1/streamlit_logo_1.png">
+
+<link rel="canonical" href="https://lucaseo.github.io/2020/03/29/20200329-1/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku) | Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">from swy</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/03/29/20200329-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SEO Wonyoung">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          [KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-03-29 14:12:54 / Modified: 18:15:22" itemprop="dateCreated datePublished" datetime="2020-03-29T14:12:54+09:00">2020-03-29</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Streamlit/" itemprop="url" rel="index">
+                    <span itemprop="name">Streamlit</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>이번 포스트에서는 <strong>Streamlit</strong>기반 웹 어플리케이션을 <strong>Heroku</strong>에 배포하는 과정을 다루어 보겠습니다.</p>
+<a id="more"></a>
+<hr>
+<p><img src="20200313-1/streamlit_logo_1.png" alt=""></p>
+<h1 id="Streamlit-배포하기"><a href="#Streamlit-배포하기" class="headerlink" title="Streamlit 배포하기"></a><strong>Streamlit</strong> 배포하기</h1><p><strong>Streamlit</strong>의 주요 기능을 살펴보았던 <a href="https://lucaseo.github.io/2020/03/13/20200313-1/">지난 포스트</a>에 이어, 이번 포스트에서는 <strong>Streamlit</strong>으로 만든 간단한 웹어플리케이션을 <strong>Heroku</strong>에 배포하는 과정을 다루어보고자 한다.</p>
+<p><br></p>
+<hr>
+<h1 id="사전-준비사항"><a href="#사전-준비사항" class="headerlink" title="사전 준비사항"></a>사전 준비사항</h1><p>들어가기에 앞서 2가지 사전 준비 사항이 있다.</p>
+<h2 id="사전-준비-1-Streamlit-웹-어플리케이션"><a href="#사전-준비-1-Streamlit-웹-어플리케이션" class="headerlink" title="사전 준비 1: Streamlit 웹 어플리케이션"></a>사전 준비 1: <strong>Streamlit</strong> 웹 어플리케이션</h2><p>튜토리얼을 진행하기에 앞서, <strong>Streamlit</strong>기반의 아주 아주 간단한 시각화 웹 어플리케이션을 만들어보았다. 로컬에서 작동시킨 웹 어플리케이션은 다음과 같다. 해당 어플리케이션의 코드는 <a href="https://github.com/lucaseo/streamlit-examples/blob/master/02_streamlit_deployment/app.py" target="_blank" rel="noopener">링크</a>에서 참고 가능하다.</p>
+<ul>
+<li>Main Page<ul>
+<li>데이터셋에 대한 설명을 간단히 소개한다.</li>
+</ul>
+</li>
+<li>Raw Data<ul>
+<li>테이블 형태의 데이터셋을 확인할 수 있다.</li>
+</ul>
+</li>
+<li>Map: Confirmed<ul>
+<li>1월 22일부터 현재까지 전세계의 확진자 현황을 지도로 시각화한다.</li>
+</ul>
+</li>
+</ul>
+<p><img src="/2020/03/29/20200329-1/7.png" alt=""></p>
+<p>(데이터셋은 Johns Hopkins CSSE의 Github에 제공된 <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="noopener">COVID-19 데이터</a>를 사용하였다.)</p>
+<p><br></p>
+<hr>
+<h2 id="사전-준비-2-Heroku"><a href="#사전-준비-2-Heroku" class="headerlink" title="사전 준비 2: Heroku"></a>사전 준비 2: Heroku</h2><p><strong>Heroku</strong>는 웹사이트나 어플리케이션을 빌드하고 배포할 수 있는 PaaS이다. 파이썬, 자바, 루비, PHP, Node.js, Go 등 여러 언어를 지원하고 있다. 소규모 어플리케이션이라면 무료로도 배포할 수 있다. </p>
+<h3 id="Heroku-가입"><a href="#Heroku-가입" class="headerlink" title="Heroku 가입"></a>Heroku 가입</h3><p>Heroku를 통해 배포를 하기 위해서는 우선 계정이 있어야 한다. 아래 링크를 통해 <strong>Heroku</strong> 계정을 생성하자.</p>
+<ul>
+<li><a href="https://www.heroku.com/" target="_blank" rel="noopener">https://www.heroku.com/</a></li>
+</ul>
+<h3 id="Heroku-CLI-설치"><a href="#Heroku-CLI-설치" class="headerlink" title="Heroku CLI 설치"></a>Heroku CLI 설치</h3><h4 id="설치"><a href="#설치" class="headerlink" title="설치"></a>설치</h4><p>계정을 생성하였다면, 현재 개발 환경에 Heroku Command Line Interface를 설치한다. 아래의 링크에는 각자의 OS에 맞추어 Heroku CLI의 설치 가이드가 제공되어 있다.</p>
+<ul>
+<li><a href="https://devcenter.heroku.com/articles/getting-started-with-python#set-up" target="_blank" rel="noopener">https://devcenter.heroku.com/articles/getting-started-with-python#set-up</a></li>
+</ul>
+<h4 id="CLI를-통한-로그인"><a href="#CLI를-통한-로그인" class="headerlink" title="CLI를 통한 로그인"></a>CLI를 통한 로그인</h4><p>설치가 완성되었다면, 쉘에서 <code>heroku</code> 커맨드를 사용할 수 있다. 다음 명령어로 <strong>Heroku</strong>에 로그인 해보자.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku login</span><br></pre></td></tr></table></figure>
+<p><img src="/2020/03/29/20200329-1/1.png" alt=""></p>
+<p>아래와 같은 결과가 출력되며, 브라우저를 열어 로그인 하도록 한다. <strong>Heroku</strong>에 대한 준비작업은 이로서 완료되었다.</p>
+<p><img src="/2020/03/29/20200329-1/2.png" alt=""></p>
+<p><br></p>
+<hr>
+<h1 id="배포를-위한-파일-생성하기"><a href="#배포를-위한-파일-생성하기" class="headerlink" title="배포를 위한 파일 생성하기"></a>배포를 위한 파일 생성하기</h1><p><strong>Heroku</strong>에 배포를 하기 위해서는 몇 가지 준비사항이 충족되어야 한다.</p>
+<ol>
+<li><p><code>app.py</code>가 위치한 가상환경에서 Git Repository를 생성한다.</p>
+ <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>배포를 위해 필요한 파일들을 생성한다.</p>
+</li>
+</ol>
+<h2 id="파일-1-requirements-txt"><a href="#파일-1-requirements-txt" class="headerlink" title="파일 #1. requirements.txt"></a>파일 #1. <code>requirements.txt</code></h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip freeze &gt; requirements.txt</span><br></pre></td></tr></table></figure>
+<h2 id="파일-2-gitignore"><a href="#파일-2-gitignore" class="headerlink" title="파일 #2. .gitignore"></a>파일 #2. <code>.gitignore</code></h2><figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">venv</span><br><span class="line">*.pyc</span><br><span class="line">.DS_Store</span><br><span class="line">.env</span><br></pre></td></tr></table></figure>
+<h2 id="파일-3-setup-sh"><a href="#파일-3-setup-sh" class="headerlink" title="파일 #3. setup.sh"></a>파일 #3. <code>setup.sh</code></h2><p><code>setup.sh</code>에서는 <strong>Streamlit</strong>에 대한 <code>config.toml</code> 파일을 생성한다.</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p ~/.streamlit/</span><br><span class="line">	</span><br><span class="line">echo "\</span><br><span class="line">[server]\n\</span><br><span class="line">headless = true\n\</span><br><span class="line">enableCORS=false\n\</span><br><span class="line">port = $PORT\n\</span><br><span class="line">" &gt; ~/.streamlit/config.toml</span><br></pre></td></tr></table></figure>
+<h2 id="파일-4-Procfile"><a href="#파일-4-Procfile" class="headerlink" title="파일 #4. Procfile"></a>파일 #4. <code>Procfile</code></h2><p><code>Procfile</code>에서는 <strong>Heroku</strong>로 하여금 웹어플리케이션을 시작시키기 위해 명령어를 순서대로 실행하도록 한다.</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">web: sh setup.sh &amp;&amp; streamlit run app.py</span><br></pre></td></tr></table></figure>
+<p>(<code>Procfile</code>에 대한 자세한 사항은 다음 <a href="https://devcenter.heroku.com/articles/preparing-a-codebase-for-heroku-deployment" target="_blank" rel="noopener">링크</a>에서 참조할 수 있다.)</p>
+<p><br></p>
+<hr>
+<h1 id="Heroku에-배포하기"><a href="#Heroku에-배포하기" class="headerlink" title="Heroku에 배포하기"></a>Heroku에 배포하기</h1><p>배포를 위한 파일이 모두 준비되었다면, 이제 본격적으로 <strong>Heroku</strong>에 배포를 할 수 있게 되었다.</p>
+<h2 id="Heroku-App-생성"><a href="#Heroku-App-생성" class="headerlink" title="Heroku App 생성"></a>Heroku App 생성</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku create &#123;your app name&#125;</span><br></pre></td></tr></table></figure>
+<p>앞서 Heroku CLI를 생성했을 때와 같은 <strong>Heroku</strong> 로그인 과정을 거쳐, Heroku App이 생성 되었다.</p>
+<p><img src="/2020/03/29/20200329-1/3.png" alt=""></p>
+<p>생성된 App은 <strong>Heroku</strong> 사이트의 대시보드에서도 다음과 같이 확인이 가능하다.</p>
+<p><img src="/2020/03/29/20200329-1/6.png" alt=""></p>
+<h2 id="Heroku-repository-생성"><a href="#Heroku-repository-생성" class="headerlink" title="Heroku repository 생성"></a>Heroku repository 생성</h2><p><strong>Heroku</strong>는 배포를 위해 Git을 사용하므로, 방식도 같다.</p>
+<figure class="highlight shell"><figcaption><span>script</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add . </span><br><span class="line">git commit -m 'Init app boilerplate' </span><br><span class="line">git push heroku master</span><br></pre></td></tr></table></figure>
+<p><img src="/2020/03/29/20200329-1/4.png" alt=""></p>
+<p><img src="/2020/03/29/20200329-1/5.png" alt=""></p>
+<p><strong>Heroku</strong> 의 프로세스 인스턴스를 1개로 제한하는 것을 권장한다. 프로세스가 많을 수록 유료가 될 수 있기 때문에, 무료인 상태에서 계속 사용하고 싶다면, 아래의 명령어를 실행시켜준다.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">heroku ps:scale web&#x3D;1</span><br></pre></td></tr></table></figure>
+<p><img src="/2020/03/29/20200329-1/9.png" alt=""></p>
+<h2 id="Heroku-배포-확인"><a href="#Heroku-배포-확인" class="headerlink" title="Heroku 배포 확인"></a>Heroku 배포 확인</h2><p>드디어 배포가 완료되었다! 이제 배포된 웹 어플리케이션을 <strong><a href="https://your_app.herokuapp.com" target="_blank" rel="noopener">https://your_app.herokuapp.com</a></strong> 에서 확인할 수 있다. 본 튜토리얼을 위해 배포된 웹 어플리케이션은 <strong><a href="https://tuto-covid19-map.herokuapp.com/" target="_blank" rel="noopener">https://tuto-covid19-map.herokuapp.com/</a></strong> 에서 확인할 수 있다.</p>
+<p><img src="/2020/03/29/20200329-1/8.png" alt=""></p>
+<p><br></p>
+<hr>
+<h1 id="마무리-하며"><a href="#마무리-하며" class="headerlink" title="마무리 하며"></a>마무리 하며</h1><p>간단한 과정을 거쳐 웹 어플리케이션을 배포까지 해보았다. AWS와 같은 클라우드에 배포하는 과정은 익숙하지 않았고, 현재 Streamlit이 자체적으로 특정 배포 방식을 권장하고 있지는 않기에, <strong>Dash</strong>(Plotly에서 개발한 웹어플리케이션 프레임워크)에서 웹어플리케이션을 <strong>Heroku</strong>에 배포하는 가이드를 적용해 보았다. 큰 어려움 없이 배포를 완료하였기에, 많은 분들도 이 과정을 참고하시어 <strong>Streamlit</strong>을 활용한 다양한 프로젝트를 진행할 수 있으리라 생각된다. </p>
+<p><br></p>
+<hr>
+<h1 id="코드"><a href="#코드" class="headerlink" title="코드"></a>코드</h1><ul>
+<li><a href="https://github.com/lucaseo/streamlit-examples/blob/master/02_streamlit_deployment/app.py" target="_blank" rel="noopener">Github</a></li>
+</ul>
+<p><br></p>
+<h1 id="참고자료"><a href="#참고자료" class="headerlink" title="참고자료"></a>참고자료</h1><ul>
+<li><a href="https://dash.plotly.com/deployment" target="_blank" rel="noopener">Dash 공식 페이지</a></li>
+<li><a href="https://github.com/CSSEGISandData/COVID-19" target="_blank" rel="noopener">Johns Hopkins CSSE Github Repository</a></li>
+<li><a href="https://medium.com/analytics-vidhya/mapping-the-spread-of-coronavirus-covid-19-d7830c4282e" target="_blank" rel="noopener"><em>Mapping the Spread of Coronavirus COVID-19 with python and Plotly</em> by. Babak Fard</a></li>
+</ul>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/python/" rel="tag"># python</a>
+              <a href="/tags/streamlit/" rel="tag"># streamlit</a>
+              <a href="/tags/heroku/" rel="tag"># heroku</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/03/13/20200313-1/" rel="prev" title="[KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)">
+      <i class="fa fa-chevron-left"></i> [KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/04/12/20200412-1/" rel="next" title="[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)">
+      [KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread) <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Streamlit-배포하기"><span class="nav-number">1.</span> <span class="nav-text">Streamlit 배포하기</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#사전-준비사항"><span class="nav-number">2.</span> <span class="nav-text">사전 준비사항</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#사전-준비-1-Streamlit-웹-어플리케이션"><span class="nav-number">2.1.</span> <span class="nav-text">사전 준비 1: Streamlit 웹 어플리케이션</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#사전-준비-2-Heroku"><span class="nav-number">2.2.</span> <span class="nav-text">사전 준비 2: Heroku</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Heroku-가입"><span class="nav-number">2.2.1.</span> <span class="nav-text">Heroku 가입</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Heroku-CLI-설치"><span class="nav-number">2.2.2.</span> <span class="nav-text">Heroku CLI 설치</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#설치"><span class="nav-number">2.2.2.1.</span> <span class="nav-text">설치</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#CLI를-통한-로그인"><span class="nav-number">2.2.2.2.</span> <span class="nav-text">CLI를 통한 로그인</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#배포를-위한-파일-생성하기"><span class="nav-number">3.</span> <span class="nav-text">배포를 위한 파일 생성하기</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#파일-1-requirements-txt"><span class="nav-number">3.1.</span> <span class="nav-text">파일 #1. requirements.txt</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#파일-2-gitignore"><span class="nav-number">3.2.</span> <span class="nav-text">파일 #2. .gitignore</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#파일-3-setup-sh"><span class="nav-number">3.3.</span> <span class="nav-text">파일 #3. setup.sh</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#파일-4-Procfile"><span class="nav-number">3.4.</span> <span class="nav-text">파일 #4. Procfile</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Heroku에-배포하기"><span class="nav-number">4.</span> <span class="nav-text">Heroku에 배포하기</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Heroku-App-생성"><span class="nav-number">4.1.</span> <span class="nav-text">Heroku App 생성</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Heroku-repository-생성"><span class="nav-number">4.2.</span> <span class="nav-text">Heroku repository 생성</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Heroku-배포-확인"><span class="nav-number">4.3.</span> <span class="nav-text">Heroku 배포 확인</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#마무리-하며"><span class="nav-number">5.</span> <span class="nav-text">마무리 하며</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#코드"><span class="nav-number">6.</span> <span class="nav-text">코드</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#참고자료"><span class="nav-number">7.</span> <span class="nav-text">참고자료</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SEO Wonyoung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/lucaseo/" title="Linkedin → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lucaseo&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/lucaseo" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;lucaseo" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lucaseo0147@gmail.com" title="E-Mail → mailto:lucaseo0147@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SEO Wonyoung</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>

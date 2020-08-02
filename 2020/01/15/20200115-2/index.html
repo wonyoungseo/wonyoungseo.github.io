@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/parrot.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/parrot.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://lucaseo.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"flat"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[KR] 비전공자의 DSP 맛보기 시즌 1: Timbre">
+<meta property="og:url" content="https://lucaseo.github.io/2020/01/15/20200115-2/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://lucaseo.github.io/2020/01/15/20200115-2/20200115-2-1.png">
+<meta property="article:published_time" content="2020-01-15T11:30:23.000Z">
+<meta property="article:modified_time" content="2020-08-02T02:13:41.926Z">
+<meta property="article:author" content="SEO Wonyoung">
+<meta property="article:tag" content="DSP">
+<meta property="article:tag" content="비전공자의 DSP 맛보기 시즌 1">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lucaseo.github.io/2020/01/15/20200115-2/20200115-2-1.png">
+
+<link rel="canonical" href="https://lucaseo.github.io/2020/01/15/20200115-2/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Timbre | Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">from swy</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/01/15/20200115-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SEO Wonyoung">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          [KR] 비전공자의 DSP 맛보기 시즌 1: Timbre
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-01-15 20:30:23" itemprop="dateCreated datePublished" datetime="2020-01-15T20:30:23+09:00">2020-01-15</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-08-02 11:13:41" itemprop="dateModified" datetime="2020-08-02T11:13:41+09:00">2020-08-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Digital-Signal-Processing/" itemprop="url" rel="index">
+                    <span itemprop="name">Digital Signal Processing</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 <a href="http://jackschaedler.github.io/circles-sines-signals/" target="_blank" rel="noopener"><strong><em>Seeing Circles, Sines And Signals</em></strong></a> 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.</p>
+<a id="more"></a>
+<hr>
+<h1 id="Timbre-Harmonics-Overtones-and-Wave-Shapes"><a href="#Timbre-Harmonics-Overtones-and-Wave-Shapes" class="headerlink" title="Timbre: Harmonics, Overtones, and Wave Shapes"></a>Timbre: Harmonics, Overtones, and Wave Shapes</h1><p>물체가 반복적으로 패턴을 보이며 진동할 경우, 우리의 귀는 pressure wave(압력파)를 음조(tone)이나 음의 높이(pitch)로 해석한다. 반대로 물체의 진동이 반복적이지 않거나, 예측 불가한 패턴으로 진동할 경우 우리의 귀는 이를 소음(noise)나 조성이 없는 형태(atonal)로 받아들이게 된다.</p>
+<p>각기 다른 패턴의 진동은 곧 각기 다른 음색(timbre)으로 연결 된다. 음색이라는 개념은 음의 높이나 강도와는 별개의 특성이다. 플룻과 바이올린으로 똑같은 음을 연주하더라도, 소리는 서로 확연이 다른 것과 연관이 있다. 음색은 주로 배음(overtone)과 고조파(harmonic)의 유무에 따라 결정 된다. </p>
+<p>대부분의 음악은 fundamental frequency와 다수의 fundamental frequency에 위치한 harmonics로 이루어져 있다. 예를 들어 A4의 fundamental frequency는 440Hz이고, harmonics는 880Hz, 1320Hz, 1760Hz … 의 주기로 이루어져 있다. 악기들은 대개 연주가 될 때, fundamental frequency와 harmonics에 위치한 소리를 생성한다.</p>
+<p>신호처리에서 sound wave를 논할 때는 주로 3가지 기본 sound wave를 지칭한다. </p>
+<ul>
+<li>sine wave:  overtone이 없는 순음(pure tone)</li>
+<li>squire wave: fundamental frequency와 fundamental frequency의 홀수 배음 harmonics</li>
+<li>saw wave: fundamental frequency와 fundamental frequency의 전체 harmonics</li>
+</ul>
+<p>신호를 관찰해보면 fundamental frequency가 가장 소리가 큰 부분을 차지하고 있고, harmonics는 frequency가 증가할 수록 감소한다.</p>
+<p><a href="https://jackschaedler.github.io/circles-sines-signals/sound2.html" target="_blank" rel="noopener">원본의 실습</a>에서는 각기 다른 sound wave의 소리를 직접 들어보고 이에 따른 스펙트럼(spectrum)을 확인할 수 있다. 스펙트럼이란 특정 신호 안에 담긴 frequency들을 시각화된 형태이다.</p>
+<p><img src="/2020/01/15/20200115-2/20200115-2-1.png" alt=""></p>
+<p>실제로 실행을 하고 스펙트럼을 확인해보면, 앞에서 설명한 바와 같이 Sine Wave는 단 하나의 440Hz frequency만 있는 순음이다. 반대로 Noise Wave는 어떠한 형태의 frequency도 구별을 할 수가 없다.</p>
+<p>Square Wave 와 Saw Wave를 보면 Sine Wave를 여러번 반복한 형태와 비슷하게 보인다. 또한 spectrum에서도 여러 frequency 가 공존하는 것을 볼 수 있다. </p>
+<p>뒤 따르는 내용에서는 어떻게 하면 여러 개의  sine wave가 모여 complex wave(복합파형)를 이루는 지를 알아보자. </p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/DSP/" rel="tag"># DSP</a>
+              <a href="/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-DSP-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/" rel="tag"># 비전공자의 DSP 맛보기 시즌 1</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/01/15/20200115-1/" rel="prev" title="[KR] 기초 통계학 정리 pt.1 (표본? 샘플링?)">
+      <i class="fa fa-chevron-left"></i> [KR] 기초 통계학 정리 pt.1 (표본? 샘플링?)
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/01/16/20200116-1/" rel="next" title="[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA">
+      [KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Timbre-Harmonics-Overtones-and-Wave-Shapes"><span class="nav-number">1.</span> <span class="nav-text">Timbre: Harmonics, Overtones, and Wave Shapes</span></a></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SEO Wonyoung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/lucaseo/" title="Linkedin → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lucaseo&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/lucaseo" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;lucaseo" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lucaseo0147@gmail.com" title="E-Mail → mailto:lucaseo0147@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SEO Wonyoung</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>

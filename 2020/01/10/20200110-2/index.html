@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/parrot.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/parrot.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://lucaseo.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"flat"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[KR] 비전공자의 DSP 맛보기 시즌 1: Discrete Signals">
+<meta property="og:url" content="https://lucaseo.github.io/2020/01/10/20200110-2/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://lucaseo.github.io/2020/01/10/20200110-2/20200110-2-1.png">
+<meta property="og:image" content="https://lucaseo.github.io/2020/01/10/20200110-2/20200110-2-2.png">
+<meta property="article:published_time" content="2020-01-10T11:03:45.000Z">
+<meta property="article:modified_time" content="2020-08-02T02:14:21.695Z">
+<meta property="article:author" content="SEO Wonyoung">
+<meta property="article:tag" content="DSP">
+<meta property="article:tag" content="비전공자의 DSP 맛보기 시즌 1">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://lucaseo.github.io/2020/01/10/20200110-2/20200110-2-1.png">
+
+<link rel="canonical" href="https://lucaseo.github.io/2020/01/10/20200110-2/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Discrete Signals | Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">from swy</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/01/10/20200110-2/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SEO Wonyoung">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          [KR] 비전공자의 DSP 맛보기 시즌 1: Discrete Signals
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-01-10 20:03:45" itemprop="dateCreated datePublished" datetime="2020-01-10T20:03:45+09:00">2020-01-10</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-08-02 11:14:21" itemprop="dateModified" datetime="2020-08-02T11:14:21+09:00">2020-08-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Digital-Signal-Processing/" itemprop="url" rel="index">
+                    <span itemprop="name">Digital Signal Processing</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 <a href="http://jackschaedler.github.io/circles-sines-signals/" target="_blank" rel="noopener"><strong><em>Seeing Circles, Sines And Signals</em></strong></a> 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.</p>
+<a id="more"></a>
+<hr>
+<h1 id="Discrete-Signals-이산-신호"><a href="#Discrete-Signals-이산-신호" class="headerlink" title="Discrete Signals (이산 신호)"></a>Discrete Signals (이산 신호)</h1><p><strong>Sampling and Signal Notation(샘플링과 신호의 표기)</strong></p>
+<p><br/></p>
+<h2 id="Sampling"><a href="#Sampling" class="headerlink" title="Sampling"></a>Sampling</h2><p>어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sampling), 그렇게 측정된 각각의 값을 샘플(sample)이라고 한다. 이산신호는 연속신호를 샘플링한 샘플의 모음이라고 보면 된다.</p>
+<p>예를 들어 두시간 동안 비행하는 비행기의 고도를 측정할 때, 10분마다 한번씩 고도를 잰다고 하면, 이것이 바로 비행기 고도를 샘플링 함으로서 이산신호를 생성하는 것이라고 볼 수 있다. (<a href="https://jackschaedler.github.io/circles-sines-signals/discrete_signals.html" target="_blank" rel="noopener"><strong>원문 Figure 1. 참조</strong></a>)</p>
+<p><img src="/2020/01/10/20200110-2/20200110-2-1.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">altitude &#x3D; [0, 6000, 15000, </span><br><span class="line">            20000, 35000, 32000, </span><br><span class="line">            31000, 31000, 27000, </span><br><span class="line">            12000, 3500, 1200]</span><br></pre></td></tr></table></figure>
+<p>Figure 1.의 파랑색 점 하나하나가 샘플이며, 그래프말고도 다음과 같이 이산값의 리스트로도 표현하고, 인덱싱(indexing)을 할 수도 있다. </p>
+<ul>
+<li><code>altitude[4]</code> → 35,000</li>
+<li><code>altitude[8]</code> → 27,000</li>
+</ul>
+<h2 id="Sampling-Period-샘플링-주기"><a href="#Sampling-Period-샘플링-주기" class="headerlink" title="Sampling Period (샘플링 주기)"></a>Sampling Period (샘플링 주기)</h2><p>샘플링 주기(sampling period)는 연속적인 신호 사이의 지속기간(duration)을 뜻한다. 위의 비행 고도 샘플링 예시에서 각 고도를 기록하는 주기를 10분으로 놨었는데, 이때 샘플링 주기가 10분이고, 아래와 같이 나타낼 수 있다.</p>
+<script type="math/tex; mode=display">\text{sampling period} = 10\text{ minutes} / 1\text{ sample}</script><p>샘플링 주기를 알 수 있다면, index에 샘플링 주기를 곱함으로서 몇 번 째 샘플이 언제 기록 되었는지를 추적(?)할 수 있다. </p>
+<script type="math/tex; mode=display">\text{time of 3rd sample} = 2 \cdot 10 \text{ minutes} / 1 \text{ sample} = 20 \text{ minutes}</script><p>이산신호를 해석하기 위해서는 context를 파악하는 것이 매우 중요하다. 샘플링 주기를 알아야지만, 이산신호의 값들이 의미를 가지고 make sense할 수 있는 것이고, sampling period를 알지 못 한다면, 이러한 값들이 의미를 잃게 된다.</p>
+<h2 id="추가적으로-…"><a href="#추가적으로-…" class="headerlink" title="추가적으로 …"></a>추가적으로 …</h2><p><img src="/2020/01/10/20200110-2/20200110-2-2.png" alt=""></p>
+<p>원본의 Figure 1.에서 비행기의 실제 고도를 주의깊게 봤다면, 60-70분 사이 급격한 하강 후 고도를 회복하는 부분이 있었음을 관찰할 수 있는데, 우리의 샘플링 주기는 10분이었기 때문에 정작 샘플링 당시에는 기록되지 못 했다. 샘플링 주기가 적절하지 않았기 때문에 중요한 정보가 손실 된 것이다.</p>
+<p>따라서 특정 물리적인 현상을 관측하기 위한 이산신호를 기록하려면, 이산신호가 그 현상을 제대로 나타낼 수 있도록 샘플링 주기를 적절하게 선택해야 한다. 이렇듯 샘플링 주기의 결정은 신호처리 분야에서도 매우 중요하게 다루는 부분 중 하나이다.</p>
+<p>다음 번에는 신호주기를 매우 뜸하게 설정 했을 때 나타날 수 있는 결과에 대해 좀 더 알아보도록 하자.</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/DSP/" rel="tag"># DSP</a>
+              <a href="/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-DSP-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/" rel="tag"># 비전공자의 DSP 맛보기 시즌 1</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/01/10/20200110-1/" rel="prev" title="[KR] 비전공자의 DSP 맛보기 시즌 1: 신호란?">
+      <i class="fa fa-chevron-left"></i> [KR] 비전공자의 DSP 맛보기 시즌 1: 신호란?
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/01/12/20200112-1/" rel="next" title="[KR] 비전공자의 DSP 맛보기 시즌 1: Sampling & Aliasing">
+      [KR] 비전공자의 DSP 맛보기 시즌 1: Sampling & Aliasing <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Discrete-Signals-이산-신호"><span class="nav-number">1.</span> <span class="nav-text">Discrete Signals (이산 신호)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Sampling"><span class="nav-number">1.1.</span> <span class="nav-text">Sampling</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Sampling-Period-샘플링-주기"><span class="nav-number">1.2.</span> <span class="nav-text">Sampling Period (샘플링 주기)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#추가적으로-…"><span class="nav-number">1.3.</span> <span class="nav-text">추가적으로 …</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SEO Wonyoung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/lucaseo/" title="Linkedin → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lucaseo&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/lucaseo" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;lucaseo" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lucaseo0147@gmail.com" title="E-Mail → mailto:lucaseo0147@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SEO Wonyoung</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+<script type="text/x-mathjax-config">
+
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+      equationNumbers: {
+        autoNumber: 'AMS'
+      }
+    }
+  });
+
+  MathJax.Hub.Register.StartupHook('TeX Jax Ready', function() {
+    MathJax.InputJax.TeX.prefilterHooks.Add(function(data) {
+      if (data.display) {
+        var next = data.script.nextSibling;
+        while (next && next.nodeName.toLowerCase() === '#text') {
+          next = next.nextSibling;
+        }
+        if (next && next.nodeName.toLowerCase() === 'br') {
+          next.parentNode.removeChild(next);
+        }
+      }
+    });
+  });
+
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for (i = 0; i < all.length; i += 1) {
+      element = document.getElementById(all[i].inputID + '-Frame').parentNode;
+      if (element.nodeName.toLowerCase() == 'li') {
+        element = element.parentNode;
+      }
+      element.classList.add('has-jax');
+    }
+  });
+</script>
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML', () => {
+    MathJax.Hub.Typeset();
+  }, window.MathJax);
+</script>
+
+    
+
+  
+
+</body>
+</html>

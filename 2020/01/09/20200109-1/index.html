@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/parrot.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/parrot.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    hostname: new URL('https://lucaseo.github.io').hostname,
+    root: '/',
+    scheme: 'Muse',
+    version: '7.7.0',
+    exturl: false,
+    sidebar: {"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"flat"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    comments: {"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}
+  };
+</script>
+
+  <meta name="description" content="로컬 머신에서의 디렉토리 만들기12$ mkdir elasticstack$ cd elasticstack  01. Elasticsearch(엘라스틱서치) 설치다운로드Linux 1wget https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;elasticsearch&#x2F;elasticsearch-6.6.1">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[KR] 로컬 환경에 엘라스틱서치, 키바나 설치하기">
+<meta property="og:url" content="https://lucaseo.github.io/2020/01/09/20200109-1/index.html">
+<meta property="og:site_name" content="Blog">
+<meta property="og:description" content="로컬 머신에서의 디렉토리 만들기12$ mkdir elasticstack$ cd elasticstack  01. Elasticsearch(엘라스틱서치) 설치다운로드Linux 1wget https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;elasticsearch&#x2F;elasticsearch-6.6.1">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-01-09T10:44:00.000Z">
+<meta property="article:modified_time" content="2020-08-02T02:14:39.449Z">
+<meta property="article:author" content="SEO Wonyoung">
+<meta property="article:tag" content="elastic stack">
+<meta property="article:tag" content="elasticsearch">
+<meta property="article:tag" content="kibana">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="https://lucaseo.github.io/2020/01/09/20200109-1/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true
+  };
+</script>
+
+  <title>[KR] 로컬 환경에 엘라스틱서치, 키바나 설치하기 | Blog</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">from swy</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>Categories</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>About</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/01/09/20200109-1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="SEO Wonyoung">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          [KR] 로컬 환경에 엘라스틱서치, 키바나 설치하기
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-01-09 19:44:00" itemprop="dateCreated datePublished" datetime="2020-01-09T19:44:00+09:00">2020-01-09</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-08-02 11:14:39" itemprop="dateModified" datetime="2020-08-02T11:14:39+09:00">2020-08-02</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Elastic-Stack/" itemprop="url" rel="index">
+                    <span itemprop="name">Elastic Stack</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <a id="more"></a>
+<h1 id="로컬-머신에서의-디렉토리-만들기"><a href="#로컬-머신에서의-디렉토리-만들기" class="headerlink" title="로컬 머신에서의 디렉토리 만들기"></a>로컬 머신에서의 디렉토리 만들기</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ mkdir elasticstack</span><br><span class="line">$ cd elasticstack</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h2 id="01-Elasticsearch-엘라스틱서치-설치"><a href="#01-Elasticsearch-엘라스틱서치-설치" class="headerlink" title="01. Elasticsearch(엘라스틱서치) 설치"></a>01. Elasticsearch(엘라스틱서치) 설치</h2><h3 id="다운로드"><a href="#다운로드" class="headerlink" title="다운로드"></a>다운로드</h3><p>Linux</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;elasticsearch&#x2F;elasticsearch-6.6.1.tar.gz</span><br></pre></td></tr></table></figure>
+<p>MacOS</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -O https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;elasticsearch&#x2F;elasticsearch-6.6.1.tar.gz</span><br></pre></td></tr></table></figure>
+<p>이하 리눅스 기준</p>
+<p><br/></p>
+<h3 id="압축-풀기"><a href="#압축-풀기" class="headerlink" title="압축 풀기"></a>압축 풀기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ tar -xzvf elasticsearch-6.6.1.tar.gz</span><br><span class="line">$ rm elasticsearch-6.6.1.tar.gz</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="Heap-사이즈-조정"><a href="#Heap-사이즈-조정" class="headerlink" title="Heap 사이즈 조정"></a>Heap 사이즈 조정</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~</span><br><span class="line">$ cd elastic&#x2F;elasticsearch-6.6.1.&#x2F;config</span><br><span class="line">$ vi jvm.options</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-Xms2g</span><br><span class="line">-Xmx2g</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="클러스터-정보-접근-IP-설정"><a href="#클러스터-정보-접근-IP-설정" class="headerlink" title="클러스터 정보 / 접근 IP 설정"></a>클러스터 정보 / 접근 IP 설정</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ cd ~</span><br><span class="line">$ cd elastic&#x2F;elasticsearch-6.6.1.&#x2F;config</span><br><span class="line">$ vi elasticsearch.yml</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">### For ClusterName &amp; Node Name</span><br><span class="line">cluster.name: my-local-es</span><br><span class="line">node.name: local</span><br><span class="line"></span><br><span class="line">### For Response by External Request</span><br><span class="line">network.host: 0.0.0.0</span><br><span class="line"></span><br><span class="line">### For Head</span><br><span class="line">http.cors.enabled: true</span><br><span class="line">http.cors.allow-origin: &quot;*&quot;</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="실행"><a href="#실행" class="headerlink" title="실행"></a>실행</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd elasticstack&#x2F;elasticsearch-6.6.1</span><br><span class="line">$ nohup bin&#x2F;elasticsearch &amp;</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="정상적으로-실행-중인지-확인"><a href="#정상적으로-실행-중인지-확인" class="headerlink" title="정상적으로 실행 중인지 확인"></a>정상적으로 실행 중인지 확인</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ ps ax | grep elasticsearch</span><br><span class="line">$ curl localhost:9200</span><br></pre></td></tr></table></figure>
+<p><a href="http://localhost:9200" target="_blank" rel="noopener">http://localhost:9200</a> 실행</p>
+<p><br/></p>
+<hr>
+<h2 id="02-키바나-설치"><a href="#02-키바나-설치" class="headerlink" title="02. 키바나 설치"></a>02. 키바나 설치</h2><h3 id="다운로드-1"><a href="#다운로드-1" class="headerlink" title="다운로드"></a>다운로드</h3><p>Linux</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ wget https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;kibana&#x2F;kibana-6.6.1-linux-x86_64.tar.gz</span><br></pre></td></tr></table></figure>
+<p>MacOS</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ curl -O https:&#x2F;&#x2F;artifacts.elastic.co&#x2F;downloads&#x2F;kibana&#x2F;kibana-6.6.1-darwin-x86_64.tar.gz</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="압축-풀기-1"><a href="#압축-풀기-1" class="headerlink" title="압축 풀기"></a>압축 풀기</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ tar -xzvf kibana-6.6.1-linux-x86_64.tar.gz</span><br><span class="line">$ rm kibana-6.4.0-linux-x86_64.tar.gz</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="환경-설정"><a href="#환경-설정" class="headerlink" title="환경 설정"></a>환경 설정</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd elasticstack&#x2F;kibana-6.6.1-linux-x86_64&#x2F;config</span><br><span class="line">$ vi kibana.yml</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">server.host : 0.0.0.0</span><br><span class="line">elasticsearch.url : &quot;http:&#x2F;&#x2F;localhost:9200&quot;</span><br><span class="line">kibana.index : &quot;.kibana&quot;</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="실행-1"><a href="#실행-1" class="headerlink" title="실행"></a>실행</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ cd elasticstack&#x2F;kibana-6.6.1-linux-x86_64</span><br><span class="line">$ bin&#x2F;kibana</span><br></pre></td></tr></table></figure>
+<p><br/></p>
+<h3 id="실행확인"><a href="#실행확인" class="headerlink" title="실행확인"></a>실행확인</h3><p><a href="http://localhost:5601" target="_blank" rel="noopener">http://localhost:5601</a> 실행</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/elastic-stack/" rel="tag"># elastic stack</a>
+              <a href="/tags/elasticsearch/" rel="tag"># elasticsearch</a>
+              <a href="/tags/kibana/" rel="tag"># kibana</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/01/05/20200105-1/" rel="prev" title="[KR] 엘라스틱스택(Elastic Stack) 소개">
+      <i class="fa fa-chevron-left"></i> [KR] 엘라스틱스택(Elastic Stack) 소개
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2020/01/10/20200110-1/" rel="next" title="[KR] 비전공자의 DSP 맛보기 시즌 1: 신호란?">
+      [KR] 비전공자의 DSP 맛보기 시즌 1: 신호란? <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let activeClass = CONFIG.comments.activeClass;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#로컬-머신에서의-디렉토리-만들기"><span class="nav-number">1.</span> <span class="nav-text">로컬 머신에서의 디렉토리 만들기</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#01-Elasticsearch-엘라스틱서치-설치"><span class="nav-number">1.1.</span> <span class="nav-text">01. Elasticsearch(엘라스틱서치) 설치</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#다운로드"><span class="nav-number">1.1.1.</span> <span class="nav-text">다운로드</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#압축-풀기"><span class="nav-number">1.1.2.</span> <span class="nav-text">압축 풀기</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Heap-사이즈-조정"><span class="nav-number">1.1.3.</span> <span class="nav-text">Heap 사이즈 조정</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#클러스터-정보-접근-IP-설정"><span class="nav-number">1.1.4.</span> <span class="nav-text">클러스터 정보 &#x2F; 접근 IP 설정</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#실행"><span class="nav-number">1.1.5.</span> <span class="nav-text">실행</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#정상적으로-실행-중인지-확인"><span class="nav-number">1.1.6.</span> <span class="nav-text">정상적으로 실행 중인지 확인</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#02-키바나-설치"><span class="nav-number">1.2.</span> <span class="nav-text">02. 키바나 설치</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#다운로드-1"><span class="nav-number">1.2.1.</span> <span class="nav-text">다운로드</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#압축-풀기-1"><span class="nav-number">1.2.2.</span> <span class="nav-text">압축 풀기</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#환경-설정"><span class="nav-number">1.2.3.</span> <span class="nav-text">환경 설정</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#실행-1"><span class="nav-number">1.2.4.</span> <span class="nav-text">실행</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#실행확인"><span class="nav-number">1.2.5.</span> <span class="nav-text">실행확인</span></a></li></ol></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">SEO Wonyoung</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">23</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">10</span>
+        <span class="site-state-item-name">categories</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">25</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://www.linkedin.com/in/lucaseo/" title="Linkedin → https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;lucaseo&#x2F;" rel="noopener" target="_blank"><i class="fa fa-fw fa-linkedin"></i>Linkedin</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://github.com/lucaseo" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;lucaseo" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:lucaseo0147@gmail.com" title="E-Mail → mailto:lucaseo0147@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">SEO Wonyoung</span>
+</div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+</body>
+</html>
