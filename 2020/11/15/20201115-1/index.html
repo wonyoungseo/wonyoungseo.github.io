@@ -46,27 +46,24 @@
   };
 </script>
 
-  <meta name="description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+  <meta name="description" content="글또 5기 참여를 시작하기 전, 소감에 대해 정리해보는 글입니다.">
 <meta property="og:type" content="article">
-<meta property="og:title" content="[KR] 비전공자의 DSP 맛보기 시즌 1: Sine Wave">
-<meta property="og:url" content="https://lucaseo.github.io/2020/01/23/20200123-1/index.html">
+<meta property="og:title" content="[KR] 글또 5기를 시작하며">
+<meta property="og:url" content="https://lucaseo.github.io/2020/11/15/20201115-1/index.html">
 <meta property="og:site_name" content="Blog">
-<meta property="og:description" content="본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.">
+<meta property="og:description" content="글또 5기 참여를 시작하기 전, 소감에 대해 정리해보는 글입니다.">
 <meta property="og:locale" content="en_US">
-<meta property="og:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-1.png">
-<meta property="og:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-2.png">
-<meta property="og:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-3.png">
-<meta property="og:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-4.png">
-<meta property="og:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-5.png">
-<meta property="article:published_time" content="2020-01-23T06:30:23.000Z">
-<meta property="article:modified_time" content="2020-08-02T02:13:23.535Z">
+<meta property="og:image" content="https://lucaseo.github.io/2020/11/15/20201115-1/symbol@3x-resized.png">
+<meta property="article:published_time" content="2020-11-15T03:56:07.000Z">
+<meta property="article:modified_time" content="2020-11-15T04:22:33.245Z">
 <meta property="article:author" content="SEO Wonyoung">
-<meta property="article:tag" content="DSP">
-<meta property="article:tag" content="비전공자의 DSP 맛보기 시즌 1">
+<meta property="article:tag" content="blogging">
+<meta property="article:tag" content="글또">
+<meta property="article:tag" content="geultto">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://lucaseo.github.io/2020/01/23/20200123-1/20200123-1-1.png">
+<meta name="twitter:image" content="https://lucaseo.github.io/2020/11/15/20201115-1/symbol@3x-resized.png">
 
-<link rel="canonical" href="https://lucaseo.github.io/2020/01/23/20200123-1/">
+<link rel="canonical" href="https://lucaseo.github.io/2020/11/15/20201115-1/">
 
 
 <script id="page-configurations">
@@ -78,7 +75,7 @@
   };
 </script>
 
-  <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Sine Wave | Blog</title>
+  <title>[KR] 글또 5기를 시작하며 | Blog</title>
   
 
 
@@ -194,7 +191,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
-    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/01/23/20200123-1/">
+    <link itemprop="mainEntityOfPage" href="https://lucaseo.github.io/2020/11/15/20201115-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -207,7 +204,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          [KR] 비전공자의 DSP 맛보기 시즌 1: Sine Wave
+          [KR] 글또 5기를 시작하며
         </h1>
 
         <div class="post-meta">
@@ -216,24 +213,18 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
+              
 
-              <time title="Created: 2020-01-23 15:30:23" itemprop="dateCreated datePublished" datetime="2020-01-23T15:30:23+09:00">2020-01-23</time>
+              <time title="Created: 2020-11-15 12:56:07 / Modified: 13:22:33" itemprop="dateCreated datePublished" datetime="2020-11-15T12:56:07+09:00">2020-11-15</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-08-02 11:13:23" itemprop="dateModified" datetime="2020-08-02T11:13:23+09:00">2020-08-02</time>
-              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
               </span>
               <span class="post-meta-item-text">In</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Digital-Signal-Processing/" itemprop="url" rel="index">
-                    <span itemprop="name">Digital Signal Processing</span>
+                  <a href="/categories/Blogging/" itemprop="url" rel="index">
+                    <span itemprop="name">Blogging</span>
                   </a>
                 </span>
             </span>
@@ -249,19 +240,31 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 <a href="http://jackschaedler.github.io/circles-sines-signals/" target="_blank" rel="noopener"><strong><em>Seeing Circles, Sines And Signals</em></strong></a> 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.</p>
+        <p>글또 5기 참여를 시작하기 전, 소감에 대해 정리해보는 글입니다.</p>
 <a id="more"></a>
-<hr>
-<h1 id="Periodic-Movement-and-the-Circle"><a href="#Periodic-Movement-and-the-Circle" class="headerlink" title="Periodic Movement and the Circle"></a>Periodic Movement and the Circle</h1><p>Sine wave(사인파, 정현파)는, 어떠한 선이 원을 그리며 회전할 때의 모습으로 묘사할 수 있다. Sine wave는 회전하는 선과 Y축 수직의 길이가 밀접한 관계를 보인다. </p>
-<p>sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitude의 폭이 크고, 짧을 수록 amplitude의 폭이 작다.</p>
-<p><img src="/2020/01/23/20200123-1/20200123-1-1.png" alt=""></p>
-<p><img src="/2020/01/23/20200123-1/20200123-1-2.png" alt=""></p>
-<p>선이 회전하는 속도는 곧 frequency로 나타낼 수 있다. 앞서 frequency는 1초에 몇 사이클을 회전할 수 있는지를 통해 측정한다고 했는데, 원문의 Figure 1.을 통해서 확인할 수 있듯이 frequency가 높을 수록 회전하는 선이 속력이 빨라지고, 주기도 빨라지게 된다. 반대로 frequency가 낮으면 주기가 느려진다.</p>
-<p><img src="/2020/01/23/20200123-1/20200123-1-3.png" alt=""></p>
-<p><img src="/2020/01/23/20200123-1/20200123-1-4.png" alt=""></p>
-<h1 id="The-Cosine-Wave-The-Counterpart-to-Sine"><a href="#The-Cosine-Wave-The-Counterpart-to-Sine" class="headerlink" title="The Cosine Wave : The Counterpart to Sine"></a>The Cosine Wave : The Counterpart to Sine</h1><p>반대로 cosine wave(코사인파)는 원을 그리며 회전하는 선과 X축에서 수평의 길이와 관계 있다. 사실 sine wave와 cosine wave는 90도로 회전하면 서로 같은 모양을 가지고 있다. </p>
-<p><img src="/2020/01/23/20200123-1/20200123-1-5.png" alt=""></p>
-<p>Sine wave와 cosine wave는 밀접한 관계를 맺고 있으며, 둘 다 주기성을 띄는 주기함수(periodic signal)임을 이해하는 것이 매우 중요하다.</p>
+<h1 id="글또를-다시-참여합니다"><a href="#글또를-다시-참여합니다" class="headerlink" title="글또를 다시 참여합니다."></a>글또를 다시 참여합니다.</h1><p><img src="/2020/11/15/20201115-1/symbol@3x-resized.png" alt="글또"></p>
+<p>2020년 3월부터 5개월 가량 글또 모임을 참여하며, 기술 블로그 포스트 작성을 습관화하는 시간을 가졌습니다. 처음 직군 전환을 하면서 다양한 기술 블로그를 통해 도움을 받고 있고, 더불어 나도 그런 도움을 줄 수 있는 내공과 글 쓰는 체력을 가지고자 했던 것이 목표였습니다. 그렇게 2주 동안 1편씩 글을 써나가면서 9편의 글을 쓰게 되었고, 글또의 시스템에 믿음을 가지게 되었습니다. 물론, 글또4기가 끝난 이후 완전히 퍼져서 글을 작성하지 못 한 점을 돌이켜보면 아직 부족하다는 것을 많이 느끼게 됩니다. </p>
+<p>결국 아직 습관이 들지 않았다는 것을 의미합니다. 나쁜 습관은 나 자신도 모르게 너무네 쉽게 자리를 잡아버리는데, 좋은 습관 들이기는 고통스럽습니다. 마치 운동과 같죠. 운동은 참 좋은 것이고 해야한다는 것을 누구나 알고 있습니다. 하지만 운동 습관이 들지 않은 사람은 헬스장에 가기 전부터 마음이 힘듭니다. 일단 헬스장으로 향하는 발걸음은 무겁습니다. 막상 운동을 하고 나면 개운한데도 말이죠. 글쓰기가 아직 제게 이렇게 다가오는 것 같습니다. 글쓰기가 싫은 것은 아닌데, 소재가 정리가 안 된다거나, 막상 자리를 잡고 쓰기가 귀찮다거나 하는 그런 복잡 미묘하고 화려한 감정이 저를 감싸 것이죠.</p>
+<p>그래서 5기 참여를 다짐하게 되었습니다! 이럴 때 글또를 통해 성장해야 하는 것이죠! <del>마약과도 같군요 이 글또라는 것은 쿠쿡 … </del></p>
+<h1 id="글또와-함께-성장하는-시간"><a href="#글또와-함께-성장하는-시간" class="headerlink" title="글또와 함께 성장하는 시간"></a>글또와 함께 성장하는 시간</h1><h2 id="글또에서-작성할-글"><a href="#글또에서-작성할-글" class="headerlink" title="글또에서 작성할 글"></a>글또에서 작성할 글</h2><p>이번 글또 활동에서는 크게 두가지 갈래로 글을 작성할 생각입니다. </p>
+<ul>
+<li>업무를 통해 얻은, 기록하고자 하는 것들<ul>
+<li>Non-tech 동료들과 함께 협업하는 방법</li>
+<li>업무 자동화 방법</li>
+<li>일에 대한 소감(<del>현타</del>)에 대한 기록</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>개인적인 관심으로 공부한 것들<ul>
+<li>오디오 데이터 기반 딥러닝</li>
+<li>추천 시스템</li>
+<li>자연어처리</li>
+</ul>
+</li>
+</ul>
+<h2 id="글또를-통해-좋은-사람들-만나기"><a href="#글또를-통해-좋은-사람들-만나기" class="headerlink" title="글또를 통해 좋은 사람들 만나기"></a>글또를 통해 좋은 사람들 만나기</h2><p>지난 글또 4기는 회사생활이라는 작고 좁은 공간에서 벗어나, 다양한 분들과 만날 수 있어 신선한 충격으로 다가왔습니다. 내가 알지 못 하는 것을 접하고, 영역을 넓혀가는 것은 참 즐거운 일이라는 것도 느꼈습니다. 이번 5기를 통해서 다시 한번 경험할 수 있을 거라는 생각이 듭니다. 그렇기에, 지난 번보다는 훨씬 더 적극적으로 다른 분들의 글을 읽고 질문과 피드백을 많이 드릴 수 있도록 활발하게 참여하고자 합니다. 더불어 이직이나 대학원 생활에 대한 고민과 회사를 바라보는 견해에 대해 공유하고 조언을 얻고자 합니다. </p>
+<h1 id="마무리-하며"><a href="#마무리-하며" class="headerlink" title="마무리 하며,"></a>마무리 하며,</h1><p>개인적으로 너무 많은 일들이 겹쳐 폭풍과 같은 11월이 빨리 지나가기를 간절히 기대하고 있습니다. 그리고 앞으로 글또 5기와 함께하는 이 다음 6개월은 어떨지 너무나 궁금해집니다. 제 자신에게 많은 변화가 생기기를 기대해봅니다.</p>
 
     </div>
 
@@ -271,8 +274,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/DSP/" rel="tag"># DSP</a>
-              <a href="/tags/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-DSP-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/" rel="tag"># 비전공자의 DSP 맛보기 시즌 1</a>
+              <a href="/tags/blogging/" rel="tag"># blogging</a>
+              <a href="/tags/%EA%B8%80%EB%98%90/" rel="tag"># 글또</a>
+              <a href="/tags/geultto/" rel="tag"># geultto</a>
           </div>
 
         
@@ -281,13 +285,10 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2020/01/16/20200116-1/" rel="prev" title="[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA">
-      <i class="fa fa-chevron-left"></i> [KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA
+    <a href="/2020/08/02/20200802-1/" rel="prev" title="[KR] 2020년 상반기가 지났다">
+      <i class="fa fa-chevron-left"></i> [KR] 2020년 상반기가 지났다
     </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/01/25/20200125-1/" rel="next" title="[KR] 비전공자의 DSP 맛보기 시즌 1: Trigonomatry">
-      [KR] 비전공자의 DSP 맛보기 시즌 1: Trigonomatry <i class="fa fa-chevron-right"></i>
-    </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -347,7 +348,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Periodic-Movement-and-the-Circle"><span class="nav-number">1.</span> <span class="nav-text">Periodic Movement and the Circle</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#The-Cosine-Wave-The-Counterpart-to-Sine"><span class="nav-number">2.</span> <span class="nav-text">The Cosine Wave : The Counterpart to Sine</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#글또를-다시-참여합니다"><span class="nav-number">1.</span> <span class="nav-text">글또를 다시 참여합니다.</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#글또와-함께-성장하는-시간"><span class="nav-number">2.</span> <span class="nav-text">글또와 함께 성장하는 시간</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#글또에서-작성할-글"><span class="nav-number">2.1.</span> <span class="nav-text">글또에서 작성할 글</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#글또를-통해-좋은-사람들-만나기"><span class="nav-number">2.2.</span> <span class="nav-text">글또를 통해 좋은 사람들 만나기</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#마무리-하며"><span class="nav-number">3.</span> <span class="nav-text">마무리 하며,</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
