@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucaseo.github.io/archives/</loc>
+    <lastmod>2021-02-08T15:43:32+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/posts/my-first-post/</loc>
     <lastmod>2021-02-08T14:24:01+09:00</lastmod>
   </url>
