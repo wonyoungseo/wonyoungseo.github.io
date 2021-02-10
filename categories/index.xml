@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
+    <title>Categories on WY Seo Blog</title>
     <link>https://lucaseo.github.io/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <description>Recent content in Categories on WY Seo Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2020</copyright><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Wed, 10 Feb 2021 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Structure &amp; Algorithm</title>
+      <link>https://lucaseo.github.io/categories/data-structure-algorithm/</link>
+      <pubDate>Wed, 10 Feb 2021 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/data-structure-algorithm/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
