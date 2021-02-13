@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/categories/python/</link>
+    <description>Recent content in Python on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Thu, 16 Jan 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA</title>
+      <link>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</link>
+      <pubDate>Thu, 16 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</guid>
+      <description>Major Release !! Pandas 1.0.0 import pandas as pd로 우리에게 익숙한 Pandas. 데이터 분석을 위한 라이브러리라는 사실을 모르는 사람은 거의 없을 것이다. 하지만 부끄럽게도 나는 판다스의 버전조차 모른 상태로 여태껏 공식 문서와 Stackoverflow를 통해서만 사용하고 있었다. 마침 1월 9일 Pandas 1.0.0이 배포되었고, 이번 기회에 1.0.0에서 평소 자주 썼던 부분들을 위주로 중요한 업데이트들을 훑어보고 정리해보고자 한다.
+ dataframe.info() 깔끔해진 DataFrame summary DataFrame 요약 기능이 조금 보기 좋은 형태로 개선되었다.
+다음과 같은 예제 DataFrame이 있다고 할 때,</description>
+    </item>
+    
+  </channel>
+</rss>

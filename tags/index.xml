@@ -7,22 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Wed, 10 Feb 2021 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jun 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>algorithm</title>
-      <link>https://lucaseo.github.io/tags/algorithm/</link>
-      <pubDate>Wed, 10 Feb 2021 14:24:01 +0900</pubDate>
+      <title>audio signal processing</title>
+      <link>https://lucaseo.github.io/tags/audio-signal-processing/</link>
+      <pubDate>Sat, 20 Jun 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/tags/algorithm/</guid>
+      <guid>https://lucaseo.github.io/tags/audio-signal-processing/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://lucaseo.github.io/tags/python/</link>
-      <pubDate>Wed, 10 Feb 2021 14:24:01 +0900</pubDate>
+      <title>blogging</title>
+      <link>https://lucaseo.github.io/tags/blogging/</link>
+      <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/tags/python/</guid>
+      <guid>https://lucaseo.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>geultto</title>
+      <link>https://lucaseo.github.io/tags/geultto/</link>
+      <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/geultto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pandas</title>
+      <link>https://lucaseo.github.io/tags/pandas/</link>
+      <pubDate>Thu, 16 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/pandas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticsearch</title>
+      <link>https://lucaseo.github.io/tags/elasticsearch/</link>
+      <pubDate>Thu, 09 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kibana</title>
+      <link>https://lucaseo.github.io/tags/kibana/</link>
+      <pubDate>Thu, 09 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/kibana/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elasticstack</title>
+      <link>https://lucaseo.github.io/tags/elasticstack/</link>
+      <pubDate>Sun, 05 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/elasticstack/</guid>
       <description></description>
     </item>
     

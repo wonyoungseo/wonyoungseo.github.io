@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blogging on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/tags/blogging/</link>
+    <description>Recent content in blogging on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 23 Feb 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 글또 4기 다짐글</title>
+      <link>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
+      <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</guid>
+      <description>신년을 맞이하기 직전, 신년을 맞이한 직후 우리는 온갖 계획과 다짐을 세운다. 어느 시점에서부터인가 계획을 세우는 게 무의미하다고 생각이 들기도 했지만, 올해도 어김 없이 그럴 듯한 다짐을 해본다. 또 속아 넘어가는 기분이지만, 이번만큼은 다르다고 해두자.
+ 글또를 참여하게 됐다.    Source: 글또   &amp;amp;nbsp
+데이터 직군으로 취업을 한 이후로 많은 사람들이 그랬던 것처럼 나도 일하면서 필요하거나 막히는 것들에 대한 해결책을 능력자들의 블로그나 브런치, Medium과 같은 플랫폼을 통해 접하고 있다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 첫 포스팅</title>
+      <link>https://lucaseo.github.io/posts/2020-01-02-first-post/</link>
+      <pubDate>Thu, 02 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
+      <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
+    </item>
+    
+  </channel>
+</rss>

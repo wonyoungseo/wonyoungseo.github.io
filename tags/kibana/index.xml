@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kibana on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/tags/kibana/</link>
+    <description>Recent content in kibana on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Thu, 09 Jan 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/kibana/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 로컬 환경에 엘라스틱서치, 키바나 설치하기</title>
+      <link>https://lucaseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</link>
+      <pubDate>Thu, 09 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</guid>
+      <description>로컬 머신에서의 디렉토리 만들기 $ mkdir elasticstack $ cd elasticstack &amp;amp;nbsp
+01. Elasticsearch(엘라스틱서치) 설치 다운로드 Linux
+$ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.1.tar.gz MacOS
+$ curl -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.1.tar.gz 이하 리눅스 기준
+&amp;amp;nbsp
+압축 풀기 $ tar -xzvf elasticsearch-6.6.1.tar.gz $ rm elasticsearch-6.6.1.tar.gz &amp;amp;nbsp
+Heap 사이즈 조정 $ cd ~ $ cd elastic/elasticsearch-6.6.1./config $ vi jvm.options -Xms2g -Xmx2g &amp;amp;nbsp
+클러스터 정보 / 접근 IP 설정 $ cd ~ $ cd elastic/elasticsearch-6.6.1./config $ vi elasticsearch.yml ### For ClusterName &amp;amp; Node Name cluster.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 엘라스틱스택(Elastic Stack) 소개</title>
+      <link>https://lucaseo.github.io/posts/2020-01-05-elastic-stack/</link>
+      <pubDate>Sun, 05 Jan 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-01-05-elastic-stack/</guid>
+      <description>Elastic Stack이란 Elastic Stack 이란 모든 유형의 데이터(특히 비정형 데이터)를 저장, 실시간으로 검색, 분석 및 시각화 할 수 있도록 도와주는 Elastic의 오픈소스 서비스 제품이다. 기존에 Elasticsearch, Logstash, Kibana를 같이 묶어 ELK 라는 서비스명으로 제공하기 시작했고, 현재 Beats가 포함되어 Elastic Stack 혹은 ELK Stack이란 이름으로 서비스가 제공되고 있다.
+Elastic Stack의 구성    &amp;amp;nbsp
+   종류 기능 특이점     Elasticsearch 데이터 검색, 분석, 저장    Kibana 데이터 시각화, 분석    Logstash 데이터 수집, 변환, 운송 데이터 처리 파이프라인.</description>
+    </item>
+    
+  </channel>
+</rss>
