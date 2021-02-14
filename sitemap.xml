@@ -48,17 +48,27 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</loc>
-    <lastmod>2020-08-02T14:24:01+09:00</lastmod>
+    <loc>https://lucaseo.github.io/posts/2020-11-29-fastpages/</loc>
+    <lastmod>2020-11-29T14:24:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/categories/blogging/</loc>
-    <lastmod>2020-08-02T14:24:01+09:00</lastmod>
+    <lastmod>2020-11-29T14:24:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/tags/blogging/</loc>
+    <lastmod>2020-11-29T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/fastpages/</loc>
+    <lastmod>2020-11-29T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</loc>
     <lastmod>2020-08-02T14:24:01+09:00</lastmod>
   </url>
   
@@ -263,7 +273,39 @@
   </url>
   
   <url>
+    <loc>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</loc>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/audio-ai/</loc>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/data-structure-and-algorithm-in-python/</loc>
   </url>
   
   <url>

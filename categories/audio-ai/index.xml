@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio AI on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/categories/audio-ai/</link>
+    <description>Recent content in Audio AI on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright><atom:link href="https://lucaseo.github.io/categories/audio-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (1) - Waveform, ADC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
+      <description>1. 소리 데이터란 소리는 다음 과정에서 생산된 것을 의미합니다.
+ (1) 어떠한 물체 또는 매질(object)의 진동(vibration)으로 인해 공기 입자들이 밀고 당겨지는 반복적인 과정(oscilation)에서 생긴 파동(wave) (2) 공기의 압력이 낮아지면 빈 공간이 생기면서 다른 입자들로 채워지고, 압력이 높아지만 입자들을 밀어내는, 밀고 당기는 반복적인 연쇄 작용(oscillation)으로 인해 생기는 파동(wave)  그리고 위에서 정의한 파동은 아래와 같은 파형(waveform)으로 나타낼 수 있습니다.
+![]({{ site.baseurl }}/images/2020-12-13-understanding-audio-data-sound-waveform-adc/1.png)
+2. 소리 데이터의 표현 2.1. 파형의 요소 파형을 통해서 우리는 다음과 같은 정보를 파악할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (2) - Fourier Transform, MFCC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
+      <description>이번 포스트에서는 소리의 파형을 분석하기 위해 사용되는 기법인 푸리에 변환과 특징 추출값으로 사용되는 MFCC의 개념에 대해서 알아보겠습니다.
+1. 소리는 주파수의 합산 ![]({{ site.baseurl }}/images/2020-12-26-understanding-audio-data-techniques/1.png &amp;ldquo;Piano in Waveform&amp;rdquo;)
+위의 이미지는 실제 피아노 소리 파일을 파형(waveform) 형태로 시각화 한 것입니다. 간단한 피아노 소리이지만 매우 복잡한 파형을 그리고 있는 것을 볼 수 있는데요. 사실 우리가 흔히 들을 수 있는 이러한 &amp;ldquo;소리&amp;quot;라는 것은 각기 다른 단일 주파수를 가진 무수히 많은 정현파(sinewave)가 합산되어 형성된 것입니다. 제 경우에는 처음에 이해가 잘 되지 않았는데, 이런 시각화들이 많은 도움이 되었습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (3) - 파이썬으로 음악 데이터 읽어오기</title>
+      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 **GTZAN Dataset**을 다운받아 음악 파일을 하나 선택했습니다.
+그리고 **Librosa**는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
+( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
+import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import numpy as np import matplotlib.pyplot as plt import IPython.</description>
+    </item>
+    
+  </channel>
+</rss>

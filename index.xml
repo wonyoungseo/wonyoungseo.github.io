@@ -31,6 +31,15 @@ TMI  스포티파이를 좋아하지만 애플뮤직을 씁니다.</description>
     </item>
     
     <item>
+      <title>[KR] fastpages에서 블로그 시작하기</title>
+      <link>https://lucaseo.github.io/posts/2020-11-29-fastpages/</link>
+      <pubDate>Sun, 29 Nov 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-11-29-fastpages/</guid>
+      <description>항상 내 맘 같지 않은 기술 블로그 개발이 비교적 익숙하지 않은 데이터분석가 또는 데이터사이언티스트가 Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 가지 난관이 있습니다. 자료를 찾아보면 주로 Jekyll, Hugo, Hexo, Gatsby.JS 와 같이 낯설고 어려운 프레임워크을 사용해야 합니다. 튜토리얼은 간신히 따라갔다 하더라도, 기존의 테마를 내 입맛에 맞게 커스터마이징을 하거나 기능을 추가하기 위해서는 html, CSS 또는 NodeJS 같은 프레임워크를 알아야 합니다. 마음에 드는 테마가 있어도, 오랜 기간 관리가 되지 않아 Latex 엔진이 제대로 작동하지 않는 경우가 생기기도 하죠.</description>
+    </item>
+    
+    <item>
       <title>[KR] 2020년 상반기가 지났다</title>
       <link>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
       <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
@@ -263,6 +272,71 @@ Elastic Stack의 구성    &amp;amp;nbsp
       
       <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
       <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 2020년 하반기가 지났다</title>
+      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
+      <description>2020년 올해는 &amp;hellip; 1. 올해의 가장 큰 변화 재택근무
+COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (1) - Waveform, ADC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
+      <description>1. 소리 데이터란 소리는 다음 과정에서 생산된 것을 의미합니다.
+ (1) 어떠한 물체 또는 매질(object)의 진동(vibration)으로 인해 공기 입자들이 밀고 당겨지는 반복적인 과정(oscilation)에서 생긴 파동(wave) (2) 공기의 압력이 낮아지면 빈 공간이 생기면서 다른 입자들로 채워지고, 압력이 높아지만 입자들을 밀어내는, 밀고 당기는 반복적인 연쇄 작용(oscillation)으로 인해 생기는 파동(wave)  그리고 위에서 정의한 파동은 아래와 같은 파형(waveform)으로 나타낼 수 있습니다.
+![]({{ site.baseurl }}/images/2020-12-13-understanding-audio-data-sound-waveform-adc/1.png)
+2. 소리 데이터의 표현 2.1. 파형의 요소 파형을 통해서 우리는 다음과 같은 정보를 파악할 수 있습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (2) - Fourier Transform, MFCC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
+      <description>이번 포스트에서는 소리의 파형을 분석하기 위해 사용되는 기법인 푸리에 변환과 특징 추출값으로 사용되는 MFCC의 개념에 대해서 알아보겠습니다.
+1. 소리는 주파수의 합산 ![]({{ site.baseurl }}/images/2020-12-26-understanding-audio-data-techniques/1.png &amp;ldquo;Piano in Waveform&amp;rdquo;)
+위의 이미지는 실제 피아노 소리 파일을 파형(waveform) 형태로 시각화 한 것입니다. 간단한 피아노 소리이지만 매우 복잡한 파형을 그리고 있는 것을 볼 수 있는데요. 사실 우리가 흔히 들을 수 있는 이러한 &amp;ldquo;소리&amp;quot;라는 것은 각기 다른 단일 주파수를 가진 무수히 많은 정현파(sinewave)가 합산되어 형성된 것입니다. 제 경우에는 처음에 이해가 잘 되지 않았는데, 이런 시각화들이 많은 도움이 되었습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (3) - 파이썬으로 음악 데이터 읽어오기</title>
+      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 **GTZAN Dataset**을 다운받아 음악 파일을 하나 선택했습니다.
+그리고 **Librosa**는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
+( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
+import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import numpy as np import matplotlib.pyplot as plt import IPython.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 자료구조 &amp; 알고리즘 : 링크드 리스트(Linked List)</title>
+      <link>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
+      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
+ 1. 링크드 리스트 : Linked List 의 개념 1.1. 링크드 리스트의 구조  데이터와 데이터 사이를 화살표로 연결하여 관리하는 데이터 구조. 배열(Array)와의 차이점  1.2. 링크드 리스트와 배열(Array)와 차이점  배열 : 번호가 붙여진(인덱싱이 된) 칸에 원소들을 채워 넣어 관리함. 링크드 리스트: 각 원소들을 줄줄이 엮어서 관리함.  1.2.1. 배열과 링크드 리스트의 비유적 비교 (출처: 생활코딩)  메모리라는 개념을 우리는 건물에 비유할 수 있을 것 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 자료구조 &amp; 알고리즘 : 배열(array), 큐(queue), 스택(stack)</title>
+      <link>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
+      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
+ 0. 자료구조? 알고리즘?  자료구조 Data Structure  대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조     체계적인 데이터 구조화의 필요성  코드 상에서 효율적인 데이터 처리하기 위함 어떤 데이터 구조를 사용하느냐에 따라 효율이 달라짐.     알고리즘이란  어떠한 문제를 풀기 위한 절차 / 방법 특정 문제에 해당하는  특정 입력을 넣으면 특정 출력을 얻을 수 있도록 하는 프로그래밍       문제를 푸는 방법은 각양각색이지만, 다음을 고려하여 계산을 하고 최적의 방법을 찾는다.</description>
     </item>
     
     <item>
