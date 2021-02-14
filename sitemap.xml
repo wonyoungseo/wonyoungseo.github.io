@@ -8,7 +8,32 @@
   </url>
   
   <url>
+    <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2021-02-10T14:29:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/complexity/</loc>
+    <lastmod>2021-02-10T14:29:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/data-structure-and-algorithm/</loc>
+    <lastmod>2021-02-10T14:29:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2021-02-10T14:29:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/python/</loc>
+    <lastmod>2021-02-10T14:29:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
     <lastmod>2021-02-10T14:29:33+09:00</lastmod>
   </url>
   
@@ -23,22 +48,47 @@
   </url>
   
   <url>
+    <loc>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</loc>
+    <lastmod>2020-08-02T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/blogging/</loc>
+    <lastmod>2020-08-02T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/blogging/</loc>
+    <lastmod>2020-08-02T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</loc>
+    <lastmod>2020-07-05T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/competition/</loc>
+    <lastmod>2020-07-05T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/dacon/</loc>
+    <lastmod>2020-07-05T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/data-science-competition/</loc>
+    <lastmod>2020-07-05T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</loc>
     <lastmod>2020-06-20T14:24:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/tags/audio-signal-processing/</loc>
-    <lastmod>2020-06-20T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/</loc>
-    <lastmod>2020-06-20T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
     <lastmod>2020-06-20T14:24:01+09:00</lastmod>
   </url>
   
@@ -50,6 +100,51 @@
   <url>
     <loc>https://lucaseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</loc>
     <lastmod>2020-06-07T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</loc>
+    <lastmod>2020-05-10T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/ndcg/</loc>
+    <lastmod>2020-05-10T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/recommendation-system/</loc>
+    <lastmod>2020-05-10T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/recsys/</loc>
+    <lastmod>2020-05-10T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</loc>
+    <lastmod>2020-04-23T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/map/</loc>
+    <lastmod>2020-04-23T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</loc>
+    <lastmod>2020-04-12T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/gspread/</loc>
+    <lastmod>2020-04-12T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/python/</loc>
+    <lastmod>2020-04-12T14:24:01+09:00</lastmod>
   </url>
   
   <url>
@@ -68,11 +163,6 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/tags/python/</loc>
-    <lastmod>2020-03-13T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/categories/streamlit/</loc>
     <lastmod>2020-03-13T14:24:01+09:00</lastmod>
   </url>
@@ -84,16 +174,6 @@
   
   <url>
     <loc>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</loc>
-    <lastmod>2020-02-23T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/blogging/</loc>
-    <lastmod>2020-02-23T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/blogging/</loc>
     <lastmod>2020-02-23T14:24:01+09:00</lastmod>
   </url>
   
@@ -119,11 +199,6 @@
   
   <url>
     <loc>https://lucaseo.github.io/tags/pandas/</loc>
-    <lastmod>2020-01-16T14:24:01+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/python/</loc>
     <lastmod>2020-01-16T14:24:01+09:00</lastmod>
   </url>
   

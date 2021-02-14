@@ -14,8 +14,29 @@
       <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2021-02-10-complexity/</guid>
-      <description>title: &amp;ldquo;[KR] &amp;quot; date: 2020-01-09T14:24:01+09:00 categories: [&amp;quot;&amp;quot;] tags: [&amp;quot;&amp;rdquo;, &amp;ldquo;&amp;quot;] showToc: true TocOpen: true comments: true math: false draft: false  애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
- 1. 알고리즘 복잡도 1.1. 개념 1.1.1. 알고리즘 복잡도 계산이 필요한 이유  하나의 문제를 푸는 방법(알고리즘)은 다양할 수 있음. 여러가지 방법 중 어느 방법이 더 좋은지를 분석하기 위해 복잡도를 정의하고 계산함.</description>
+      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
+ 1. 알고리즘 복잡도 1.1. 개념 1.1.1. 알고리즘 복잡도 계산이 필요한 이유  하나의 문제를 푸는 방법(알고리즘)은 다양할 수 있음. 여러가지 방법 중 어느 방법이 더 좋은지를 분석하기 위해 복잡도를 정의하고 계산함. 어느 것이 더 좋은 알고리즘인지 판단하는 기준이 됨.  1.1.2. 알고리즘 복잡도를 계산하는 방식  공간 복잡도 (space complexity)  알고리즘이 사용하는 메모리 사이즈   시간 복잡도 (time complexity)  알고리즘 실행 속도 특히, 시간 복잡도에 대한 이해는 필수    1.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 2020년 상반기가 지났다</title>
+      <link>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
+      <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</guid>
+      <description>한 게 뭐 있다고 벌써 8월이야 시간은 정말 경이로울 정도록 빨리 간다. 사실 상반기에 대한 회고글도 6월이 지난 직후 작성했어야 했는데, 순식간에 8월이 되어, 더 늦기 전에 작성해야겠다는 생각이 들었다. 한살 한살 더 먹어갈 수록 &amp;ldquo;주춤&amp;quot;하면 시간은 이미 지나있더라&amp;hellip; 이번 6개월은 잘 살았는지 잘 모르겠다. 한번 알아보자.
+&amp;amp;nbsp
+누구나 그럴싸한 계획은 있다. OOO 전까지는 난 이런 일을 하겠노라 생각했던 시기가 있었다.
+ 회사일만 하지 않기 데이터 사이언스 대회 참가하기 내 기술스택에 간단한 웹어플리케이션 추가하기 독일 가족 방문하기 예치금 차감 없는 글또 생활하기  &amp;amp;nbsp</description>
+    </item>
+    
+    <item>
+      <title>[KR] 데이콘 원자력발전소 상태 판단 대회 후기</title>
+      <link>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</link>
+      <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</guid>
+      <description>연초, 의욕으로 가득하던 시기에 지인의 권유로 데이콘(Dacon.io)에서 주관하고 한국수력원자력에서 주최한 원자력발전소 상태판단 경진대회에 참가하게 되었다. 지인의 지인도 합류하여 팀은 총 3인으로 구성되었다. 하지만 개개인의 일정과 생업으로 인해서 진행은 각자 하되, 진행사항이나 인사이트 등은 수시로 공유하고, 제출은 팀의 이름으로 제출하는 형식으로 진행되었다. (초기의 으쌰으쌰하던 분위기와 달리 흐지부지된 감이 없잖아 있었다. 팀당 제출횟수가 하루 3회로 제한되었기 때문에, 이럴 줄 알았으면 애초에 각자의 이름으로 혼자 해도 됐겠다 싶기도 했다. 하지만 결과론적인 총평이기 때문에 패스)</description>
     </item>
     
     <item>
@@ -41,16 +62,45 @@
     </item>
     
     <item>
+      <title>[KR] 추천시스템의 평가 지표 : nDCG</title>
+      <link>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
+      <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
+      <description>Precision, Recall 기반의 평가 방법의 한계 앞서 다루었던 MAP(Mean Average Precision)과 같은 추천시스템 평가 지표는 Precision, Recall을 기반으로 우선순위를 반영한 성능 평가 방법을 제시했다. MAP는 추천된 리스트 중 상위 K개에 대한 관련 여부가 명확하게 주어졌을 때 평가 지표로 사용될 수 있다. 하지만 관련(relevence) 여부가 명확하지 않거나, 관련 여부를 이분법으로 표현하지 않는 경우에는 적절하지 않다.
+당장 떠오르는 예로는 넷플릭스와 왓챠가 생각이 난다. 넷플릭스의 경우 사용자가 컨텐츠에 대해 [좋다 vs 안좋다]로 평가를 내릴 수 있지만, 왓챠의 경우에는 유자가 0.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 추천시스템의 평가 지표 : MAP</title>
+      <link>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</link>
+      <pubDate>Thu, 23 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</guid>
+      <description>추천 시스템의 평가 지표 &amp;hellip; ? 추천 시스템은 이름에서도 알 수 있듯, 어떤 사용자가 관심을 가질 법한 아이템을 추천하는 알고리즘이다. 추천 시스템의 성능은 어떻게 평가할 수 있을까? 추천시스템에 대해 깊게 생각하지 않았을 적에는 분류 문제에서 성능을 평가하는 것과 비슷하다고 생각했다. &amp;ldquo;사용자가 관심을 가질만한 아이템이 맞다 또는 아니다.&amp;quot; 를 측정한다면, 우리에게 익숙한 precision, recall 등으로 생각해볼 수도 있을 것 같다.
+하지만, 분류 성능 지표에서는 추천의 순서나 순위가 고려되지 않는다. (역시 어줍잖게 생각하면 안 돼 &amp;hellip;)</description>
+    </item>
+    
+    <item>
+      <title>[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)</title>
+      <link>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
+      <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
+      <description>0. Motivation Who&amp;rsquo;s Good에서는 ESG리서쳐와 분석가/개발자 간에 데이터를 주고 받는 일이 매우 빈번하다. 특히 기업 관련 뉴스 데이터와, 다양한 소스로부터 수집하는 ESG 관련 데이터에 대한 QC를 진행하고 결과를 DB에 적재하는 과정이 있다. 엑셀에서 작업한 데이터를 저장하고, 슬랙으로 전달하는 여러 단계와 여러 사람들을 거치다 보니 주고받은 파일명이 뒤죽박죽인 아주 원초(?)적인 문제부터, 데이터가 언제 업데이트 되었는지 추적이 불가능한 상황도 발생하면서 마음 한 켠에 찝찝함이 남아있는 나날이 계속 되었다. 언제 어디선가 불시에 문제가 생기지는 않을까 하는 두려움.</description>
+    </item>
+    
+    <item>
       <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
       <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
-      <description>이번 포스트에서는 Streamlit기반 웹 어플리케이션을 Heroku에 배포하는 과정을 다루어 보겠습니다.
-  ![]({{ site.baseurl }}/images/2020-03-29-deploy-streamlit-to-heroku/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: 글또   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
+      <description>Source: streamlit.io   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
 &amp;amp;nbsp
  사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.
-사전 준비 1: Streamlit 웹 어플리케이션 튜토리얼을 진행하기에 앞서, Streamlit기반의 아주 아주 간단한 시각화 웹 어플리케이션을 만들어보았다.</description>
+사전 준비 1: Streamlit 웹 어플리케이션 튜토리얼을 진행하기에 앞서, Streamlit기반의 아주 아주 간단한 시각화 웹 어플리케이션을 만들어보았다. 로컬에서 작동시킨 웹 어플리케이션은 다음과 같다. 해당 어플리케이션의 코드는 링크에서 참고 가능하다.
+ Main Page  데이터셋에 대한 설명을 간단히 소개한다.</description>
     </item>
     
     <item>
@@ -60,7 +110,7 @@
       
       <guid>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
       <description>Streamlit은 데이터사이언스/ML 프로젝트를 간단하게 배포할 수 있는 웹어플리케이션으로, 최근에 많은 관심을 받고 있습니다. 이번 포스트에서는 Streamlit의 간단한 소개와 기본 기능들을 훑어보겠습니다.
-  2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
+  2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit 이란? Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
 &amp;amp;nbsp
 나에게 있어 Streamlit나 Dash 같은 웹어플리케이션의 장점을 꼽자면;</description>
     </item>

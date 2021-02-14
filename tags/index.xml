@@ -7,13 +7,94 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 14:29:33 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>complexity</title>
+      <link>https://lucaseo.github.io/tags/complexity/</link>
+      <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://lucaseo.github.io/tags/python/</link>
+      <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://lucaseo.github.io/tags/blogging/</link>
+      <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>competition</title>
+      <link>https://lucaseo.github.io/tags/competition/</link>
+      <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/competition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dacon</title>
+      <link>https://lucaseo.github.io/tags/dacon/</link>
+      <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/dacon/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>audio signal processing</title>
       <link>https://lucaseo.github.io/tags/audio-signal-processing/</link>
       <pubDate>Sat, 20 Jun 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/audio-signal-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ndcg</title>
+      <link>https://lucaseo.github.io/tags/ndcg/</link>
+      <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/ndcg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recsys</title>
+      <link>https://lucaseo.github.io/tags/recsys/</link>
+      <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/recsys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>map</title>
+      <link>https://lucaseo.github.io/tags/map/</link>
+      <pubDate>Thu, 23 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gspread</title>
+      <link>https://lucaseo.github.io/tags/gspread/</link>
+      <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/gspread/</guid>
       <description></description>
     </item>
     
@@ -27,29 +108,11 @@
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://lucaseo.github.io/tags/python/</link>
-      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>streamlit</title>
       <link>https://lucaseo.github.io/tags/streamlit/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/streamlit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blogging</title>
-      <link>https://lucaseo.github.io/tags/blogging/</link>
-      <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/tags/blogging/</guid>
       <description></description>
     </item>
     

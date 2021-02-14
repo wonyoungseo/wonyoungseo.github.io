@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recsys on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/tags/recsys/</link>
+    <description>Recent content in recsys on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 10 May 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/recsys/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 추천시스템의 평가 지표 : nDCG</title>
+      <link>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
+      <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
+      <description>Precision, Recall 기반의 평가 방법의 한계 앞서 다루었던 MAP(Mean Average Precision)과 같은 추천시스템 평가 지표는 Precision, Recall을 기반으로 우선순위를 반영한 성능 평가 방법을 제시했다. MAP는 추천된 리스트 중 상위 K개에 대한 관련 여부가 명확하게 주어졌을 때 평가 지표로 사용될 수 있다. 하지만 관련(relevence) 여부가 명확하지 않거나, 관련 여부를 이분법으로 표현하지 않는 경우에는 적절하지 않다.
+당장 떠오르는 예로는 넷플릭스와 왓챠가 생각이 난다. 넷플릭스의 경우 사용자가 컨텐츠에 대해 [좋다 vs 안좋다]로 평가를 내릴 수 있지만, 왓챠의 경우에는 유자가 0.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 추천시스템의 평가 지표 : MAP</title>
+      <link>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</link>
+      <pubDate>Thu, 23 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</guid>
+      <description>추천 시스템의 평가 지표 &amp;hellip; ? 추천 시스템은 이름에서도 알 수 있듯, 어떤 사용자가 관심을 가질 법한 아이템을 추천하는 알고리즘이다. 추천 시스템의 성능은 어떻게 평가할 수 있을까? 추천시스템에 대해 깊게 생각하지 않았을 적에는 분류 문제에서 성능을 평가하는 것과 비슷하다고 생각했다. &amp;ldquo;사용자가 관심을 가질만한 아이템이 맞다 또는 아니다.&amp;quot; 를 측정한다면, 우리에게 익숙한 precision, recall 등으로 생각해볼 수도 있을 것 같다.
+하지만, 분류 성능 지표에서는 추천의 순서나 순위가 고려되지 않는다. (역시 어줍잖게 생각하면 안 돼 &amp;hellip;)</description>
+    </item>
+    
+  </channel>
+</rss>

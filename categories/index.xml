@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 20 Jun 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 14:29:33 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Structure and Algorithm</title>
+      <link>https://lucaseo.github.io/categories/data-structure-and-algorithm/</link>
+      <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/data-structure-and-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blogging</title>
+      <link>https://lucaseo.github.io/categories/blogging/</link>
+      <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science Competition</title>
+      <link>https://lucaseo.github.io/categories/data-science-competition/</link>
+      <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/data-science-competition/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>비전공자의 DSP 맛보기 시즌 1</title>
       <link>https://lucaseo.github.io/categories/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-dsp-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/</link>
@@ -18,29 +45,29 @@
     </item>
     
     <item>
-      <title>Streamlit</title>
-      <link>https://lucaseo.github.io/categories/streamlit/</link>
-      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
+      <title>Recommendation System</title>
+      <link>https://lucaseo.github.io/categories/recommendation-system/</link>
+      <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/categories/streamlit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blogging</title>
-      <link>https://lucaseo.github.io/categories/blogging/</link>
-      <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/categories/blogging/</guid>
+      <guid>https://lucaseo.github.io/categories/recommendation-system/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python</title>
       <link>https://lucaseo.github.io/categories/python/</link>
-      <pubDate>Thu, 16 Jan 2020 14:24:01 +0900</pubDate>
+      <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streamlit</title>
+      <link>https://lucaseo.github.io/categories/streamlit/</link>
+      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/streamlit/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>map on WY Seo Blog</title>
+    <link>https://lucaseo.github.io/tags/map/</link>
+    <description>Recent content in map on WY Seo Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Thu, 23 Apr 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/map/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 추천시스템의 평가 지표 : MAP</title>
+      <link>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</link>
+      <pubDate>Thu, 23 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</guid>
+      <description>추천 시스템의 평가 지표 &amp;hellip; ? 추천 시스템은 이름에서도 알 수 있듯, 어떤 사용자가 관심을 가질 법한 아이템을 추천하는 알고리즘이다. 추천 시스템의 성능은 어떻게 평가할 수 있을까? 추천시스템에 대해 깊게 생각하지 않았을 적에는 분류 문제에서 성능을 평가하는 것과 비슷하다고 생각했다. &amp;ldquo;사용자가 관심을 가질만한 아이템이 맞다 또는 아니다.&amp;quot; 를 측정한다면, 우리에게 익숙한 precision, recall 등으로 생각해볼 수도 있을 것 같다.
+하지만, 분류 성능 지표에서는 추천의 순서나 순위가 고려되지 않는다. (역시 어줍잖게 생각하면 안 돼 &amp;hellip;)</description>
+    </item>
+    
+  </channel>
+</rss>

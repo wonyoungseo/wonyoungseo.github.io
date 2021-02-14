@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Thu, 16 Jan 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Apr 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)</title>
+      <link>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
+      <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
+      <description>0. Motivation Who&amp;rsquo;s Good에서는 ESG리서쳐와 분석가/개발자 간에 데이터를 주고 받는 일이 매우 빈번하다. 특히 기업 관련 뉴스 데이터와, 다양한 소스로부터 수집하는 ESG 관련 데이터에 대한 QC를 진행하고 결과를 DB에 적재하는 과정이 있다. 엑셀에서 작업한 데이터를 저장하고, 슬랙으로 전달하는 여러 단계와 여러 사람들을 거치다 보니 주고받은 파일명이 뒤죽박죽인 아주 원초(?)적인 문제부터, 데이터가 언제 업데이트 되었는지 추적이 불가능한 상황도 발생하면서 마음 한 켠에 찝찝함이 남아있는 나날이 계속 되었다. 언제 어디선가 불시에 문제가 생기지는 않을까 하는 두려움.</description>
+    </item>
+    
     <item>
       <title>[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA</title>
       <link>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</link>
