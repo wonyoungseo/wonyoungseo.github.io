@@ -53,6 +53,31 @@ TMI  스포티파이를 좋아하지만 애플뮤직을 씁니다.</description>
     </item>
     
     <item>
+      <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
+      <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
+      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
+      <description>이번 포스트에서는 Streamlit기반 웹 어플리케이션을 Heroku에 배포하는 과정을 다루어 보겠습니다.
+  ![]({{ site.baseurl }}/images/2020-03-29-deploy-streamlit-to-heroku/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: 글또   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
+&amp;amp;nbsp
+ 사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.
+사전 준비 1: Streamlit 웹 어플리케이션 튜토리얼을 진행하기에 앞서, Streamlit기반의 아주 아주 간단한 시각화 웹 어플리케이션을 만들어보았다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)</title>
+      <link>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
+      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
+      <description>Streamlit은 데이터사이언스/ML 프로젝트를 간단하게 배포할 수 있는 웹어플리케이션으로, 최근에 많은 관심을 받고 있습니다. 이번 포스트에서는 Streamlit의 간단한 소개와 기본 기능들을 훑어보겠습니다.
+  2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
+&amp;amp;nbsp
+나에게 있어 Streamlit나 Dash 같은 웹어플리케이션의 장점을 꼽자면;</description>
+    </item>
+    
+    <item>
       <title>[KR] 글또 4기 다짐글</title>
       <link>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
       <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
