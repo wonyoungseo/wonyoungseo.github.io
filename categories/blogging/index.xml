@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on WY Seo Blog</title>
+    <title>Blogging on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/categories/blogging/</link>
-    <description>Recent content in Blogging on WY Seo Blog</description>
+    <description>Recent content in Blogging on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 29 Nov 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 2020년 하반기가 지났다</title>
+      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
+      <pubDate>Thu, 31 Dec 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
+      <description>2020년 올해는 &amp;hellip; &amp;amp;nbsp
+1. 올해의 가장 큰 변화 재택근무
+COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
+    </item>
+    
     <item>
       <title>[KR] fastpages에서 블로그 시작하기</title>
       <link>https://lucaseo.github.io/posts/2020-11-29-fastpages/</link>
@@ -47,16 +58,6 @@
       
       <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
       <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
-    </item>
-    
-    <item>
-      <title>[KR] 2020년 하반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
-      <description>2020년 올해는 &amp;hellip; 1. 올해의 가장 큰 변화 재택근무
-COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
     </item>
     
   </channel>

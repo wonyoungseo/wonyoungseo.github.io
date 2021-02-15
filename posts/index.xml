@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on WY Seo Blog</title>
+    <title>Posts on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/posts/</link>
-    <description>Recent content in Posts on WY Seo Blog</description>
+    <description>Recent content in Posts on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
@@ -16,6 +16,74 @@
       <guid>https://lucaseo.github.io/posts/2021-02-10-complexity/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 알고리즘 복잡도 1.1. 개념 1.1.1. 알고리즘 복잡도 계산이 필요한 이유  하나의 문제를 푸는 방법(알고리즘)은 다양할 수 있음. 여러가지 방법 중 어느 방법이 더 좋은지를 분석하기 위해 복잡도를 정의하고 계산함. 어느 것이 더 좋은 알고리즘인지 판단하는 기준이 됨.  1.1.2. 알고리즘 복잡도를 계산하는 방식  공간 복잡도 (space complexity)  알고리즘이 사용하는 메모리 사이즈   시간 복잡도 (time complexity)  알고리즘 실행 속도 특히, 시간 복잡도에 대한 이해는 필수    1.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 자료구조 &amp; 알고리즘 : 링크드 리스트(Linked List)</title>
+      <link>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
+      <pubDate>Mon, 01 Feb 2021 14:29:33 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
+      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
+ 1. 링크드 리스트 : Linked List 의 개념 1.1. 링크드 리스트의 구조  데이터와 데이터 사이를 화살표로 연결하여 관리하는 데이터 구조. 배열(Array)와의 차이점  1.2. 링크드 리스트와 배열(Array)와 차이점  배열 : 번호가 붙여진(인덱싱이 된) 칸에 원소들을 채워 넣어 관리함. 링크드 리스트: 각 원소들을 줄줄이 엮어서 관리함.  1.2.1. 배열과 링크드 리스트의 비유적 비교 (출처: 생활코딩)  메모리라는 개념을 우리는 건물에 비유할 수 있을 것 같습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 자료구조 &amp; 알고리즘 : 배열(array), 큐(queue), 스택(stack)</title>
+      <link>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
+      <pubDate>Wed, 27 Jan 2021 14:29:33 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
+      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
+ 0. 자료구조? 알고리즘?  자료구조 Data Structure  대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조    &amp;amp;nbsp
+ 체계적인 데이터 구조화의 필요성  코드 상에서 효율적인 데이터 처리하기 위함 어떤 데이터 구조를 사용하느냐에 따라 효율이 달라짐.    &amp;amp;nbsp
+ 알고리즘이란  어떠한 문제를 풀기 위한 절차 / 방법 특정 문제에 해당하는  특정 입력을 넣으면 특정 출력을 얻을 수 있도록 하는 프로그래밍      &amp;amp;nbsp</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기(3) - 파이썬으로 음악 데이터 읽어오기</title>
+      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 GTZAN Dataset을 다운받아 음악 파일을 하나 선택했습니다.
+그리고 Librosa는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
+( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
+import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import numpy as np import matplotlib.pyplot as plt import IPython.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 2020년 하반기가 지났다</title>
+      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
+      <pubDate>Thu, 31 Dec 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
+      <description>2020년 올해는 &amp;hellip; &amp;amp;nbsp
+1. 올해의 가장 큰 변화 재택근무
+COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기(2) - Fourier Transform, MFCC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
+      <pubDate>Sat, 26 Dec 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
+      <description>이번 포스트에서는 소리의 파형을 분석하기 위해 사용되는 기법인 푸리에 변환과 특징 추출값으로 사용되는 MFCC의 개념에 대해서 알아보겠습니다.
+1. 소리는 주파수의 합산    Piano in Waveform   &amp;amp;nbsp
+위의 이미지는 실제 피아노 소리 파일을 파형(waveform) 형태로 시각화 한 것입니다. 간단한 피아노 소리이지만 매우 복잡한 파형을 그리고 있는 것을 볼 수 있는데요. 사실 우리가 흔히 들을 수 있는 이러한 &amp;ldquo;소리&amp;quot;라는 것은 각기 다른 단일 주파수를 가진 무수히 많은 정현파(sinewave)가 합산되어 형성된 것입니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] ML/DL을 위한 소리 데이터 이해하기(1) - Waveform, ADC</title>
+      <link>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
+      <pubDate>Sun, 13 Dec 2020 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
+      <description>1. 소리 데이터란 소리는 다음 과정에서 생산된 것을 의미합니다.
+ (1) 어떠한 물체 또는 매질(object)의 진동(vibration)으로 인해 공기 입자들이 밀고 당겨지는 반복적인 과정(oscilation)에서 생긴 파동(wave) (2) 공기의 압력이 낮아지면 빈 공간이 생기면서 다른 입자들로 채워지고, 압력이 높아지만 입자들을 밀어내는, 밀고 당기는 반복적인 연쇄 작용(oscillation)으로 인해 생기는 파동(wave)  그리고 위에서 정의한 파동은 아래와 같은 파형(waveform)으로 나타낼 수 있습니다.
+   &amp;amp;nbsp
+2. 소리 데이터의 표현 2.1. 파형의 요소 파형을 통해서 우리는 다음과 같은 정보를 파악할 수 있습니다.</description>
     </item>
     
     <item>
@@ -54,7 +122,7 @@
       <pubDate>Sat, 20 Jun 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Wagon Wheel Effect 빠르게 회전하는 바퀴나 물체를 보면 처음에는 반시계 방향으로 회전하는가 싶더니, 어느 순간부터 반대로 시계방향으로 회전하는 것 같은 환영을 볼 수 있다. 아니면 분명히 바퀴는 빠르게 회전하는데, 느리게 회전하는 것처럼 보일 때도 있다. 바로 undersampling과 alias 로 인해 발생하는 현상인데, 명칭은 Wagon Wheel Effect(마차바퀴현상)라 한다.</description>
     </item>
     
@@ -64,7 +132,7 @@
       <pubDate>Sun, 07 Jun 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Nyquist-Shannon Sampling Theorem 신호처리에서 Oversampling과 undersampling을 방지하고도, 여전히 신호를 잘 표현할 수 있는 sampling rate(샘플링주기)는 어떻게 선택할 수 있을까? 샘플링 주기는 주로 나이퀴스트-섀넌 샘플링 법칙(Nyquist-Shannon Sampling Theorum)를 따른다.
 이 샘플링 법칙은 다음과 같이 정의된다.
  만일 어떠한 신호 그 어떤 frequency도 B hertz보다 높지 않다면, 1/(2B) 초 간격으로 샘플링을 하면 된다.</description>
@@ -141,7 +209,7 @@
       <pubDate>Sat, 25 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Unit Circle : Trigonometry review unit circle(단위원)과 radian(라디안) Sine wave와 cosine wave를 설명하는 과정에서 단위원을 따라 회전하는 선의 길이와 움직임을 묘사했었다. 이 단위원의 둘레는 phase(위상)라고 하는데, X축과 회전하는 선이 이루는 각도라고 생각할 수 있다. 아니, 각도를 사용하지 않고 라디안(radians)을 사용하도록 하자.
 우리는 원의 둘레를 360도라고 배웠는데, 이번에는 2pi radians(라디안)이라고 불러보자(원의 둘레는 2pi라는 것도 배운 바 있다.</description>
     </item>
@@ -152,7 +220,7 @@
       <pubDate>Thu, 23 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Periodic Movement and the Circle Sine wave(사인파, 정현파)는, 어떠한 선이 원을 그리며 회전할 때의 모습으로 묘사할 수 있다. Sine wave는 회전하는 선과 Y축 수직의 길이가 밀접한 관계를 보인다.
 sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitude의 폭이 크고, 짧을 수록 amplitude의 폭이 작다.</description>
     </item>
@@ -174,7 +242,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Wed, 15 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Timbre Harmonics, Overtones, and Wave Shapes 물체가 반복적으로 패턴을 보이며 진동할 경우, 우리의 귀는 pressure wave(압력파)를 음조(tone)이나 음의 높이(pitch)로 해석한다. 반대로 물체의 진동이 반복적이지 않거나, 예측 불가한 패턴으로 진동할 경우 우리의 귀는 이를 소음(noise)나 조성이 없는 형태(atonal)로 받아들이게 된다.
 각기 다른 패턴의 진동은 곧 각기 다른 음색(timbre)으로 연결 된다.</description>
     </item>
@@ -185,7 +253,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Mon, 13 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Definition and Waves &amp;lsquo;사운드&amp;rsquo;란 공기나 물 같은 매질을 통해 전파되는 공기 압력의 파동이다. 어떤 물체가 진동을 하면 그 즉시 주변에 있는 입자들을 밀고 당기게 되는데, 이 입자들의 움직임과 압력으로 인해 이웃한 입자들로 퍼져나가거나, 빈 공간이 생기면서 압력이 낮아지고 주위의 다른 입자들이 당겨져 공간이 채워지는 움직임을 한다.</description>
     </item>
     
@@ -195,7 +263,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Sun, 12 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   이산신호 해석하기 Don&amp;rsquo;t connect the dots! 이산신호를 다룰 경우, 섣불리 각 점을 이어 interpolation(보간법: 중간 값을 채워 넣음)을 해서는 안 된다. 지난 번 비행 고도의 예시를 들어 보자.
    &amp;amp;nbsp
 누군가 65분 당시의 고도를 물어본다면, 어떻게 답할 수 있을까? 우리는 당장 60분, 70분의 두 기록을 가지고 있을 뿐이니까, 그냥 단순히 두 점 사이에 선을 그어 31,000 이라고 답을 하고 싶을 수 있지&amp;hellip;만 그럴 때는 그냥 **모른다(I don&amp;rsquo;t know)**고 하는 게 정확하다.</description>
@@ -207,7 +275,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Sat, 11 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Discrete Signals (이산 신호) Sampling and Signal Notation(샘플링과 신호의 표기)
 &amp;amp;nbsp
 Sampling 어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sampling), 그렇게 측정된 각각의 값을 샘플(sample)이라고 한다. 이산신호는 연속신호를 샘플링한 샘플의 모음이라고 보면 된다.
@@ -220,7 +288,7 @@ Sampling 어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sa
       <pubDate>Fri, 10 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 Seeing Circles, Sines And Signals 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   신호란? Continuous(연속) VS. Discrete(이산)
  신호(signal)은 물리적 현상 및 행동을 묘사한다.  시간의 흐름에 따른 신호 → time-domain signal 시간에 흐름에 따라 바뀌는 것들의 예시  비행기의 고도 변화 도시의 온도 변화 자동차의 속도      &amp;amp;nbsp
 DSP (digital signal processing) DSP는 real-world signal을 컴퓨터에서 측정, 기록, 처리, 분석하기 위한 모든 과정을 포함하는 영역을 말한다.</description>
@@ -260,71 +328,6 @@ Elastic Stack의 구성    &amp;amp;nbsp
       
       <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
       <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
-    </item>
-    
-    <item>
-      <title>[KR] 2020년 하반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
-      <description>2020년 올해는 &amp;hellip; 1. 올해의 가장 큰 변화 재택근무
-COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
-    </item>
-    
-    <item>
-      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (1) - Waveform, ADC</title>
-      <link>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
-      <description>1. 소리 데이터란 소리는 다음 과정에서 생산된 것을 의미합니다.
- (1) 어떠한 물체 또는 매질(object)의 진동(vibration)으로 인해 공기 입자들이 밀고 당겨지는 반복적인 과정(oscilation)에서 생긴 파동(wave) (2) 공기의 압력이 낮아지면 빈 공간이 생기면서 다른 입자들로 채워지고, 압력이 높아지만 입자들을 밀어내는, 밀고 당기는 반복적인 연쇄 작용(oscillation)으로 인해 생기는 파동(wave)  그리고 위에서 정의한 파동은 아래와 같은 파형(waveform)으로 나타낼 수 있습니다.
-![]({{ site.baseurl }}/images/2020-12-13-understanding-audio-data-sound-waveform-adc/1.png)
-2. 소리 데이터의 표현 2.1. 파형의 요소 파형을 통해서 우리는 다음과 같은 정보를 파악할 수 있습니다.</description>
-    </item>
-    
-    <item>
-      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (2) - Fourier Transform, MFCC</title>
-      <link>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
-      <description>이번 포스트에서는 소리의 파형을 분석하기 위해 사용되는 기법인 푸리에 변환과 특징 추출값으로 사용되는 MFCC의 개념에 대해서 알아보겠습니다.
-1. 소리는 주파수의 합산 ![]({{ site.baseurl }}/images/2020-12-26-understanding-audio-data-techniques/1.png &amp;ldquo;Piano in Waveform&amp;rdquo;)
-위의 이미지는 실제 피아노 소리 파일을 파형(waveform) 형태로 시각화 한 것입니다. 간단한 피아노 소리이지만 매우 복잡한 파형을 그리고 있는 것을 볼 수 있는데요. 사실 우리가 흔히 들을 수 있는 이러한 &amp;ldquo;소리&amp;quot;라는 것은 각기 다른 단일 주파수를 가진 무수히 많은 정현파(sinewave)가 합산되어 형성된 것입니다. 제 경우에는 처음에 이해가 잘 되지 않았는데, 이런 시각화들이 많은 도움이 되었습니다.</description>
-    </item>
-    
-    <item>
-      <title>[KR] ML/DL을 위한 소리 데이터 이해하기 (3) - 파이썬으로 음악 데이터 읽어오기</title>
-      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
-      <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 **GTZAN Dataset**을 다운받아 음악 파일을 하나 선택했습니다.
-그리고 **Librosa**는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
-( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
-import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import numpy as np import matplotlib.pyplot as plt import IPython.</description>
-    </item>
-    
-    <item>
-      <title>[KR] 자료구조 &amp; 알고리즘 : 링크드 리스트(Linked List)</title>
-      <link>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
-      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
- 1. 링크드 리스트 : Linked List 의 개념 1.1. 링크드 리스트의 구조  데이터와 데이터 사이를 화살표로 연결하여 관리하는 데이터 구조. 배열(Array)와의 차이점  1.2. 링크드 리스트와 배열(Array)와 차이점  배열 : 번호가 붙여진(인덱싱이 된) 칸에 원소들을 채워 넣어 관리함. 링크드 리스트: 각 원소들을 줄줄이 엮어서 관리함.  1.2.1. 배열과 링크드 리스트의 비유적 비교 (출처: 생활코딩)  메모리라는 개념을 우리는 건물에 비유할 수 있을 것 같습니다.</description>
-    </item>
-    
-    <item>
-      <title>[KR] 자료구조 &amp; 알고리즘 : 배열(array), 큐(queue), 스택(stack)</title>
-      <link>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
-      <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
- 0. 자료구조? 알고리즘?  자료구조 Data Structure  대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조     체계적인 데이터 구조화의 필요성  코드 상에서 효율적인 데이터 처리하기 위함 어떤 데이터 구조를 사용하느냐에 따라 효율이 달라짐.     알고리즘이란  어떠한 문제를 풀기 위한 절차 / 방법 특정 문제에 해당하는  특정 입력을 넣으면 특정 출력을 얻을 수 있도록 하는 프로그래밍       문제를 푸는 방법은 각양각색이지만, 다음을 고려하여 계산을 하고 최적의 방법을 찾는다.</description>
     </item>
     
   </channel>

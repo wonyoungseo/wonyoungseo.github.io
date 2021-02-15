@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on WY Seo Blog</title>
+    <title>Categories on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/categories/</link>
-    <description>Recent content in Categories on WY Seo Blog</description>
+    <description>Recent content in Categories on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
@@ -18,9 +18,18 @@
     </item>
     
     <item>
+      <title>Audio AI</title>
+      <link>https://lucaseo.github.io/categories/audio-ai/</link>
+      <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/audio-ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blogging</title>
       <link>https://lucaseo.github.io/categories/blogging/</link>
-      <pubDate>Sun, 29 Nov 2020 14:24:01 +0900</pubDate>
+      <pubDate>Thu, 31 Dec 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/blogging/</guid>
       <description></description>
@@ -77,24 +86,6 @@
       <pubDate>Thu, 09 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/elastic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Audio AI</title>
-      <link>https://lucaseo.github.io/categories/audio-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/categories/audio-ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Structure and Algorithm in Python</title>
-      <link>https://lucaseo.github.io/categories/data-structure-and-algorithm-in-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://lucaseo.github.io/categories/data-structure-and-algorithm-in-python/</guid>
       <description></description>
     </item>
     
