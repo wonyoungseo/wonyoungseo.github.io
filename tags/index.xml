@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Fri, 19 Feb 2021 00:01:45 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Feb 2021 12:08:24 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>postgresql</title>
+      <link>https://lucaseo.github.io/tags/postgresql/</link>
+      <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/postgresql/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data structure</title>
       <link>https://lucaseo.github.io/tags/data-structure/</link>
@@ -41,6 +50,24 @@
       <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/audio-processing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DSP</title>
+      <link>https://lucaseo.github.io/tags/dsp/</link>
+      <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/dsp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>librosa</title>
+      <link>https://lucaseo.github.io/tags/librosa/</link>
+      <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/librosa/</guid>
       <description></description>
     </item>
     
