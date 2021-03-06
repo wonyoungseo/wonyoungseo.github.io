@@ -16,7 +16,7 @@
       <guid>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
       <description>이번 포스트에서는 현재 일하고 있는 Who&amp;rsquo;s Good에서 웹어플리케이션 기반의 간단한 툴을 개발한 과정을 기술합니다. 자세한 사내 업무 내용은 생략하며, 유사한 상황 및 시나리오로 대체했음을 밝힙니다.
  &amp;amp;nbsp
-1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사를 기반으로 기업의 *ESG 리스크를 평가합니다. 평가 모델을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 산출된 결과값이 정답인지 아닌지 여부를 확인하는 과정이고, Quality Check 또는 줄여서 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
+1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사를 기반으로 기업의 *ESG 리스크를 평가합니다. 모델을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 산출된 결과값이 정답인지 아닌지 여부를 확인하는 과정이고, Quality Check 또는 줄여서 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
     </item>
     
   </channel>
