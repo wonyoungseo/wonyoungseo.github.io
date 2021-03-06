@@ -7,31 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 28 Feb 2021 12:08:24 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 13:07:17 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>postgresql</title>
-      <link>https://lucaseo.github.io/tags/postgresql/</link>
-      <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
+      <title>python</title>
+      <link>https://lucaseo.github.io/tags/python/</link>
+      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/tags/postgresql/</guid>
+      <guid>https://lucaseo.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streamlit</title>
+      <link>https://lucaseo.github.io/tags/streamlit/</link>
+      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web application</title>
+      <link>https://lucaseo.github.io/tags/web-application/</link>
+      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/web-application/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data structure</title>
       <link>https://lucaseo.github.io/tags/data-structure/</link>
-      <pubDate>Fri, 19 Feb 2021 00:01:45 +0900</pubDate>
+      <pubDate>Mon, 01 Mar 2021 20:37:43 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/data-structure/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>python</title>
-      <link>https://lucaseo.github.io/tags/python/</link>
-      <pubDate>Fri, 19 Feb 2021 00:01:45 +0900</pubDate>
+      <title>postgresql</title>
+      <link>https://lucaseo.github.io/tags/postgresql/</link>
+      <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/tags/python/</guid>
+      <guid>https://lucaseo.github.io/tags/postgresql/</guid>
       <description></description>
     </item>
     
@@ -149,15 +167,6 @@
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/heroku/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>streamlit</title>
-      <link>https://lucaseo.github.io/tags/streamlit/</link>
-      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/tags/streamlit/</guid>
       <description></description>
     </item>
     

@@ -7,22 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 28 Feb 2021 12:08:24 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 13:07:17 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>SQL Practice</title>
-      <link>https://lucaseo.github.io/categories/sql-practice/</link>
-      <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
+      <title>Streamlit</title>
+      <link>https://lucaseo.github.io/categories/streamlit/</link>
+      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/categories/sql-practice/</guid>
+      <guid>https://lucaseo.github.io/categories/streamlit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Data Structure and Algorithm</title>
       <link>https://lucaseo.github.io/categories/data-structure-and-algorithm/</link>
-      <pubDate>Fri, 19 Feb 2021 00:01:45 +0900</pubDate>
+      <pubDate>Mon, 01 Mar 2021 20:37:43 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/data-structure-and-algorithm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL Practice</title>
+      <link>https://lucaseo.github.io/categories/sql-practice/</link>
+      <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/sql-practice/</guid>
       <description></description>
     </item>
     
@@ -77,15 +86,6 @@
       <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Streamlit</title>
-      <link>https://lucaseo.github.io/categories/streamlit/</link>
-      <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/categories/streamlit/</guid>
       <description></description>
     </item>
     

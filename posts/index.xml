@@ -7,15 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 28 Feb 2021 12:08:24 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 13:07:17 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 간단한 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
+      <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-for-non-dev/</link>
+      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-for-non-dev/</guid>
+      <description>이번 포스트에서는 현재 일하고 있는 Who&amp;rsquo;s Good에서 웹어플리케이션 기반의 간단한 툴을 개발한 과정을 기술합니다. 자세한 사내 업무 내용은 생략하며, 유사한 상황 및 시나리오로 대체했음을 밝힙니다.
+ &amp;amp;nbsp
+1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사 통해 기반으로 기업의 ESG리스크를 평가합니다. 평가 모형을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 이 과정을 Quality Check 또는 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
+    </item>
+    
+    <item>
+      <title>[KR] 자료구조 &amp; 알고리즘 : 트리(Tree)</title>
+      <link>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</link>
+      <pubDate>Mon, 01 Mar 2021 20:37:43 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</guid>
+      <description>1. 트리의 개념 1.1. 트리의 정의  노드와 브랜치를 활용하여 구성한 데이터 구조  1.2. 트리와 관련된 용어 트리 관련 용어  노드(Node)  데이터를 저장하는 기본 요소 다른 노드와 연결되는 브랜치에 대한 정보도 포함   브랜치(Branch)  상위 노드와 하위 노드를 연결하는 가지   루트노드(Root Node)  트리 최상단에 위치한 최상위 노드   레벨(Level)  최상위 노드를 Level 0이라고 할 때, 특정 레벨에 위치한 노드의 집합   부모 노드(Parent Node)  상위 노드   자식 노드(Child Node)  하위 노드   단말 노드(Leaf Node)  하위 노드가 없는 노드   형제 노드(Sibling Node)  동일한 부모 노드를 가진 노드   깊이(Depth)  루트에서 어떤 노드에 도달하기 위해 거쳐야 하는 간선의 수   크기(Size)  자신을 포함한 모든 자식노드의 개수   높이(Height)  하위 트리 개수 / 간선 수 (degree) = 각 노드가 지닌 가지의 수   노드의 차수(Degree of Node)  각 노드가 지닌 가지의 수   트리의 차수(Degree of Tree)  트리의 최대 차수    트리의 종류  이진 트리 vs 이진 탐색 트리  이진 트리(Binary Tree)  노드의 최대 브랜치가 2개인 트리   이진 탐색 트리(Binary Search Tree: BST)  왼쪽 노드는 해당 노드보다 작은 값, 오른쪽 노드는 해당 노드보다 큰 값을 가지는 조건이 적용된 이진트리      1.</description>
+    </item>
+    
     <item>
       <title>[EN] SQL Practice : select</title>
       <link>https://lucaseo.github.io/posts/2021-02-28-sql-practice-select/</link>
       <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2021-02-28-sql-practice-select/</guid>
-      <description>SQL Practices - SELECT Practices set is Referenced from w3resource.com
- SQL Exercises, Practice, Solution - Retrieve data from tables All practice set and answers are written in PostgreSQL  Sample Tables salesman    salesman_id name city commission     5001 James Hoog New York 0.15   5002 Nail Knite Paris 0.13   5005 Pit Alex London 0.11   5006 Mc Lyon Paris 0.</description>
+      <description>SQL Practices - SELECT Practices set resources are referenced from w3resource.com
+ SQL Exercises, Practice, Solution - Retrieve data from tables SQL Exercises, Practice, Solution - Using Boolean and Relational operators All practice set and answers are written in PostgreSQL   Sample Tables salesman    salesman_id name city commission     5001 James Hoog New York 0.15   5002 Nail Knite Paris 0.13   5005 Pit Alex London 0.</description>
     </item>
     
     <item>
