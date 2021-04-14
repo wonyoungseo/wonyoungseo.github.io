@@ -9,16 +9,6 @@
     <copyright>© Wonyoung Seo 2021</copyright>
     <lastBuildDate>Thu, 15 Apr 2021 02:12:21 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[KR] Docker 기본 명령어</title>
-      <link>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
-      <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
-      <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
- 1. 도커의 기본적인 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER .</description>
-    </item>
-    
-    <item>
       <title>[KR] Docker Compose 개념</title>
       <link>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</link>
       <pubDate>Thu, 15 Apr 2021 02:12:21 +0900</pubDate>
@@ -26,6 +16,16 @@
       <guid>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
+    </item>
+    
+    <item>
+      <title>[KR] Docker 기본 명령어</title>
+      <link>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
+      <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
+      <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
+ 1. 도커의 기본적인 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER .</description>
     </item>
     
     <item>
