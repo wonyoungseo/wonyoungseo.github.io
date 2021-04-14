@@ -7,23 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 11 Apr 2021 23:53:30 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Apr 2021 23:53:30 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] Docker 기본 명령어</title>
       <link>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
       <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
-      <description>1.기초 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER ... ]  종료된 컨테이너를 삭제하는 명령어  logs docker logs [OPTIONS] CONTAINER  기본 옵션  -f : fetch.</description>
+      <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
+ 1. 도커의 기본적인 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER .</description>
     </item>
     
     <item>
       <title>[KR] Docker Compose 개념</title>
       <link>https://lucaseo.github.io/posts/2021-04-14-docker-compose-basic/</link>
-      <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
+      <pubDate>Wed, 14 Apr 2021 23:53:30 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2021-04-14-docker-compose-basic/</guid>
-      <description>Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
+      <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
+ Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
     </item>
     
     <item>
@@ -181,7 +183,7 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
       <pubDate>Sat, 20 Jun 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Wagon Wheel Effect 빠르게 회전하는 바퀴나 물체를 보면 처음에는 반시계 방향으로 회전하는가 싶더니, 어느 순간부터 반대로 시계방향으로 회전하는 것 같은 환영을 볼 수 있다. 아니면 분명히 바퀴는 빠르게 회전하는데, 느리게 회전하는 것처럼 보일 때도 있다. 바로 undersampling과 alias 로 인해 발생하는 현상인데, 명칭은 Wagon Wheel Effect(마차바퀴현상)라 한다.</description>
     </item>
     
@@ -191,7 +193,7 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
       <pubDate>Sun, 07 Jun 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Nyquist-Shannon Sampling Theorem 신호처리에서 Oversampling과 undersampling을 방지하고도, 여전히 신호를 잘 표현할 수 있는 sampling rate(샘플링주기)는 어떻게 선택할 수 있을까? 샘플링 주기는 주로 나이퀴스트-섀넌 샘플링 법칙(Nyquist-Shannon Sampling Theorum)를 따른다.
 이 샘플링 법칙은 다음과 같이 정의된다.
  만일 어떠한 신호 그 어떤 frequency도 B hertz보다 높지 않다면, 1/(2B) 초 간격으로 샘플링을 하면 된다.</description>
@@ -268,7 +270,7 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
       <pubDate>Sat, 25 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Unit Circle : Trigonometry review unit circle(단위원)과 radian(라디안) Sine wave와 cosine wave를 설명하는 과정에서 단위원을 따라 회전하는 선의 길이와 움직임을 묘사했었다. 이 단위원의 둘레는 phase(위상)라고 하는데, X축과 회전하는 선이 이루는 각도라고 생각할 수 있다. 아니, 각도를 사용하지 않고 라디안(radians)을 사용하도록 하자.
 우리는 원의 둘레를 360도라고 배웠는데, 이번에는 2pi radians(라디안)이라고 불러보자(원의 둘레는 2pi라는 것도 배운 바 있다.</description>
     </item>
@@ -279,7 +281,7 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
       <pubDate>Thu, 23 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Periodic Movement and the Circle Sine wave(사인파, 정현파)는, 어떠한 선이 원을 그리며 회전할 때의 모습으로 묘사할 수 있다. Sine wave는 회전하는 선과 Y축 수직의 길이가 밀접한 관계를 보인다.
 sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitude의 폭이 크고, 짧을 수록 amplitude의 폭이 작다.</description>
     </item>
@@ -301,7 +303,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Wed, 15 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Timbre Harmonics, Overtones, and Wave Shapes 물체가 반복적으로 패턴을 보이며 진동할 경우, 우리의 귀는 pressure wave(압력파)를 음조(tone)이나 음의 높이(pitch)로 해석한다. 반대로 물체의 진동이 반복적이지 않거나, 예측 불가한 패턴으로 진동할 경우 우리의 귀는 이를 소음(noise)나 조성이 없는 형태(atonal)로 받아들이게 된다.
 각기 다른 패턴의 진동은 곧 각기 다른 음색(timbre)으로 연결 된다.</description>
     </item>
@@ -312,7 +314,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Mon, 13 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Definition and Waves &amp;lsquo;사운드&amp;rsquo;란 공기나 물 같은 매질을 통해 전파되는 공기 압력의 파동이다. 어떤 물체가 진동을 하면 그 즉시 주변에 있는 입자들을 밀고 당기게 되는데, 이 입자들의 움직임과 압력으로 인해 이웃한 입자들로 퍼져나가거나, 빈 공간이 생기면서 압력이 낮아지고 주위의 다른 입자들이 당겨져 공간이 채워지는 움직임을 한다.</description>
     </item>
     
@@ -322,7 +324,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Sun, 12 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   이산신호 해석하기 Don&amp;rsquo;t connect the dots! 이산신호를 다룰 경우, 섣불리 각 점을 이어 interpolation(보간법: 중간 값을 채워 넣음)을 해서는 안 된다. 지난 번 비행 고도의 예시를 들어 보자.
    &amp;amp;nbsp
 누군가 65분 당시의 고도를 물어본다면, 어떻게 답할 수 있을까? 우리는 당장 60분, 70분의 두 기록을 가지고 있을 뿐이니까, 그냥 단순히 두 점 사이에 선을 그어 31,000 이라고 답을 하고 싶을 수 있지&amp;hellip;만 그럴 때는 그냥 **모른다(I don&amp;rsquo;t know)**고 하는 게 정확하다.</description>
@@ -334,7 +336,7 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
       <pubDate>Sat, 11 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Discrete Signals (이산 신호) Sampling and Signal Notation(샘플링과 신호의 표기)
 &amp;amp;nbsp
 Sampling 어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sampling), 그렇게 측정된 각각의 값을 샘플(sample)이라고 한다. 이산신호는 연속신호를 샘플링한 샘플의 모음이라고 보면 된다.
@@ -347,7 +349,7 @@ Sampling 어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sa
       <pubDate>Fri, 10 Jan 2020 14:24:01 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</guid>
-      <description>본 글은 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
+      <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   신호란? Continuous(연속) VS. Discrete(이산)
  신호(signal)은 물리적 현상 및 행동을 묘사한다.  시간의 흐름에 따른 신호 → time-domain signal 시간에 흐름에 따라 바뀌는 것들의 예시  비행기의 고도 변화 도시의 온도 변화 자동차의 속도      &amp;amp;nbsp
 DSP (digital signal processing) DSP는 real-world signal을 컴퓨터에서 측정, 기록, 처리, 분석하기 위한 모든 과정을 포함하는 영역을 말한다.</description>
