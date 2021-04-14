@@ -18,6 +18,15 @@
     </item>
     
     <item>
+      <title>[KR] Docker Compose 개념</title>
+      <link>https://lucaseo.github.io/posts/2021-04-14-docker-compose-basic/</link>
+      <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-04-14-docker-compose-basic/</guid>
+      <description>Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
+    </item>
+    
+    <item>
       <title>[KR] 파이썬 기반 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
       <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
       <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
