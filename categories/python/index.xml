@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 12 Apr 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Apr 2021 23:40:28 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 정규표현식 기본 개념과 파이썬 re 패키지</title>
+      <link>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</link>
+      <pubDate>Thu, 22 Apr 2021 23:40:28 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</guid>
+      <description>1. 정규표현식이란 Regular Expression (또는 Regex)
+ 특정한 규칙을 가진 문자열의 집합을 표현하는 데 사용하는 형식 언어. (Wikipedia)
+ 2. 정규표현식의 구조 /PATTERN/FLAG
+ / :  정규표현식임을 알리는 기호. 정규표현식의 시작과 끝에 위치함.   PATTERN  정규표현식으로 찾고자하는 문자열의 패턴   FLAG  옵션    3. 정규표현식, 표현의 종류 3.1. 그룹과 범위 group and ranges  |  OR, 또는   ()  그룹 지정 복수의 패턴을 하나의 그룹으로 묶어 찾는 식으로 사용할 수 있음 예시)  gray 또는 grey 를 찾고자 할 때  /gr(a|e)y/gm   URL 패턴을 찾고자 할 때  /(http|https):// .</description>
+    </item>
+    
     <item>
       <title>[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)</title>
       <link>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
