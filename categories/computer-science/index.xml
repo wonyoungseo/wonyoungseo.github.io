@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Science on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/categories/computer-science/</link>
+    <description>Recent content in Computer Science on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 25 Jul 2021 14:37:08 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 한 권으로 읽는 컴퓨터 구조와 프로그래밍 1장 : 컴퓨터 내부의 언어 체계</title>
+      <link>https://lucaseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</link>
+      <pubDate>Sun, 25 Jul 2021 14:37:08 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</guid>
+      <description>한 권으로 읽는 컴퓨터 구조와 프로그래밍 (Jonathan E. Steinhart 저, 책만 사) 를 읽고 정리하는 요약 글입니다.
+ 1장 - 컴퓨터 언어 체계 1.0. 컴퓨터의 언어  언어는 정보의 소통을 하기 위한 매개체 언어를 사용하기 위해서는 2가지가 필요함  인코딩: 어떠한 기호의 집합으로 변환, 기록되어야 함. 문맥: 의사소통의 당사자들이    1.1. 2진법 체계 1.1.1. 비트  비트(bit) 2진법을 사용하는 체계 참/거짓 (또는 다른 형식의 표현)을 기반으로 하는 비트를 사용하여 논리연산을 할 수 있음  1.</description>
+    </item>
+    
+  </channel>
+</rss>
