@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Fri, 30 Jul 2021 18:33:02 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Aug 2021 15:03:21 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 한 권으로 읽는 컴퓨터 구조와 프로그래밍 2-3장 : 조합논리,  순차논리</title>
+      <link>https://lucaseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</link>
+      <pubDate>Sun, 08 Aug 2021 15:03:21 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</guid>
+      <description>한 권으로 읽는 컴퓨터 구조와 프로그래밍 (Jonathan E. Steinhart 저, 책만 사) 를 읽고 정리하는 요약 글입니다.
+ 2장 - 전자 회로의 조합 논리 2.0. 전자 회로의 조합 논리  컴퓨터는 2진법을 적용한 비트를 내부 언어로 사용함. 컴퓨터는 비트를 기반으로 새로운 비트를 표현하고 연산하는 불리언대수 또는 조합논리(combinatorial logic)을 통해 구현한 기능을 통해 동작함.  2.1. 논리 게이트  1960년대 개발된 논리 연산을 수행하는 회로. 간단하게 게이트라고도 함. 앞서 1장에서 다루었던 기본적인 부울대수의 연산을 수행하며, 이들의 결합으로 더욱 복합적인 기능을 구현할 수 있음.</description>
+    </item>
+    
     <item>
       <title>[KR] 글또 6기의 시작</title>
       <link>https://lucaseo.github.io/posts/2021-07-30-init-geultto-6/</link>
