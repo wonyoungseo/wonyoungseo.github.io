@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>airflow on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/airflow/</link>
+    <description>Recent content in airflow on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 15 Aug 2021 19:43:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/airflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Docker를 활용하여 Airflow 2.x 실행하기</title>
+      <link>https://lucaseo.github.io/posts/2021-08-15-airflow2-with-docker/</link>
+      <pubDate>Sun, 15 Aug 2021 19:43:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-08-15-airflow2-with-docker/</guid>
+      <description>작년 Airflow를 처음으로 실전에 적용하는 과정에서, 다양한 환경설정과 그에 따라 달라지는 데이터베이스 등 신경써야 할 부분이 많았고, 이러한 점 때문에 지식 전달은 물론 다른 동료들이 직접 사용하는데 진입장벽이 좀 생긴다는 점을 느낄 수 있었습니다. 마침 새로운 프로젝트부터는 Airflow 2.x 을 도입하기로 했고, 적용해야 되는 김에 Docker를 활용했습니다. 그리하여 이번 글에서는 Docker를 활용한 Airflow 2.x을 설치하는 과정와 방법을 정리합니다. 기존에 많이 알려진 Airflow와 Docker와 관련된 예제에는 puckel의 Airflow Docker Image가 많이 사용되었는데요, 이 이미지는 Airflow 1.</description>
+    </item>
+    
+  </channel>
+</rss>
