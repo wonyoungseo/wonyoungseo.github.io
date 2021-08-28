@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 15 Aug 2021 19:43:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 01:43:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Airflow 2.x 에서는 Task Group 씁시다</title>
+      <link>https://lucaseo.github.io/posts/2021-08-29-airflow2-task-group/</link>
+      <pubDate>Sun, 29 Aug 2021 01:43:01 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-08-29-airflow2-task-group/</guid>
+      <description>Source Airflow: a workflow management platform
+Airflow를 처음 알게 된 후, 이것저것 찾아보다가 이런 이미지를 접한 기억이 납니다. 수많은 태스크들이 모여 복잡한 파이프라인의 DAG가 구축되어 있는데요, 언뜻 보니까 정말 그럴 듯하고 멋있어 간지나 보였습니다. 하지만 막상 저 파이프라인을 전부 다 파악하고 관리할 생각을 하면 쉽지 않을 것 같다는 인상을 피할 수 없기도 합니다.
+이런 고민은 Airflow2에서부터 도입된 Task Group 객체의 도움을 받아 개선할 수 있습니다. 이번 글에서는 Task Group의 개념과 사용 예제를 정리합니다.</description>
+    </item>
+    
     <item>
       <title>[KR] Docker를 활용하여 Airflow 2.x 실행하기</title>
       <link>https://lucaseo.github.io/posts/2021-08-15-airflow2-with-docker/</link>
