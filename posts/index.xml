@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 11:01:54 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Sep 2021 11:35:10 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] MLOps: 무엇인가?</title>
+      <link>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</link>
+      <pubDate>Sun, 26 Sep 2021 11:35:10 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
+      <description>Machine Learning Operations(MLOps)에 대한 주제로 공부하며 기초를 정리해보았습니다.
+1. ML VS Real-world ML 1.1. 학술, 연구적 / 데이터사이언스 대회의 성향 띈 머신러닝 프로젝트 일반적으로 머신러닝 프로젝트를 시작하거나 학술적인 연구를 하는 경우, 머신러닝 프로젝트는 아래와 같은 성향을 띄고 있음.
+   source: Udacity
+   해결하고자 하는 문제의 정의와 데이터셋이 주어져 있음. 프로젝트의 목적은 주어진 데이터셋을 기반으로 평가 메트릭에서 모델의 성능이 가장 높게 나오는 모델링을 실행하는 것. 프로젝트 진행 동안 만족할만한 모델 성능이 나올 때까지 일련의 과정을 사이클로 반복함  데이터셋에 대한 탐구 여러가지 피쳐 엔지니어링 테크닉 적용 여러가지 하이퍼파라미터 조절 여러가지 머신러닝 알고리즘의 적용    1.</description>
+    </item>
+    
     <item>
       <title>[KR] 주피터노트북만 써왔던 당신을 위한 클린코드 소개서</title>
       <link>https://lucaseo.github.io/posts/2021-09-11-intro-clean-code/</link>
