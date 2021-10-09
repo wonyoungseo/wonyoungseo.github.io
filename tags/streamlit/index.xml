@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 06 Mar 2021 13:07:17 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 21:39:13 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Streamlit 앱 정말 쉽게 배포하기 (ft. Streamlit Sharing)</title>
+      <link>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</link>
+      <pubDate>Sat, 09 Oct 2021 21:39:13 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</guid>
+      <description>Streamlit은 파이썬 기반으로 웹어플리케이션을 개발할 수 있는 프레임워크입니다. 이번 포스팅에서는 Streamlit에서 제공하는 서비스를 통해 아주 쉽고 간단하게 내가 개발한 웹을 배포하는 방법에 대해 소개하고자 합니다.
+웹 어플리케이션 개발 &amp;hellip; 그 다음에는? 웹개발과 다소 거리가 먼 데이터분석가, 데이터 사이언티스트 분들에게 Streamlit은 분석 결과를 공유하거나, 학습한 모델을 제품으로 프로토타이핑 할 수 있는 아주 강력한 도구로 자리 잡았습니다.
+하지만 나 혼자만 보고 사용하면 무슨 소용일까요&amp;hellip;? (도발)
+웹어플리케이션 개발과 별개로 배포 또한 하나의 장벽으로 느껴질 수 있는데요, Streamlit Sharing 은 Streamlit 어플리케이션을 배포하기 위해 알아야 할 모든 지식과 과정을 극도로 간소화 했습니다.</description>
+    </item>
+    
     <item>
       <title>[KR] 파이썬 기반 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
       <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>

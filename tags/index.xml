@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 11:35:10 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 21:39:13 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>streamlit</title>
+      <link>https://lucaseo.github.io/tags/streamlit/</link>
+      <pubDate>Sat, 09 Oct 2021 21:39:13 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/streamlit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>streamlit sharing</title>
+      <link>https://lucaseo.github.io/tags/streamlit-sharing/</link>
+      <pubDate>Sat, 09 Oct 2021 21:39:13 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/streamlit-sharing/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>machine learning</title>
       <link>https://lucaseo.github.io/tags/machine-learning/</link>
@@ -113,15 +131,6 @@
       <pubDate>Thu, 22 Apr 2021 23:40:28 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/tags/regex/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>streamlit</title>
-      <link>https://lucaseo.github.io/tags/streamlit/</link>
-      <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/tags/streamlit/</guid>
       <description></description>
     </item>
     
