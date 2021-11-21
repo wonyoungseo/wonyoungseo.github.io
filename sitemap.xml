@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucaseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</loc>
-    <lastmod>2021-11-07T01:54:43+09:00</lastmod>
+    <loc>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/book-review/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/data-literacy/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AC%B8%ED%95%B4%EB%A0%A5/</loc>
+    <lastmod>2021-11-21T01:25:43+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</loc>
     <lastmod>2021-11-07T01:54:43+09:00</lastmod>
   </url>
   
@@ -18,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/posts/</loc>
-    <lastmod>2021-11-07T01:54:43+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/categories/python/</loc>
-    <lastmod>2021-11-07T01:54:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
-    <lastmod>2021-11-07T01:54:43+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/</loc>
     <lastmod>2021-11-07T01:54:43+09:00</lastmod>
   </url>
   

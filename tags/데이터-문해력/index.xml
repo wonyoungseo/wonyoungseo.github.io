@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>데이터 문해력 on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AC%B8%ED%95%B4%EB%A0%A5/</link>
+    <description>Recent content in 데이터 문해력 on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 21 Nov 2021 01:25:43 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AC%B8%ED%95%B4%EB%A0%A5/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 데이터문해력 리뷰</title>
+      <link>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</link>
+      <pubDate>Sun, 21 Nov 2021 01:25:43 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</guid>
+      <description>빅데이터 시대, 성과를 이끌어내는 데이터 문해력 (저자: 카시와기 요시키)
+ 추천 대상: &amp;ldquo;데이터를 들여다보면 되지 않을까?&amp;rdquo; 하는 분들 한줄평: 데이터에는 답이 없어요  데이터 문해력 Data Literacy &amp;ldquo;데이터&amp;rdquo;, 2010년대 후반 들어 가장 많이 언급되는 단어가 아닐까 합니다. 이런 트렌드에 힘입어 데이터 문해력(Data literacy) 또한 많은 사람들이 관심을 가지고 있는 키워드라고 할 수 있습니다.
+데이터 문해력은 어떻게 정의 내릴 수 있을까요? 데이터가 쏟아져 흘러 넘치는 빅데이터 시대에 데이터를 읽고 무언가를 해석하는 능력이라고 할 수 있을까요?</description>
+    </item>
+    
+  </channel>
+</rss>
