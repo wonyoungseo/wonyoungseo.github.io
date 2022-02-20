@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning and data science blueprint for finance on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/machine-learning-and-data-science-blueprint-for-finance/</link>
+    <description>Recent content in machine learning and data science blueprint for finance on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 20 Feb 2022 14:26:18 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/machine-learning-and-data-science-blueprint-for-finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 금융 전략을 위한 머신러닝</title>
+      <link>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</link>
+      <pubDate>Sun, 20 Feb 2022 14:26:18 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</guid>
+      <description>금융 전략을 위한 머신러닝 (저자: 하리옴 탓샛, 사힐 푸리, 브래드 루카보)
+   추천 대상: 금융업계에 종사하는 PM / 기획자 / 소프트웨어 개발자 한줄평: 무엇을 좋아할 지 몰라서 다 준비해봤어  금융 서비스를 위한 머신러닝? 2022년 현재 머신러닝과 데이터사이언스는 커머스, 소셜, 스포츠 등 수많은 분야에서 각자 필요한 영역을 찾아 적용되어지고 있다. 머신러닝을 직접적으로 개발에 관여하지 않는 부서의 사람들이 봤을 때는 크게 단순히 사람의 노동을 대체할 수 있는 자동화의 측면이거나, 혹은 더 나아가 인간의 역량으로는 쉽게 할 수 없던 작업을 할 수 있는 알고리즘을 만드는, 이렇게 2가지로 인식된다.</description>
+    </item>
+    
+  </channel>
+</rss>
