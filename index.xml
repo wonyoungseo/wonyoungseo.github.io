@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 27 Mar 2022 13:28:10 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 08:59:02 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 시멘틱 데이터 모형화</title>
+      <link>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
+      <pubDate>Sun, 24 Apr 2022 08:59:02 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
+      <description>머신 러닝 파워드 애플리케이션 (저자: 파노스 알렉소풀로스)
+  추천하는 대상:
+ 데이터 모델을 개발하거나 체계를 구축하는 업무를 하시는 분 한줄평: 데이터는 금가루가 박혀있는 원석. 시맨틱 데이터 모델링은 원석을 정제해서 금가루를 모아 금괴로 만드는 기술.  시맨틱 데이터 모델링이란 데이터는 그냥 쌓아둔다고 좋은 것이 아니다. 데이터는 사용이 가능하도록 분류하는 과정을 거쳐 저장되어야 적절히 사용할 수 있다. 지극히 당연한 이야기지만, 데이터를 분류할 때 어떠한 의미를 부여할 것인지에 대해 생각해보자면, 막막할 때가 많다.</description>
+    </item>
+    
     <item>
       <title>[KR] 책 리뷰 : 머신러닝 파워드 애플리케이션</title>
       <link>https://lucaseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</link>
