@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>developer relations on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/developer-relations/</link>
+    <description>Recent content in developer relations on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Thu, 23 Jun 2022 21:57:47 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/developer-relations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 기업의 성공을 이끄는 Developer Relations</title>
+      <link>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
+      <pubDate>Thu, 23 Jun 2022 21:57:47 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
+      <description>기업의 성공을 이끄는 Developer Relations (저자: 메리 셍발)
+  추천하는 대상:
+ Developer Relations라는 용어가 궁금하신 분 기술을 사랑하고 커뮤니티 활동에도 관심이 많으신 분 오픈소스 활동에 관심 있으신 분  한줄평: 한국에서 DevRel 에 대한 인식과 활동 무대가 더욱 커질 수 있는 시작점이 될 책
+들어가기에 앞서, Developer Relations 이라는 용어를 처음 접하고, Public Relations이 떠올랐다. 보통 줄여서 PR 이라고 하고, 한국에서는 PR한다 와 같이 콩글리쉬로도 쓰인다.</description>
+    </item>
+    
+  </channel>
+</rss>

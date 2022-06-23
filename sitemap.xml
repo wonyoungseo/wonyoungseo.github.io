@@ -3,12 +3,57 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
+    <loc>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/book-review/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/developer-relations/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/devrel/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/%EA%B8%B0%EC%97%85%EC%9D%98-%EC%84%B1%EA%B3%B5%EC%9D%84-%EC%9D%B4%EB%81%84%EB%8A%94-developer-relations/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/</loc>
+    <lastmod>2022-06-23T21:57:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</loc>
     <lastmod>2022-06-12T08:34:26+09:00</lastmod>
   </url>
   
@@ -33,27 +78,7 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/posts/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</loc>
-    <lastmod>2022-05-28T08:57:47+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/book-review/</loc>
     <lastmod>2022-05-28T08:57:47+09:00</lastmod>
   </url>
   
@@ -64,11 +89,6 @@
   
   <url>
     <loc>https://lucaseo.github.io/tags/mlops-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C/</loc>
-    <lastmod>2022-05-28T08:57:47+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/</loc>
     <lastmod>2022-05-28T08:57:47+09:00</lastmod>
   </url>
   

@@ -7,17 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 08:34:26 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jun 2022 21:57:47 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 기업의 성공을 이끄는 Developer Relations</title>
+      <link>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
+      <pubDate>Thu, 23 Jun 2022 21:57:47 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
+      <description>기업의 성공을 이끄는 Developer Relations (저자: 메리 셍발)
+  추천하는 대상:
+ Developer Relations라는 용어가 궁금하신 분 기술을 사랑하고 커뮤니티 활동에도 관심이 많으신 분 오픈소스 활동에 관심 있으신 분  한줄평: 한국에서 DevRel 에 대한 인식과 활동 무대가 더욱 커질 수 있는 시작점이 될 책
+들어가기에 앞서, Developer Relations 이라는 용어를 처음 접하고, Public Relations이 떠올랐다. 보통 줄여서 PR 이라고 하고, 한국에서는 PR한다 와 같이 콩글리쉬로도 쓰인다.</description>
+    </item>
+    
     <item>
       <title>[KR] 머신러닝 파이프라인 개념 정리</title>
       <link>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
       <pubDate>Sun, 12 Jun 2022 08:34:26 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
-      <description>머신러닝 파이프라인 어떠한 일련의 작업들을 순서대로 묶어 위험요소나 외부의 개입을 최소화하고 자동으로 실행하고자 할 때 파이프라인을 구축한다.
+      <description>어떠한 일련의 작업들을 순서대로 묶어 위험요소나 외부의 개입을 최소화하고 자동으로 실행하고자 할 때 파이프라인을 구축한다.
 파이프라인의 개념이 적용되지 않은 머신러닝 프로젝트는 결과물을 얻기 위한 과정의 자동화와 재사용성이 확보되지 않기 때문에 일회성 PoC에 그칠 가능성이 높다.
 머신러닝 파이프라인이라는 개념은 머신러닝 모델을 학습하고, 재사용하며, 필요한 자원들을 관리하고 배포하는 일련의 과정을 표준화하고 자동으로 동작할 수 있도록 하기 위해 논의 되기 시작했다.
-DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 그래프)의 형태를 띄고 있다.</description>
+DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 그래프)의 형태를 띄고 있다. 이름에서 알 수 있듯이, DAG는 방향을 가지되, 루프는 존재하지 않아, 그래프의 시작과 종료가 이루어지는 시점이 명확하기에 파이프라인을 구성하는데 적절한 구조이다.</description>
     </item>
     
     <item>
