@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>핸즈온 데이터 시각화 on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/%ED%95%B8%EC%A6%88%EC%98%A8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94/</link>
+    <description>Recent content in 핸즈온 데이터 시각화 on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Tue, 19 Jul 2022 23:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/%ED%95%B8%EC%A6%88%EC%98%A8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8B%9C%EA%B0%81%ED%99%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 핸즈온 데이터 시각화</title>
+      <link>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
+      <pubDate>Tue, 19 Jul 2022 23:25:29 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
+      <description>핸즈온 데이터 시각화 (저자: 잭 도허티, 일리야 일라얀코우)
+  추천하는 대상:
+ 시각화를 업무에 자주 사용하는 분  한줄평: 데이터시각화를 위한 교과서적인 책이며, 중요한 개념인만큼 차근차근 짚어나간다.
+친근하면서도 어려운 데이터 시각화 데이터 시각화는 단순히 데이터를 가지고 그래프를 그리는 행위가 아니다. 데이터 시각화는 데이터에 기반한 분석과 주장을 더욱 효과적으로 전달하기 위한 한 방법이다. 텍스트만으로는 전달하기 힘든 통찰은 차트, 지도 등과 결합하여 더욱 강한 설득력을 가진다.
+핸즈온 데이터 시각화 이렇게 단순히 차트를 그리는 것을 넘어 데이터 시각화에 대한 이론부터 차근차근 다루고 있는 핸즈온 데이터 시각화 는 2020년 경부터 이미 저자들이 인터넷 상에 책 내용을 무료로 공개하여 화제가 된 적이 있는 데이터 시각화 강의 교재이다.</description>
+    </item>
+    
+  </channel>
+</rss>
