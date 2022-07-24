@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucaseo.github.io/posts/2022-07-22-inference-system-pattern/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/inference-system/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/ml/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/ml/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/mlops/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/mlops/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/</loc>
+    <lastmod>2022-07-22T21:10:24+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</loc>
     <lastmod>2022-07-19T23:25:29+09:00</lastmod>
   </url>
@@ -13,27 +63,7 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/categories/</loc>
-    <lastmod>2022-07-19T23:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/tags/hands-on-data-visualization/</loc>
-    <lastmod>2022-07-19T23:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/posts/</loc>
-    <lastmod>2022-07-19T23:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
-    <lastmod>2022-07-19T23:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/</loc>
     <lastmod>2022-07-19T23:25:29+09:00</lastmod>
   </url>
   
@@ -79,16 +109,6 @@
   
   <url>
     <loc>https://lucaseo.github.io/tags/machine-learning-operation/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/mlops/</loc>
-    <lastmod>2022-06-12T08:34:26+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/mlops/</loc>
     <lastmod>2022-06-12T08:34:26+09:00</lastmod>
   </url>
   
