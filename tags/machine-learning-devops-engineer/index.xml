@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning devops engineer on WY&#39;s Tech Blog</title>
+    <link>https://lucaseo.github.io/tags/machine-learning-devops-engineer/</link>
+    <description>Recent content in machine learning devops engineer on WY&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2021</copyright>
+    <lastBuildDate>Sun, 07 Aug 2022 13:49:32 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/machine-learning-devops-engineer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Udacity Nanodegree: Machine Learning DevOps Engineer 후기</title>
+      <link>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</link>
+      <pubDate>Sun, 07 Aug 2022 13:49:32 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</guid>
+      <description>Udacity의 MLOps 프로그램    Udacity의 MLOps 관련 강의인 Machine Learning DevOps Engineer Nanodegree를 최근에 수료했다. 수강료 할인과 좋은 기회가 있어 수강하기 시작했는데, 중간에 사정이 있어 잠시 수강을 멈췄다가 최근에야 프로젝트를 완료하면서 수료할 수 있게 되었다. MLOps에 관심이 많은 분들은 해당 강의에 대해 궁금하실 것 같아, 강의 컨텐츠와 후기를 정리해보고자 한다.
+강의 컨텐츠 이 강의는 MLOps에 대한 기초를 다루고 있는 만큼, 파이썬은 물론이고 데이터사이언스와 머신러닝 프로젝트에서 자주 사용하는 라이브러리인 Pandas, Numpy, Scikit-Learn 등이 익숙한 사람들을 대상으로 한다.</description>
+    </item>
+    
+  </channel>
+</rss>
