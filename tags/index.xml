@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 07 Aug 2022 13:49:32 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Sep 2022 22:47:00 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data version control</title>
+      <link>https://lucaseo.github.io/tags/data-version-control/</link>
+      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/data-version-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dvc</title>
+      <link>https://lucaseo.github.io/tags/dvc/</link>
+      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/dvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml version control</title>
+      <link>https://lucaseo.github.io/tags/ml-version-control/</link>
+      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/ml-version-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>weights and biases</title>
+      <link>https://lucaseo.github.io/tags/weights-and-biases/</link>
+      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/tags/weights-and-biases/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>machine learning devops engineer</title>
       <link>https://lucaseo.github.io/tags/machine-learning-devops-engineer/</link>
