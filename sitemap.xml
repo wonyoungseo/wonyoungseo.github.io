@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://lucaseo.github.io/posts/2022-09-04-introduction-data-version-control/</loc>
-    <lastmod>2022-09-04T22:47:00+09:00</lastmod>
+    <loc>https://lucaseo.github.io/posts/2022-10-15-reivew-geultto-7/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/blogging/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/geultto/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/</loc>
+    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/2022-09-04-introduction-data-version-control/</loc>
     <lastmod>2022-09-04T22:47:00+09:00</lastmod>
   </url>
   
@@ -38,22 +68,7 @@
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/posts/</loc>
-    <lastmod>2022-09-04T22:47:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
-    <lastmod>2022-09-04T22:47:00+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/tags/weights-and-biases/</loc>
-    <lastmod>2022-09-04T22:47:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/</loc>
     <lastmod>2022-09-04T22:47:00+09:00</lastmod>
   </url>
   
@@ -179,16 +194,6 @@
   
   <url>
     <loc>https://lucaseo.github.io/posts/2022-05-14-init-geultto-7/</loc>
-    <lastmod>2022-05-14T21:57:47+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/blogging/</loc>
-    <lastmod>2022-05-14T21:57:47+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/geultto/</loc>
     <lastmod>2022-05-14T21:57:47+09:00</lastmod>
   </url>
   
