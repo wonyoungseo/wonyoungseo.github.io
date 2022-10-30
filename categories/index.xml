@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 15 Oct 2022 00:13:05 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 08:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review</title>
+      <link>https://lucaseo.github.io/categories/book-review/</link>
+      <pubDate>Sun, 30 Oct 2022 08:25:29 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/categories/book-review/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blogging</title>
       <link>https://lucaseo.github.io/categories/blogging/</link>
@@ -41,15 +50,6 @@
       <pubDate>Sun, 07 Aug 2022 13:49:32 +0900</pubDate>
       
       <guid>https://lucaseo.github.io/categories/course-review/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book Review</title>
-      <link>https://lucaseo.github.io/categories/book-review/</link>
-      <pubDate>Tue, 19 Jul 2022 23:25:29 +0900</pubDate>
-      
-      <guid>https://lucaseo.github.io/categories/book-review/</guid>
       <description></description>
     </item>
     

@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 23:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 08:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 파이썬 기반 금융 인공지능</title>
+      <link>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance/</link>
+      <pubDate>Sun, 30 Oct 2022 08:25:29 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance/</guid>
+      <description>핸즈온 데이터 시각화 (저자: 잭 도허티, 일리야 일라얀코우)
+  추천하는 대상:
+ 금융 데이터를 활용한 모델링에 관심 있는 분  한줄평:
+금융 기반 데이터를 활용의 지침서 금융에서 데이터를 활용하는 법 최근 인공지능, 머신러닝, 딥러닝 등 소위 &amp;ldquo;핫&amp;quot;한 토픽이 대두되기에 이전부터 가장 데이터를 활발하게 활용하고 있던 분야가 있다면, 그건 바로 금융 업계일 것이다. 다만 금융을 전공하지 않은 CS 기반의 데이터 직군 종사자가 금융 업종의 전문 또는 배경지식을 갖추고 데이터를 활용하는 업무를 하는 것 또한 쉽지 않은 일이다.</description>
+    </item>
+    
     <item>
       <title>[KR] 책 리뷰 : 핸즈온 데이터 시각화</title>
       <link>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
