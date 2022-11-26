@@ -7,13 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sun, 30 Oct 2022 08:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Nov 2022 08:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 온디바이스 AI</title>
+      <link>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>
+      <pubDate>Sat, 26 Nov 2022 08:25:29 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</guid>
+      <description>온디바이스 AI (저자: 로런스 모로니)
+  추천하는 대상:
+ 머신러닝을 적용한 어플리케이션을 개발하고자 하는 모바일 앱개발자  조금은 더 친근해진 모바일 AI 현실에서 사용할 수 있는 AI 지난 10년이 AI 모델을 연구하고 구현하는 쪽으로 강조가 되었다면, 최근에는 AI 모델을 실제 제품으로서 사용할 수 있도록 생산 제작 하는 쪽으로 접근이 이루어지고 있다. 그렇게 많은 사람들이 모델을 &amp;lsquo;배포&amp;rsquo;하고 API 형태로 &amp;lsquo;서빙&amp;rsquo;하며, 더 가벼운 형태로 경량화 하는 방식에 대한 고민을 하기 시작했다.</description>
+    </item>
+    
     <item>
       <title>[KR] 책 리뷰 : 파이썬 기반 금융 인공지능</title>
-      <link>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance/</link>
+      <link>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</link>
       <pubDate>Sun, 30 Oct 2022 08:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance/</guid>
+      <guid>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</guid>
       <description>파이썬 기반 금융 인공지능 (저자: 이브 힐피시)
   추천하는 대상:
  금융 데이터를 활용한 모델링에 관심 있는 분  한줄평:
