@@ -7,7 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2021</copyright>
-    <lastBuildDate>Sat, 26 Nov 2022 08:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022 12 29 Book Review Nlp With Huggingface</title>
+      <link>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</link>
+      <pubDate>Thu, 29 Dec 2022 16:31:07 +0900</pubDate>
+      
+      <guid>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</guid>
+      <description>온디바이스 AI (저자: 로런스 모로니)
+  추천하는 대상:
+ 파이썬과 딥러닝 프레임워크에 익숙한 리서처 &amp;amp; 엔지니어 자연어처리 프로젝트를 진행하는 모든 분 !  Transformer와 Huggingface 어텐션(Attention) 메커니즘의 등장은 트랜스포머(Transformer) 모델 구조로 이어지며 최근 몇년 간 자연어처리 기술 발전의 근간이 되었다. 이와 더불어 허깅페이스(Huggingface)는 트랜스포머 그 자체로 동일한 이름을 가진 라이브러리가 등장시켰고, 모델에 대한 사용성과 접근성을 크게 개선했다.
+트랜스포머를 활용한 자연어처리 는 허깅페이스에 대한 전반적인 소개와 사용법을 다룬다.</description>
+    </item>
+    
     <item>
       <title>[KR] 책 리뷰 : 온디바이스 AI</title>
       <link>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>

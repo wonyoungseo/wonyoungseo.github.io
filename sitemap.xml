@@ -3,42 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/book-review/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/categories/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/posts/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/%ED%8A%B8%EB%9E%9C%EC%8A%A4%ED%8F%AC%EB%A8%B8%EB%A5%BC%ED%99%9C%EC%9A%A9%ED%95%9C%EC%9E%90%EC%97%B0%EC%96%B4%EC%B2%98%EB%A6%AC/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/</loc>
+    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</loc>
     <lastmod>2022-11-26T08:25:29+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://lucaseo.github.io/categories/book-review/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/categories/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/posts/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://lucaseo.github.io/tags/%EC%98%A8%EB%94%94%EB%B0%94%EC%9D%B4%EC%8A%A4ai/</loc>
-    <lastmod>2022-11-26T08:25:29+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lucaseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2022/</loc>
     <lastmod>2022-11-26T08:25:29+09:00</lastmod>
   </url>
   
