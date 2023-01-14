@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>비전공자의 DSP 맛보기 시즌 1 on WY&#39;s Tech Blog</title>
+    <title>비전공자의 DSP 맛보기 시즌 1 on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/categories/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-dsp-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/</link>
-    <description>Recent content in 비전공자의 DSP 맛보기 시즌 1 on WY&#39;s Tech Blog</description>
+    <description>Recent content in 비전공자의 DSP 맛보기 시즌 1 on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Sat, 20 Jun 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90%EC%9D%98-dsp-%EB%A7%9B%EB%B3%B4%EA%B8%B0-%EC%8B%9C%EC%A6%8C-1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Wagon Wheel Effect &amp; Aliasing</title>

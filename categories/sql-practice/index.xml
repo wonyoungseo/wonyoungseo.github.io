@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SQL Practice on WY&#39;s Tech Blog</title>
+    <title>SQL Practice on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/categories/sql-practice/</link>
-    <description>Recent content in SQL Practice on WY&#39;s Tech Blog</description>
+    <description>Recent content in SQL Practice on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Sun, 28 Feb 2021 12:08:24 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/sql-practice/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[EN] SQL Practice : select</title>

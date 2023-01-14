@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data science on WY&#39;s Tech Blog</title>
+    <title>data science on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/tags/data-science/</link>
-    <description>Recent content in data science on WY&#39;s Tech Blog</description>
+    <description>Recent content in data science on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Sat, 11 Sep 2021 11:01:54 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/data-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 주피터노트북만 써왔던 당신을 위한 클린코드 소개서</title>

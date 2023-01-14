@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computer Science on WY&#39;s Tech Blog</title>
+    <title>Computer Science on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/categories/computer-science/</link>
-    <description>Recent content in Computer Science on WY&#39;s Tech Blog</description>
+    <description>Recent content in Computer Science on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Sun, 08 Aug 2021 15:03:21 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/computer-science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 한 권으로 읽는 컴퓨터 구조와 프로그래밍 2-3장 : 조합논리,  순차논리</title>

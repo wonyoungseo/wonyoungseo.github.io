@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>audio processing on WY&#39;s Tech Blog</title>
+    <title>audio processing on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/tags/audio-processing/</link>
-    <description>Recent content in audio processing on WY&#39;s Tech Blog</description>
+    <description>Recent content in audio processing on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Fri, 22 Jan 2021 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/audio-processing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(3) - 파이썬으로 음악 데이터 읽어오기</title>

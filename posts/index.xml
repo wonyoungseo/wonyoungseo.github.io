@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on WY&#39;s Tech Blog</title>
+    <title>Posts on Wonyoung&#39;s Tech Blog</title>
     <link>https://lucaseo.github.io/posts/</link>
-    <description>Recent content in Posts on WY&#39;s Tech Blog</description>
+    <description>Recent content in Posts on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© Wonyoung Seo 2021</copyright>
+    <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : 트랜스포머를 활용한 자연어처리</title>
