@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MLOps 도입 가이드 on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/mlops-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C/</link>
+    <link>https://wonyoungseo.github.io/tags/mlops-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C/</link>
     <description>Recent content in MLOps 도입 가이드 on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sat, 28 May 2022 08:57:47 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/mlops-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 May 2022 08:57:47 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/mlops-%EB%8F%84%EC%9E%85-%EA%B0%80%EC%9D%B4%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : MLOps 도입가이드</title>
-      <link>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
       <pubDate>Sat, 28 May 2022 08:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
       <description>MLOps 도입 가이드 (저자: 데이터이쿠)
   추천하는 대상:
  MLOps를 도입하기 위한 고민을 하는 분  한줄평: 머신러닝 모델을 배포하는 것은, 잘 돌아가는 걸 확인하는 하나의 단계일 뿐, 그 외 해야할 일은 많다.

@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/categories/blogging/</link>
+    <link>https://wonyoungseo.github.io/categories/blogging/</link>
     <description>Recent content in Blogging on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sat, 15 Oct 2022 00:13:05 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2022 00:13:05 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 글또 7기를 마무리하며</title>
-      <link>https://lucaseo.github.io/posts/2022-10-15-reivew-geultto-7/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-10-15-reivew-geultto-7/</link>
       <pubDate>Sat, 15 Oct 2022 00:13:05 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-10-15-reivew-geultto-7/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-10-15-reivew-geultto-7/</guid>
       <description>글또 7기를 마무리하며 어느새 5개월이 지나 글또 7기 활동 기간도 끝을 바라보고 있다. 7기를 시작하며 작성한 다짐글을 다시 읽어보니, 핵심은 &amp;ldquo;너무 열심히 하지 않기&amp;rdquo; 였다. 되돌아보니 정말 이번만큼은 잘 수행하는 기간이었다는 생각이 든다. (어찌 이런 다짐은 또 &amp;hellip;) 5개월 간 있었던 일들을 한번 짚어보고자 한다.
 돌아보기 사내 독서 스터디 진행 &amp;ldquo;구글 엔지니어는 이렇게 일한다&amp;rdquo; 책을 가지고 사내 독서 스터디를 시작했다. 다만 개발 직군만을 대상으로 모집하지 않았고, 최대한 다른 직군에 있는 분들도 함께 하자고 물밑작업을 열심히 했다.</description>
     </item>
     
     <item>
       <title>[KR] 글또 7기를 시작하며</title>
-      <link>https://lucaseo.github.io/posts/2022-05-14-init-geultto-7/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-05-14-init-geultto-7/</link>
       <pubDate>Sat, 14 May 2022 21:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-05-14-init-geultto-7/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-05-14-init-geultto-7/</guid>
       <description>오래간만에 다시 글또 활동을 시작하며 몇 개월 만에 새로운 글또 기수가 시작이 되었다. 이번 기수에도 크게 고민하지 않고 신청을 했는데, 지난 3번의 글또 활동을 시작할 때와 달리, 이번에는 시작을 앞둔 각오가 조금은 다른 것을 느끼고 있다.
 이번에는 너무 잘 하려고 하지 않으려고 한다. 과거에는 회사에서의 일, 퇴근 후 개인 공부, 글또 등등 성장과 관련된 부분들은 전부 다 잡고 싶고 잘 하려고 했던 것 같다. 의욕만 과다했던 탓일까, 때로는 번아웃이 오기도 했고, 스스로 생각해도 퀄리티가 높지 않았지만 데드라인에 맞춰서 그냥 낸 적도 있다.</description>
     </item>
     
     <item>
       <title>[KR] 2021년이 지났다.</title>
-      <link>https://lucaseo.github.io/posts/2022-01-01-review-2021/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-01-01-review-2021/</link>
       <pubDate>Sat, 01 Jan 2022 21:30:35 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-01-01-review-2021/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-01-01-review-2021/</guid>
       <description>20년 당시 회고글을 돌아보니, 키워드 별로 정리해놓은 포맷이 나쁘지 않은 것 같아 이번에도 같은 포맷으로 회고를 해보고자 합니다.
 &amp;amp;nbsp
 올해의 키워드 1. 올해의 고난 (자세히 기술하지는 못 합니다) 회사에서 기존에 맡고 있던 업무의 비즈니스 모델(BM)이 올해 중반을 기점으로 전혀 예상하지 못 했던 방향으로 계획을 변경되면서 개인적으로는 하반기가 참 힘이 들었습니다. 모든 팀원들이 한번도 경험해보지 못 한 “처음 해보는 일”을 짧은 시간 내 해내야하는 프로젝트가 시작이 되었습니다. 이로 인해 기존에 계획되었던 것보다 더 급하게 자회사가 설립되고, 짧은 시간동안 많은 외부 인사 영입이 이루어졌습니다.</description>
@@ -41,30 +41,30 @@
     
     <item>
       <title>[KR] 글또 6기의 시작</title>
-      <link>https://lucaseo.github.io/posts/2021-07-30-init-geultto-6/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-07-30-init-geultto-6/</link>
       <pubDate>Fri, 30 Jul 2021 18:33:02 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-07-30-init-geultto-6/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-07-30-init-geultto-6/</guid>
       <description>다시 돌아온 글또 6기 지난 5월 글또 5기를 마친 시점에서 여러가지로 굉장히 지쳤었던 생각이 납니다. 잠시 그때로 기억을 거슬로 올라가보면, 코로나 시국으로 인해 심적 피로가 쌓여가는 것을 느끼고 있었고, 회사 일과 병행하고 있는 방송통신대 3번째 학기 과제와 기말고사가 겹쳐있었던 시점이었던 것 같습니다. 글또 활동을 통해서 쓴 포스팅의 퀄리티도 곤두박칠 치지 않았나 생각이 들었습니다. 그래서 다음 기수에는 참여할 수 있을지 스스로 의문이 들기도 했습니다. 그런데 다시 신청했네요. 또 속냐
 글또를 참여하는 이유 글또를 참여하는 분들마다 참여 동기와, 각자가 느끼는 글또의 매력은 다 다를 것입니다.</description>
     </item>
     
     <item>
       <title>[KR] 글또 5기를 마무리하며</title>
-      <link>https://lucaseo.github.io/posts/2021-05-02-reivew-geultto-5/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-05-02-reivew-geultto-5/</link>
       <pubDate>Sun, 02 May 2021 00:13:05 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-05-02-reivew-geultto-5/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-05-02-reivew-geultto-5/</guid>
       <description>글또 5기를 마무리하며 글또 5기의 활동이 곧 마지막이라는 알림을 보고 약간 당황했습니다. 5기를 언제부터 시작했는지도 약간 가물가물하던 차, 다시 한번 찾아보니 작년 11월이더라구요. 언제 부터 시작했는지조차 기억이 나지 않는 것을 보니 이번 기수 동안에는 참 개인적으로 정신이 없었다는 걸 새삼 느끼게 되었습니다. 그래도 희미한 기억을 되짚어가며 글또 5기의 되돌아보고자 합니다.
 돌아보기 5기의 시작 어느 직장이나 바쁜 시즌이 있듯이, 현재 일하고 있는 직장에서는 10~12월에 항상 무언가가 터지는 시즌입니다. 연말을 앞두고 쎄한 느낌이 들어서였을까요, 11월 초 글또 5기를 시작하면서 다짐글을 작성하지 않았습니다.</description>
     </item>
     
     <item>
       <title>[KR] 2020년 하반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
       <pubDate>Thu, 31 Dec 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
       <description>2020년 올해는 &amp;hellip; &amp;amp;nbsp
 1. 올해의 가장 큰 변화 재택근무
 COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
@@ -72,19 +72,19 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] fastpages에서 블로그 시작하기</title>
-      <link>https://lucaseo.github.io/posts/2020-11-29-fastpages/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</link>
       <pubDate>Sun, 29 Nov 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-11-29-fastpages/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</guid>
       <description>항상 내 맘 같지 않은 기술 블로그 개발이 비교적 익숙하지 않은 데이터분석가 또는 데이터사이언티스트가 Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 가지 난관이 있습니다. 자료를 찾아보면 주로 Jekyll, Hugo, Hexo, Gatsby.JS 와 같이 낯설고 어려운 프레임워크을 사용해야 합니다. 튜토리얼은 간신히 따라갔다 하더라도, 기존의 테마를 내 입맛에 맞게 커스터마이징을 하거나 기능을 추가하기 위해서는 html, CSS 또는 NodeJS 같은 프레임워크를 알아야 합니다. 마음에 드는 테마가 있어도, 오랜 기간 관리가 되지 않아 Latex 엔진이 제대로 작동하지 않는 경우가 생기기도 하죠.</description>
     </item>
     
     <item>
       <title>[KR] 2020년 상반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
       <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-08-02-review-2020-1st-half/</guid>
       <description>한 게 뭐 있다고 벌써 8월이야 시간은 정말 경이로울 정도록 빨리 간다. 사실 상반기에 대한 회고글도 6월이 지난 직후 작성했어야 했는데, 순식간에 8월이 되어, 더 늦기 전에 작성해야겠다는 생각이 들었다. 한살 한살 더 먹어갈 수록 &amp;ldquo;주춤&amp;quot;하면 시간은 이미 지나있더라&amp;hellip; 이번 6개월은 잘 살았는지 잘 모르겠다. 한번 알아보자.
 &amp;amp;nbsp
 누구나 그럴싸한 계획은 있다. OOO 전까지는 난 이런 일을 하겠노라 생각했던 시기가 있었다.
@@ -93,10 +93,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 글또 4기 다짐글</title>
-      <link>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
       <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-02-23-init-geultto-4th/</guid>
       <description>신년을 맞이하기 직전, 신년을 맞이한 직후 우리는 온갖 계획과 다짐을 세운다. 어느 시점에서부터인가 계획을 세우는 게 무의미하다고 생각이 들기도 했지만, 올해도 어김 없이 그럴 듯한 다짐을 해본다. 또 속아 넘어가는 기분이지만, 이번만큼은 다르다고 해두자.
  글또를 참여하게 됐다.    Source: 글또   &amp;amp;nbsp
 데이터 직군으로 취업을 한 이후로 많은 사람들이 그랬던 것처럼 나도 일하면서 필요하거나 막히는 것들에 대한 해결책을 능력자들의 블로그나 브런치, Medium과 같은 플랫폼을 통해 접하고 있다.</description>
@@ -104,10 +104,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 첫 포스팅</title>
-      <link>https://lucaseo.github.io/posts/2020-01-02-first-post/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-02-first-post/</link>
       <pubDate>Thu, 02 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-02-first-post/</guid>
       <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
     </item>
     

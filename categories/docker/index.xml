@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/categories/docker/</link>
+    <link>https://wonyoungseo.github.io/categories/docker/</link>
     <description>Recent content in Docker on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Wed, 21 Apr 2021 23:16:41 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Apr 2021 23:16:41 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] Docker Image 개념</title>
-      <link>https://lucaseo.github.io/posts/2021-04-21-docker-image-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-21-docker-image-basic/</link>
       <pubDate>Wed, 21 Apr 2021 23:16:41 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-21-docker-image-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-21-docker-image-basic/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  Docker Image - 도커는 레이어드 파일 시스템 기반
  도커 이미지는 프로세스가 실행되는 파일들의 집합 또는 환경이라고 할 수 있음 프로세스가 실행되면 발생하는 파일들에 대한 변경을 이미지에 쌓는 것  Image  이미지는 두가지로 나뉠 수 있음  읽기전용 Only Read 쓰기가능 Writable   Base Image  읽기 전용 수정할 수 없음 대신 해당 이미지 위에 또 다른 층을 추가할 수 있음    예시 1) docker commit을 통해 이미지 만들기 우분투 베이스 이미지에 Git을 설치하여 새로운 이미지로 저장하기</description>
@@ -21,20 +21,20 @@
     
     <item>
       <title>[KR] Docker Compose 개념</title>
-      <link>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-15-docker-compose-basic/</link>
       <pubDate>Thu, 15 Apr 2021 02:12:21 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-15-docker-compose-basic/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
     </item>
     
     <item>
       <title>[KR] Docker 기본 명령어</title>
-      <link>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
       <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  1. 도커의 기본적인 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER .</description>
     </item>

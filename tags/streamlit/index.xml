@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>streamlit on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/streamlit/</link>
+    <link>https://wonyoungseo.github.io/tags/streamlit/</link>
     <description>Recent content in streamlit on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sat, 09 Oct 2021 21:39:13 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Oct 2021 21:39:13 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] Streamlit 앱 정말 쉽게 배포하기 (ft. Streamlit Sharing)</title>
-      <link>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</link>
       <pubDate>Sat, 09 Oct 2021 21:39:13 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</guid>
       <description>Streamlit은 파이썬 기반으로 웹어플리케이션을 개발할 수 있는 프레임워크입니다. 이번 포스팅에서는 Streamlit에서 제공하는 서비스를 통해 아주 쉽고 간단하게 내가 개발한 웹을 배포하는 방법에 대해 소개하고자 합니다.
 웹 어플리케이션 개발 &amp;hellip; 그 다음에는? 웹개발과 다소 거리가 먼 데이터분석가, 데이터 사이언티스트 분들에게 Streamlit은 분석 결과를 공유하거나, 학습한 모델을 제품으로 프로토타이핑 할 수 있는 아주 강력한 도구로 자리 잡았습니다.
 하지만 나 혼자만 보고 사용하면 무슨 소용일까요&amp;hellip;? (도발)
@@ -22,10 +22,10 @@
     
     <item>
       <title>[KR] 파이썬 기반 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
-      <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
       <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
       <description>이번 포스트에서는 현재 일하고 있는 Who&amp;rsquo;s Good에서 웹어플리케이션 기반의 간단한 툴을 개발한 과정을 기술합니다. 자세한 사내 업무 내용은 생략하며, 유사한 상황 및 시나리오로 대체했음을 밝힙니다.
  &amp;amp;nbsp
 1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사를 기반으로 기업의 *ESG 리스크를 평가합니다. 모델을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 산출된 결과값이 정답인지 아닌지 여부를 확인하는 과정이고, Quality Check 또는 줄여서 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
       <description>Source: streamlit.io   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
 &amp;amp;nbsp
  사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.
@@ -46,10 +46,10 @@
     
     <item>
       <title>[KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
       <description>Streamlit은 데이터사이언스/ML 프로젝트를 간단하게 배포할 수 있는 웹어플리케이션으로, 최근에 많은 관심을 받고 있습니다. 이번 포스트에서는 Streamlit의 간단한 소개와 기본 기능들을 훑어보겠습니다.
   2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit 이란? Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
 &amp;amp;nbsp

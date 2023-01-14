@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hands on data visualization on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/hands-on-data-visualization/</link>
+    <link>https://wonyoungseo.github.io/tags/hands-on-data-visualization/</link>
     <description>Recent content in hands on data visualization on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Tue, 19 Jul 2022 23:25:29 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/hands-on-data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Jul 2022 23:25:29 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/hands-on-data-visualization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : 핸즈온 데이터 시각화</title>
-      <link>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
       <pubDate>Tue, 19 Jul 2022 23:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
       <description>핸즈온 데이터 시각화 (저자: 잭 도허티, 일리야 일라얀코우)
   추천하는 대상:
  시각화를 업무에 자주 사용하는 분  한줄평: 데이터시각화를 위한 교과서적인 책이며, 중요한 개념인만큼 차근차근 짚어나간다.

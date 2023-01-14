@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>semantic modeling for data on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/semantic-modeling-for-data/</link>
+    <link>https://wonyoungseo.github.io/tags/semantic-modeling-for-data/</link>
     <description>Recent content in semantic modeling for data on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 24 Apr 2022 08:59:02 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/semantic-modeling-for-data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 Apr 2022 08:59:02 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/semantic-modeling-for-data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : 시멘틱 데이터 모형화</title>
-      <link>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
       <pubDate>Sun, 24 Apr 2022 08:59:02 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
       <description>머신 러닝 파워드 애플리케이션 (저자: 파노스 알렉소풀로스)
   추천하는 대상:
  데이터 모델을 개발하거나 체계를 구축하는 업무를 하시는 분  한줄평: 데이터는 금가루가 박혀있는 원석. 시맨틱 데이터 모델링은 원석을 정제해서 금가루를 모아 금괴로 만드는 기술.

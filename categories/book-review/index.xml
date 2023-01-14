@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Book Review on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/categories/book-review/</link>
+    <link>https://wonyoungseo.github.io/categories/book-review/</link>
     <description>Recent content in Book Review on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/categories/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/book-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : 트랜스포머를 활용한 자연어처리</title>
-      <link>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</link>
       <pubDate>Thu, 29 Dec 2022 16:31:07 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</guid>
       <description>트래스포머를 활용한 자연어처리 (저자: 루이스 턴스톨, 레안드로 폰 베라, 토마스 울프)
   추천하는 대상:
  파이썬과 딥러닝 프레임워크에 익숙한 리서처 &amp;amp; 엔지니어 자연어처리 프로젝트를 진행하는 모든 분 !  Transformer와 Huggingface 어텐션(Attention) 메커니즘의 등장은 트랜스포머(Transformer) 모델 구조로 이어지며 최근 몇년 간 자연어처리 기술 발전의 근간이 되었다. 이와 더불어 허깅페이스(Huggingface)는 트랜스포머 그 자체로 동일한 이름을 가진 라이브러리가 등장시켰고, 모델에 대한 사용성과 접근성을 크게 개선했다.
@@ -22,10 +22,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 온디바이스 AI</title>
-      <link>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>
       <pubDate>Sat, 26 Nov 2022 08:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</guid>
       <description>온디바이스 AI (저자: 로런스 모로니)
   추천하는 대상:
  머신러닝을 적용한 어플리케이션을 개발하고자 하는 모바일 앱개발자  조금은 더 친근해진 모바일 AI 현실에서 사용할 수 있는 AI 지난 10년이 AI 모델을 연구하고 구현하는 쪽으로 강조가 되었다면, 최근에는 AI 모델을 실제 제품으로서 사용할 수 있도록 생산 제작 하는 쪽으로 접근이 이루어지고 있다. 그렇게 많은 사람들이 모델을 &amp;lsquo;배포&amp;rsquo;하고 API 형태로 &amp;lsquo;서빙&amp;rsquo;하며, 더 가벼운 형태로 경량화 하는 방식에 대한 고민을 하기 시작했다.</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 파이썬 기반 금융 인공지능</title>
-      <link>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</link>
       <pubDate>Sun, 30 Oct 2022 08:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</guid>
       <description>파이썬 기반 금융 인공지능 (저자: 이브 힐피시)
   추천하는 대상:
  금융 데이터를 활용한 모델링에 관심 있는 분  한줄평:
@@ -45,10 +45,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 핸즈온 데이터 시각화</title>
-      <link>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
       <pubDate>Tue, 19 Jul 2022 23:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
       <description>핸즈온 데이터 시각화 (저자: 잭 도허티, 일리야 일라얀코우)
   추천하는 대상:
  시각화를 업무에 자주 사용하는 분  한줄평: 데이터시각화를 위한 교과서적인 책이며, 중요한 개념인만큼 차근차근 짚어나간다.
@@ -58,10 +58,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 기업의 성공을 이끄는 Developer Relations</title>
-      <link>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
       <pubDate>Thu, 23 Jun 2022 21:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
       <description>기업의 성공을 이끄는 Developer Relations (저자: 메리 셍발)
   추천하는 대상:
  Developer Relations라는 용어가 궁금하신 분 기술을 사랑하고 커뮤니티 활동에도 관심이 많으신 분 오픈소스 활동에 관심 있으신 분  한줄평: 한국에서 DevRel 에 대한 인식과 활동 무대가 더욱 커질 수 있는 시작점이 될 책
@@ -70,10 +70,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : MLOps 도입가이드</title>
-      <link>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
       <pubDate>Sat, 28 May 2022 08:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
       <description>MLOps 도입 가이드 (저자: 데이터이쿠)
   추천하는 대상:
  MLOps를 도입하기 위한 고민을 하는 분  한줄평: 머신러닝 모델을 배포하는 것은, 잘 돌아가는 걸 확인하는 하나의 단계일 뿐, 그 외 해야할 일은 많다.
@@ -82,10 +82,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 시멘틱 데이터 모형화</title>
-      <link>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
       <pubDate>Sun, 24 Apr 2022 08:59:02 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
       <description>머신 러닝 파워드 애플리케이션 (저자: 파노스 알렉소풀로스)
   추천하는 대상:
  데이터 모델을 개발하거나 체계를 구축하는 업무를 하시는 분  한줄평: 데이터는 금가루가 박혀있는 원석. 시맨틱 데이터 모델링은 원석을 정제해서 금가루를 모아 금괴로 만드는 기술.
@@ -94,10 +94,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 머신러닝 파워드 애플리케이션</title>
-      <link>https://lucaseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</link>
       <pubDate>Sun, 27 Mar 2022 13:28:10 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</guid>
       <description>머신 러닝 파워드 애플리케이션 (저자: 에마뉘엘 아메장)
   추천 대상:
  머신러닝이 적용된 제품을 만들고자 하는 분 머신러닝 엔지니어로 취업/이직하고자 하는 분  한줄평: 데이터 수집, 전처리, 학습 &amp;hellip; 이제 이걸 가지고 뭘 하지?
@@ -106,20 +106,20 @@
     
     <item>
       <title>[KR] 책 리뷰 : 금융 전략을 위한 머신러닝</title>
-      <link>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</link>
       <pubDate>Sun, 20 Feb 2022 14:26:18 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</guid>
       <description>금융 전략을 위한 머신러닝 (저자: 하리옴 탓샛, 사힐 푸리, 브래드 루카보)
    추천 대상: 금융업계에 종사하는 PM / 기획자 / 소프트웨어 개발자 한줄평: 무엇을 좋아할 지 몰라서 다 준비해봤어  금융 서비스를 위한 머신러닝? 2022년 현재 머신러닝과 데이터사이언스는 커머스, 소셜, 스포츠 등 수많은 분야에서 각자 필요한 영역을 찾아 적용되어지고 있다. 머신러닝을 직접적으로 개발에 관여하지 않는 부서의 사람들이 봤을 때는 크게 단순히 사람의 노동을 대체할 수 있는 자동화의 측면이거나, 혹은 더 나아가 인간의 역량으로는 쉽게 할 수 없던 작업을 할 수 있는 알고리즘을 만드는, 이렇게 2가지로 인식된다.</description>
     </item>
     
     <item>
       <title>[KR] 책 리뷰 : 빅데이터 시대, 성과를 이끌어내는 데이터 문해력</title>
-      <link>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-11-21-book-review-data-literacy/</link>
       <pubDate>Sun, 21 Nov 2021 23:48:43 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-11-21-book-review-data-literacy/</guid>
       <description>빅데이터 시대, 성과를 이끌어내는 데이터 문해력 (저자: 카시와기 요시키)
    추천 대상: &amp;ldquo;데이터를 들여다보면 되지 않을까?&amp;rdquo; 하는 분들 한줄평: 데이터에는 답이 없다고? 데이터에서 답을 찾으려던거 아니었어?  데이터 문해력 Data Literacy 데이터, 2010년대 후반 들어 가장 많이 언급되는 단어가 아닐까 합니다. 이런 트렌드에 힘입어 데이터 문해력(Data literacy) 또한 많은 사람들이 관심을 가지고 있는 키워드라고 할 수 있습니다.
 데이터 문해력은 어떻게 정의 내릴 수 있을까요? &amp;ldquo;데이터가 쏟아져 흘러 넘치는 빅데이터 시대에 데이터를 읽고 무언가를 해석하는 능력&amp;quot;이라고 하면 알맞은 정답이 될 수 있을까요?</description>

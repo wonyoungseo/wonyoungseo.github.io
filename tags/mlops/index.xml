@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>mlops on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/mlops/</link>
+    <link>https://wonyoungseo.github.io/tags/mlops/</link>
     <description>Recent content in mlops on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 07 Aug 2022 13:49:32 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Aug 2022 13:49:32 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] Udacity Nanodegree: Machine Learning DevOps Engineer 후기</title>
-      <link>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</link>
       <pubDate>Sun, 07 Aug 2022 13:49:32 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</guid>
       <description>Udacity의 MLOps 프로그램    Udacity의 MLOps 관련 강의인 Machine Learning DevOps Engineer Nanodegree를 최근에 수료했다. 수강료 할인과 좋은 기회가 있어 수강하기 시작했는데, 중간에 사정이 있어 잠시 수강을 멈췄다가 최근에야 프로젝트를 완료하면서 수료할 수 있게 되었다. MLOps에 관심이 많은 분들은 해당 강의에 대해 궁금하실 것 같아, 강의 컨텐츠와 후기를 정리해보고자 한다.
 강의 컨텐츠 이 강의는 MLOps에 대한 기초를 다루고 있는 만큼, 파이썬은 물론이고 데이터사이언스와 머신러닝 프로젝트에서 자주 사용하는 라이브러리인 Pandas, Numpy, Scikit-Learn 등이 익숙한 사람들을 대상으로 한다.</description>
     </item>
     
     <item>
       <title>[KR] 머신러닝 추론 시스템 패턴</title>
-      <link>https://lucaseo.github.io/posts/2022-07-22-inference-system-pattern/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-07-22-inference-system-pattern/</link>
       <pubDate>Fri, 22 Jul 2022 21:10:24 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-07-22-inference-system-pattern/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-07-22-inference-system-pattern/</guid>
       <description>0. 머신러닝 추론 시스템이란 최근 머신러닝 모델을 서비스하기 위한 파이프라인을 구축하는 프로젝트를 진행하게 되었다. 경험 없이 밑바닥에서부터 시작하는 입장이었기 때문에 프로젝트를 본격적으로 진행하기에 앞서 여러가지 케이스를 분석하고 참고하는 시간을 가져보았다. 그 과정의 일환으로, 이번 글에서는 머신러닝 파이프라인의 한 부분을 담당하는 추론 시스템(ML inference system)에 대해 간단히 정리해보았다.
 머신러닝 추론 시스템은 학습된 머신러닝 모델을 불러와 실제 데이터에 대한 추론 결과를 사용자에게 제공하는 기능을 한다. 추론시스템은 누군가가 실제로 머신러닝 모델 프로덕트를 사용한다. 따라서, 머신러닝에서 우리가 익숙한 [데이터수집 -&amp;gt; 데이터정제 -&amp;gt; 모델링 -&amp;gt; 학습 -&amp;gt; 성능평가 -&amp;gt; 실험반복]의 패턴과는 확연히 다르며, 다양한 관점에서 고려해야할 부분들이 생긴다.</description>
     </item>
     
     <item>
       <title>[KR] 머신러닝 파이프라인 개념 정리</title>
-      <link>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
       <pubDate>Sun, 12 Jun 2022 08:34:26 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
       <description>어떠한 일련의 작업들을 순서대로 묶어 위험요소나 외부의 개입을 최소화하고 자동으로 실행하고자 할 때 파이프라인을 구축한다.
 파이프라인의 개념이 적용되지 않은 머신러닝 프로젝트는 결과물을 얻기 위한 과정의 자동화와 재사용성이 확보되지 않기 때문에 일회성 PoC에 그칠 가능성이 높다.
 머신러닝 파이프라인이라는 개념은 머신러닝 모델을 학습하고, 재사용하며, 필요한 자원들을 관리하고 배포하는 일련의 과정을 표준화하고 자동으로 동작할 수 있도록 하기 위해 논의 되기 시작했다.
@@ -42,10 +42,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] MLOps: 무엇인가?</title>
-      <link>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</link>
       <pubDate>Sun, 26 Sep 2021 11:35:10 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
       <description>Machine Learning Operations(MLOps)에 대한 주제로 공부하며 기초를 정리해보았습니다.
 1. ML VS Real-world ML 1.1. 학술, 연구, 대회, 개인 프로젝트에서의 머신러닝 프로젝트 일반적으로 머신러닝 프로젝트를 시작하거나 학술적인 연구를 하는 경우, 머신러닝 프로젝트는 아래와 같은 성향을 띄고 있음.
    source: Udacity

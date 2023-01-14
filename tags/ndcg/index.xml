@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ndcg on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/ndcg/</link>
+    <link>https://wonyoungseo.github.io/tags/ndcg/</link>
     <description>Recent content in ndcg on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 10 May 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/ndcg/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 10 May 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/ndcg/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 추천시스템의 평가 지표 : nDCG</title>
-      <link>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
       <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
       <description>Precision, Recall 기반의 평가 방법의 한계 앞서 다루었던 MAP(Mean Average Precision)과 같은 추천시스템 평가 지표는 Precision, Recall을 기반으로 우선순위를 반영한 성능 평가 방법을 제시했다. MAP는 추천된 리스트 중 상위 K개에 대한 관련 여부가 명확하게 주어졌을 때 평가 지표로 사용될 수 있다. 하지만 관련(relevence) 여부가 명확하지 않거나, 관련 여부를 이분법으로 표현하지 않는 경우에는 적절하지 않다.
 당장 떠오르는 예로는 넷플릭스와 왓챠가 생각이 난다. 넷플릭스의 경우 사용자가 컨텐츠에 대해 [좋다 vs 안좋다]로 평가를 내릴 수 있지만, 왓챠의 경우에는 유자가 0.</description>
     </item>

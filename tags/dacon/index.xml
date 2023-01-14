@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dacon on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/dacon/</link>
+    <link>https://wonyoungseo.github.io/tags/dacon/</link>
     <description>Recent content in dacon on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/dacon/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jul 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/dacon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 데이콘 원자력발전소 상태 판단 대회 후기</title>
-      <link>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</link>
       <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</guid>
       <description>연초, 의욕으로 가득하던 시기에 지인의 권유로 데이콘(Dacon.io)에서 주관하고 한국수력원자력에서 주최한 원자력발전소 상태판단 경진대회에 참가하게 되었다. 지인의 지인도 합류하여 팀은 총 3인으로 구성되었다. 하지만 개개인의 일정과 생업으로 인해서 진행은 각자 하되, 진행사항이나 인사이트 등은 수시로 공유하고, 제출은 팀의 이름으로 제출하는 형식으로 진행되었다. (초기의 으쌰으쌰하던 분위기와 달리 흐지부지된 감이 없잖아 있었다. 팀당 제출횟수가 하루 3회로 제한되었기 때문에, 이럴 줄 알았으면 애초에 각자의 이름으로 혼자 해도 됐겠다 싶기도 했다. 하지만 결과론적인 총평이기 때문에 패스)</description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>heroku on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/heroku/</link>
+    <link>https://wonyoungseo.github.io/tags/heroku/</link>
     <description>Recent content in heroku on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Fri, 13 Mar 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Mar 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/heroku/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
       <description>Source: streamlit.io   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
 &amp;amp;nbsp
  사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.

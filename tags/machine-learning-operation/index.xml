@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine learning operation on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/machine-learning-operation/</link>
+    <link>https://wonyoungseo.github.io/tags/machine-learning-operation/</link>
     <description>Recent content in machine learning operation on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 12 Jun 2022 08:34:26 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/machine-learning-operation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Jun 2022 08:34:26 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/machine-learning-operation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 머신러닝 파이프라인 개념 정리</title>
-      <link>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
       <pubDate>Sun, 12 Jun 2022 08:34:26 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
       <description>어떠한 일련의 작업들을 순서대로 묶어 위험요소나 외부의 개입을 최소화하고 자동으로 실행하고자 할 때 파이프라인을 구축한다.
 파이프라인의 개념이 적용되지 않은 머신러닝 프로젝트는 결과물을 얻기 위한 과정의 자동화와 재사용성이 확보되지 않기 때문에 일회성 PoC에 그칠 가능성이 높다.
 머신러닝 파이프라인이라는 개념은 머신러닝 모델을 학습하고, 재사용하며, 필요한 자원들을 관리하고 배포하는 일련의 과정을 표준화하고 자동으로 동작할 수 있도록 하기 위해 논의 되기 시작했다.
@@ -22,10 +22,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] MLOps: 무엇인가?</title>
-      <link>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</link>
       <pubDate>Sun, 26 Sep 2021 11:35:10 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
       <description>Machine Learning Operations(MLOps)에 대한 주제로 공부하며 기초를 정리해보았습니다.
 1. ML VS Real-world ML 1.1. 학술, 연구, 대회, 개인 프로젝트에서의 머신러닝 프로젝트 일반적으로 머신러닝 프로젝트를 시작하거나 학술적인 연구를 하는 경우, 머신러닝 프로젝트는 아래와 같은 성향을 띄고 있음.
    source: Udacity

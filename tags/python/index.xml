@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/python/</link>
+    <link>https://wonyoungseo.github.io/tags/python/</link>
     <description>Recent content in python on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 11:01:54 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 11:01:54 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 주피터노트북만 써왔던 당신을 위한 클린코드 소개서</title>
-      <link>https://lucaseo.github.io/posts/2021-09-11-intro-clean-code/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-09-11-intro-clean-code/</link>
       <pubDate>Sat, 11 Sep 2021 11:01:54 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-09-11-intro-clean-code/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-09-11-intro-clean-code/</guid>
       <description>주피터노트북을 벗어나보자 데이터 분석 공부를 시작하는 분들 중 90% 이상은 주피터 노트북을 활용하는 데에서 출발하셨을 것입니다. 주피터 노트북은 데이터 분석 결과를 빠르게 확인할 수 있고 있다는 점에서 아주 간편하고 입문자들에게는 진입장벽이 낮은 도구입니다. 하지만 주피터노트북 형태의 코드는 정리가 되어있지 않으면 코드가 뒤죽박죽 섞일 수 있고, 재사용이 힘들어 유지보수를 하거나 협업을 하는 관점에서는 활용도가 매우 떨어집니다.
 이런 상황에서 기술적인 방법론이 아닌, 클린코드에 대한 감을 잡을 수 있도록 가이드 형식의 내용을 정리해보았습니다.</description>
     </item>
     
     <item>
       <title>[KR] 정규표현식 기본 개념과 파이썬 re 패키지</title>
-      <link>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-22-python-regex-basic/</link>
       <pubDate>Thu, 22 Apr 2021 23:40:28 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-22-python-regex-basic/</guid>
       <description>1. 정규표현식이란 Regular Expression (또는 Regex)
  특정한 규칙을 가진 문자열의 집합을 표현하는 데 사용하는 형식 언어. (Wikipedia)
  2. 정규표현식의 구조 /PATTERN/FLAG
@@ -32,10 +32,10 @@
     
     <item>
       <title>[KR] 파이썬 기반 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
-      <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
       <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
       <description>이번 포스트에서는 현재 일하고 있는 Who&amp;rsquo;s Good에서 웹어플리케이션 기반의 간단한 툴을 개발한 과정을 기술합니다. 자세한 사내 업무 내용은 생략하며, 유사한 상황 및 시나리오로 대체했음을 밝힙니다.
  &amp;amp;nbsp
 1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사를 기반으로 기업의 *ESG 리스크를 평가합니다. 모델을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 산출된 결과값이 정답인지 아닌지 여부를 확인하는 과정이고, Quality Check 또는 줄여서 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
@@ -43,19 +43,19 @@
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 트리(Tree)</title>
-      <link>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</link>
       <pubDate>Mon, 01 Mar 2021 20:37:43 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</guid>
       <description>1. 트리의 개념 1.1. 트리의 정의  노드와 브랜치를 활용하여 구성한 데이터 구조  1.2. 트리와 관련된 용어 트리 관련 용어  노드(Node)  데이터를 저장하는 기본 요소 다른 노드와 연결되는 브랜치에 대한 정보도 포함   브랜치(Branch)  상위 노드와 하위 노드를 연결하는 가지   루트노드(Root Node)  트리 최상단에 위치한 최상위 노드   레벨(Level)  최상위 노드를 Level 0이라고 할 때, 특정 레벨에 위치한 노드의 집합   부모 노드(Parent Node)  상위 노드   자식 노드(Child Node)  하위 노드   단말 노드(Leaf Node)  하위 노드가 없는 노드   형제 노드(Sibling Node)  동일한 부모 노드를 가진 노드   깊이(Depth)  루트에서 어떤 노드에 도달하기 위해 거쳐야 하는 간선의 수   크기(Size)  자신을 포함한 모든 자식노드의 개수   높이(Height)  하위 트리 개수 / 간선 수 (degree) = 각 노드가 지닌 가지의 수   노드의 차수(Degree of Node)  각 노드가 지닌 가지의 수   트리의 차수(Degree of Tree)  트리의 최대 차수    트리의 종류  이진 트리 vs 이진 탐색 트리  이진 트리(Binary Tree)  노드의 최대 브랜치가 2개인 트리   이진 탐색 트리(Binary Search Tree: BST)  왼쪽 노드는 해당 노드보다 작은 값, 오른쪽 노드는 해당 노드보다 큰 값을 가지는 조건이 적용된 이진트리      1.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 해시 테이블(Hash Table)</title>
-      <link>https://lucaseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</link>
       <pubDate>Fri, 19 Feb 2021 00:01:45 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 해쉬 테이블 (Hash Table) 1.1. 해쉬 테이블의 구조   키(Key)에 데이터(Value)가 매핑되어 저장되어 있는 구조
  Key를 통해 데이터를 바로 받아올 수 있으므로, 속도가 빠름 파이썬에서는 딕셔너리(Dictionary)가 해쉬 테이블의 예시.  dict = {&amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;}   1.2. 해쉬 테이블의 용어  해쉬(Hash)  임의의 값을 고정된 길이로 변환하는 것   해쉬 테이블(Hash Table)  Key값의 연산에 의해 직접 접근이 가능한 데이터 구조   해싱 함수(Hashing Function)  Key에 대해 특정 산술 연산을 이용하여 데이터의 위치(해쉬 주소)가 리턴되는 함수   해쉬 값(Hash Value) 또는 해쉬 주소(Hash Address)  Key를 해싱 함수로 연산하여 얻는 값 Key를 해싱 함수로 연산하여 해쉬 값이 데이터의 위치.</description>
@@ -63,30 +63,30 @@
     
     <item>
       <title>[KR] 알고리즘 복잡도</title>
-      <link>https://lucaseo.github.io/posts/2021-02-10-complexity/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-10-complexity/</link>
       <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-10-complexity/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-10-complexity/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 알고리즘 복잡도 1.1. 개념 1.1.1. 알고리즘 복잡도 계산이 필요한 이유  하나의 문제를 푸는 방법(알고리즘)은 다양할 수 있음. 여러가지 방법 중 어느 방법이 더 좋은지를 분석하기 위해 복잡도를 정의하고 계산함. 어느 것이 더 좋은 알고리즘인지 판단하는 기준이 됨.  1.1.2. 알고리즘 복잡도를 계산하는 방식  공간 복잡도 (space complexity)  알고리즘이 사용하는 메모리 사이즈   시간 복잡도 (time complexity)  알고리즘 실행 속도 특히, 시간 복잡도에 대한 이해는 필수    1.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 링크드 리스트(Linked List)</title>
-      <link>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
       <pubDate>Mon, 01 Feb 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 링크드 리스트 : Linked List 의 개념 1.1. 링크드 리스트의 구조  데이터와 데이터 사이를 화살표로 연결하여 관리하는 데이터 구조. 배열(Array)와의 차이점  1.2. 링크드 리스트와 배열(Array)와 차이점  배열 : 번호가 붙여진(인덱싱이 된) 칸에 원소들을 채워 넣어 관리함. 링크드 리스트: 각 원소들을 줄줄이 엮어서 관리함.  1.2.1. 배열과 링크드 리스트의 비유적 비교 (출처: 생활코딩)  메모리라는 개념을 우리는 건물에 비유할 수 있을 것 같습니다.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 배열(array), 큐(queue), 스택(stack)</title>
-      <link>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
       <pubDate>Wed, 27 Jan 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  0. 자료구조? 알고리즘?  자료구조 Data Structure  대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조    &amp;amp;nbsp
  체계적인 데이터 구조화의 필요성  코드 상에서 효율적인 데이터 처리하기 위함 어떤 데이터 구조를 사용하느냐에 따라 효율이 달라짐.    &amp;amp;nbsp
@@ -95,10 +95,10 @@
     
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(3) - 파이썬으로 음악 데이터 읽어오기</title>
-      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
       <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
       <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 GTZAN Dataset을 다운받아 음악 파일을 하나 선택했습니다.
 그리고 Librosa는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
 ( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
@@ -107,19 +107,19 @@ import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import 
     
     <item>
       <title>[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)</title>
-      <link>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
       <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
       <description>0. Motivation Who&amp;rsquo;s Good에서는 ESG리서쳐와 분석가/개발자 간에 데이터를 주고 받는 일이 매우 빈번하다. 특히 기업 관련 뉴스 데이터와, 다양한 소스로부터 수집하는 ESG 관련 데이터에 대한 QC를 진행하고 결과를 DB에 적재하는 과정이 있다. 엑셀에서 작업한 데이터를 저장하고, 슬랙으로 전달하는 여러 단계와 여러 사람들을 거치다 보니 주고받은 파일명이 뒤죽박죽인 아주 원초(?)적인 문제부터, 데이터가 언제 업데이트 되었는지 추적이 불가능한 상황도 발생하면서 마음 한 켠에 찝찝함이 남아있는 나날이 계속 되었다. 언제 어디선가 불시에 문제가 생기지는 않을까 하는 두려움.</description>
     </item>
     
     <item>
       <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
       <description>Source: streamlit.io   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
 &amp;amp;nbsp
  사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.
@@ -129,10 +129,10 @@ import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import 
     
     <item>
       <title>[KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
       <description>Streamlit은 데이터사이언스/ML 프로젝트를 간단하게 배포할 수 있는 웹어플리케이션으로, 최근에 많은 관심을 받고 있습니다. 이번 포스트에서는 Streamlit의 간단한 소개와 기본 기능들을 훑어보겠습니다.
   2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit 이란? Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
 &amp;amp;nbsp
@@ -141,10 +141,10 @@ import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import 
     
     <item>
       <title>[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA</title>
-      <link>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-16-pandas-new-release/</link>
       <pubDate>Thu, 16 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-16-pandas-new-release/</guid>
       <description>Major Release !! Pandas 1.0.0 import pandas as pd로 우리에게 익숙한 Pandas. 데이터 분석을 위한 라이브러리라는 사실을 모르는 사람은 거의 없을 것이다. 하지만 부끄럽게도 나는 판다스의 버전조차 모른 상태로 여태껏 공식 문서와 Stackoverflow를 통해서만 사용하고 있었다. 마침 1월 9일 Pandas 1.0.0이 배포되었고, 이번 기회에 1.0.0에서 평소 자주 썼던 부분들을 위주로 중요한 업데이트들을 훑어보고 정리해보고자 한다.
  dataframe.info() 깔끔해진 DataFrame summary DataFrame 요약 기능이 조금 보기 좋은 형태로 개선되었다.
 다음과 같은 예제 DataFrame이 있다고 할 때,</description>

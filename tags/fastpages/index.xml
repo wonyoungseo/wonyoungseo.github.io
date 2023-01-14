@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>fastpages on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/fastpages/</link>
+    <link>https://wonyoungseo.github.io/tags/fastpages/</link>
     <description>Recent content in fastpages on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 29 Nov 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/fastpages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2020 14:24:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/fastpages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] fastpages에서 블로그 시작하기</title>
-      <link>https://lucaseo.github.io/posts/2020-11-29-fastpages/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</link>
       <pubDate>Sun, 29 Nov 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-11-29-fastpages/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</guid>
       <description>항상 내 맘 같지 않은 기술 블로그 개발이 비교적 익숙하지 않은 데이터분석가 또는 데이터사이언티스트가 Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 가지 난관이 있습니다. 자료를 찾아보면 주로 Jekyll, Hugo, Hexo, Gatsby.JS 와 같이 낯설고 어려운 프레임워크을 사용해야 합니다. 튜토리얼은 간신히 따라갔다 하더라도, 기존의 테마를 내 입맛에 맞게 커스터마이징을 하거나 기능을 추가하기 위해서는 html, CSS 또는 NodeJS 같은 프레임워크를 알아야 합니다. 마음에 드는 테마가 있어도, 오랜 기간 관리가 되지 않아 Latex 엔진이 제대로 작동하지 않는 경우가 생기기도 하죠.</description>
     </item>
     

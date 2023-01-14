@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/posts/</link>
+    <link>https://wonyoungseo.github.io/posts/</link>
     <description>Recent content in Posts on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2022 16:31:07 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] 책 리뷰 : 트랜스포머를 활용한 자연어처리</title>
-      <link>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</link>
       <pubDate>Thu, 29 Dec 2022 16:31:07 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</guid>
       <description>트래스포머를 활용한 자연어처리 (저자: 루이스 턴스톨, 레안드로 폰 베라, 토마스 울프)
   추천하는 대상:
  파이썬과 딥러닝 프레임워크에 익숙한 리서처 &amp;amp; 엔지니어 자연어처리 프로젝트를 진행하는 모든 분 !  Transformer와 Huggingface 어텐션(Attention) 메커니즘의 등장은 트랜스포머(Transformer) 모델 구조로 이어지며 최근 몇년 간 자연어처리 기술 발전의 근간이 되었다. 이와 더불어 허깅페이스(Huggingface)는 트랜스포머 그 자체로 동일한 이름을 가진 라이브러리가 등장시켰고, 모델에 대한 사용성과 접근성을 크게 개선했다.
@@ -22,10 +22,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 온디바이스 AI</title>
-      <link>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</link>
       <pubDate>Sat, 26 Nov 2022 08:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-11-26-book-reivew-on-device-ai/</guid>
       <description>온디바이스 AI (저자: 로런스 모로니)
   추천하는 대상:
  머신러닝을 적용한 어플리케이션을 개발하고자 하는 모바일 앱개발자  조금은 더 친근해진 모바일 AI 현실에서 사용할 수 있는 AI 지난 10년이 AI 모델을 연구하고 구현하는 쪽으로 강조가 되었다면, 최근에는 AI 모델을 실제 제품으로서 사용할 수 있도록 생산 제작 하는 쪽으로 접근이 이루어지고 있다. 그렇게 많은 사람들이 모델을 &amp;lsquo;배포&amp;rsquo;하고 API 형태로 &amp;lsquo;서빙&amp;rsquo;하며, 더 가벼운 형태로 경량화 하는 방식에 대한 고민을 하기 시작했다.</description>
@@ -33,10 +33,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 파이썬 기반 금융 인공지능</title>
-      <link>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</link>
       <pubDate>Sun, 30 Oct 2022 08:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-10-30-book-reivew-ai-in-finance-copy/</guid>
       <description>파이썬 기반 금융 인공지능 (저자: 이브 힐피시)
   추천하는 대상:
  금융 데이터를 활용한 모델링에 관심 있는 분  한줄평:
@@ -45,20 +45,20 @@
     
     <item>
       <title>[KR] 글또 7기를 마무리하며</title>
-      <link>https://lucaseo.github.io/posts/2022-10-15-reivew-geultto-7/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-10-15-reivew-geultto-7/</link>
       <pubDate>Sat, 15 Oct 2022 00:13:05 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-10-15-reivew-geultto-7/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-10-15-reivew-geultto-7/</guid>
       <description>글또 7기를 마무리하며 어느새 5개월이 지나 글또 7기 활동 기간도 끝을 바라보고 있다. 7기를 시작하며 작성한 다짐글을 다시 읽어보니, 핵심은 &amp;ldquo;너무 열심히 하지 않기&amp;rdquo; 였다. 되돌아보니 정말 이번만큼은 잘 수행하는 기간이었다는 생각이 든다. (어찌 이런 다짐은 또 &amp;hellip;) 5개월 간 있었던 일들을 한번 짚어보고자 한다.
 돌아보기 사내 독서 스터디 진행 &amp;ldquo;구글 엔지니어는 이렇게 일한다&amp;rdquo; 책을 가지고 사내 독서 스터디를 시작했다. 다만 개발 직군만을 대상으로 모집하지 않았고, 최대한 다른 직군에 있는 분들도 함께 하자고 물밑작업을 열심히 했다.</description>
     </item>
     
     <item>
       <title>[KR] ML Version Control 의 개념</title>
-      <link>https://lucaseo.github.io/posts/2022-09-04-introduction-data-version-control/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-09-04-introduction-data-version-control/</link>
       <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-09-04-introduction-data-version-control/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-09-04-introduction-data-version-control/</guid>
       <description>사내에서 데이터 버전 관리에 대한 내용을 소개하면서 정리한 내용을 포스팅으로 재정리 해보았습니다.
 1. 버전관리 1.1. 소프트웨어 엔지니어링에서 관점에서의 버전 관리 이제는 Git으로 익숙하게 접하는 버전 관리(version control)이 하는 역할을 소프트웨어 엔지니어링 관점에서 다시 한번 정리해보자면 다음과 같다.
  소프트웨어를 이루는 코드와 패키지, 라이브러리 등에 생긴 변화를 추적하고 관리하기 위한 용도 여러 구성원이 소프트웨어를 개발할 때 발생하는 혼란을 줄이고, 효율적으로 협업할 수 있게 하는 용도 소프트웨어에 큰 문제가 발생했을 때, 빠르게 이전 버전으로 돌아가는 등, 에러나 실수로 인해 발생하는 손해를 최소화 하기 위한 용도  1.</description>
@@ -66,30 +66,30 @@
     
     <item>
       <title>[KR] Udacity Nanodegree: Machine Learning DevOps Engineer 후기</title>
-      <link>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</link>
       <pubDate>Sun, 07 Aug 2022 13:49:32 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-08-07-udacity-nanodegree-ml-devops-engineer-review/</guid>
       <description>Udacity의 MLOps 프로그램    Udacity의 MLOps 관련 강의인 Machine Learning DevOps Engineer Nanodegree를 최근에 수료했다. 수강료 할인과 좋은 기회가 있어 수강하기 시작했는데, 중간에 사정이 있어 잠시 수강을 멈췄다가 최근에야 프로젝트를 완료하면서 수료할 수 있게 되었다. MLOps에 관심이 많은 분들은 해당 강의에 대해 궁금하실 것 같아, 강의 컨텐츠와 후기를 정리해보고자 한다.
 강의 컨텐츠 이 강의는 MLOps에 대한 기초를 다루고 있는 만큼, 파이썬은 물론이고 데이터사이언스와 머신러닝 프로젝트에서 자주 사용하는 라이브러리인 Pandas, Numpy, Scikit-Learn 등이 익숙한 사람들을 대상으로 한다.</description>
     </item>
     
     <item>
       <title>[KR] 머신러닝 추론 시스템 패턴</title>
-      <link>https://lucaseo.github.io/posts/2022-07-22-inference-system-pattern/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-07-22-inference-system-pattern/</link>
       <pubDate>Fri, 22 Jul 2022 21:10:24 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-07-22-inference-system-pattern/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-07-22-inference-system-pattern/</guid>
       <description>0. 머신러닝 추론 시스템이란 최근 머신러닝 모델을 서비스하기 위한 파이프라인을 구축하는 프로젝트를 진행하게 되었다. 경험 없이 밑바닥에서부터 시작하는 입장이었기 때문에 프로젝트를 본격적으로 진행하기에 앞서 여러가지 케이스를 분석하고 참고하는 시간을 가져보았다. 그 과정의 일환으로, 이번 글에서는 머신러닝 파이프라인의 한 부분을 담당하는 추론 시스템(ML inference system)에 대해 간단히 정리해보았다.
 머신러닝 추론 시스템은 학습된 머신러닝 모델을 불러와 실제 데이터에 대한 추론 결과를 사용자에게 제공하는 기능을 한다. 추론시스템은 누군가가 실제로 머신러닝 모델 프로덕트를 사용한다. 따라서, 머신러닝에서 우리가 익숙한 [데이터수집 -&amp;gt; 데이터정제 -&amp;gt; 모델링 -&amp;gt; 학습 -&amp;gt; 성능평가 -&amp;gt; 실험반복]의 패턴과는 확연히 다르며, 다양한 관점에서 고려해야할 부분들이 생긴다.</description>
     </item>
     
     <item>
       <title>[KR] 책 리뷰 : 핸즈온 데이터 시각화</title>
-      <link>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</link>
       <pubDate>Tue, 19 Jul 2022 23:25:29 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-07-19-book-reivew-hands-on-data-visualization/</guid>
       <description>핸즈온 데이터 시각화 (저자: 잭 도허티, 일리야 일라얀코우)
   추천하는 대상:
  시각화를 업무에 자주 사용하는 분  한줄평: 데이터시각화를 위한 교과서적인 책이며, 중요한 개념인만큼 차근차근 짚어나간다.
@@ -99,10 +99,10 @@
     
     <item>
       <title>[KR] 책 리뷰 : 기업의 성공을 이끄는 Developer Relations</title>
-      <link>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-06-23-book-review-developer-relations/</link>
       <pubDate>Thu, 23 Jun 2022 21:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-06-23-book-review-developer-relations/</guid>
       <description>기업의 성공을 이끄는 Developer Relations (저자: 메리 셍발)
   추천하는 대상:
  Developer Relations라는 용어가 궁금하신 분 기술을 사랑하고 커뮤니티 활동에도 관심이 많으신 분 오픈소스 활동에 관심 있으신 분  한줄평: 한국에서 DevRel 에 대한 인식과 활동 무대가 더욱 커질 수 있는 시작점이 될 책
@@ -111,10 +111,10 @@
     
     <item>
       <title>[KR] 머신러닝 파이프라인 개념 정리</title>
-      <link>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</link>
       <pubDate>Sun, 12 Jun 2022 08:34:26 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-06-12-intro-ml-pipeline/</guid>
       <description>어떠한 일련의 작업들을 순서대로 묶어 위험요소나 외부의 개입을 최소화하고 자동으로 실행하고자 할 때 파이프라인을 구축한다.
 파이프라인의 개념이 적용되지 않은 머신러닝 프로젝트는 결과물을 얻기 위한 과정의 자동화와 재사용성이 확보되지 않기 때문에 일회성 PoC에 그칠 가능성이 높다.
 머신러닝 파이프라인이라는 개념은 머신러닝 모델을 학습하고, 재사용하며, 필요한 자원들을 관리하고 배포하는 일련의 과정을 표준화하고 자동으로 동작할 수 있도록 하기 위해 논의 되기 시작했다.
@@ -123,10 +123,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 책 리뷰 : MLOps 도입가이드</title>
-      <link>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</link>
       <pubDate>Sat, 28 May 2022 08:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-05-28-book-review-introducing-mlops/</guid>
       <description>MLOps 도입 가이드 (저자: 데이터이쿠)
   추천하는 대상:
  MLOps를 도입하기 위한 고민을 하는 분  한줄평: 머신러닝 모델을 배포하는 것은, 잘 돌아가는 걸 확인하는 하나의 단계일 뿐, 그 외 해야할 일은 많다.
@@ -135,20 +135,20 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 글또 7기를 시작하며</title>
-      <link>https://lucaseo.github.io/posts/2022-05-14-init-geultto-7/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-05-14-init-geultto-7/</link>
       <pubDate>Sat, 14 May 2022 21:57:47 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-05-14-init-geultto-7/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-05-14-init-geultto-7/</guid>
       <description>오래간만에 다시 글또 활동을 시작하며 몇 개월 만에 새로운 글또 기수가 시작이 되었다. 이번 기수에도 크게 고민하지 않고 신청을 했는데, 지난 3번의 글또 활동을 시작할 때와 달리, 이번에는 시작을 앞둔 각오가 조금은 다른 것을 느끼고 있다.
 이번에는 너무 잘 하려고 하지 않으려고 한다. 과거에는 회사에서의 일, 퇴근 후 개인 공부, 글또 등등 성장과 관련된 부분들은 전부 다 잡고 싶고 잘 하려고 했던 것 같다. 의욕만 과다했던 탓일까, 때로는 번아웃이 오기도 했고, 스스로 생각해도 퀄리티가 높지 않았지만 데드라인에 맞춰서 그냥 낸 적도 있다.</description>
     </item>
     
     <item>
       <title>[KR] 책 리뷰 : 시멘틱 데이터 모형화</title>
-      <link>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</link>
       <pubDate>Sun, 24 Apr 2022 08:59:02 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-04-24-book-review-semantic-data-modeling/</guid>
       <description>머신 러닝 파워드 애플리케이션 (저자: 파노스 알렉소풀로스)
   추천하는 대상:
  데이터 모델을 개발하거나 체계를 구축하는 업무를 하시는 분  한줄평: 데이터는 금가루가 박혀있는 원석. 시맨틱 데이터 모델링은 원석을 정제해서 금가루를 모아 금괴로 만드는 기술.
@@ -157,10 +157,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 책 리뷰 : 머신러닝 파워드 애플리케이션</title>
-      <link>https://lucaseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</link>
       <pubDate>Sun, 27 Mar 2022 13:28:10 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-03-27-book-review-ml-powered-application/</guid>
       <description>머신 러닝 파워드 애플리케이션 (저자: 에마뉘엘 아메장)
   추천 대상:
  머신러닝이 적용된 제품을 만들고자 하는 분 머신러닝 엔지니어로 취업/이직하고자 하는 분  한줄평: 데이터 수집, 전처리, 학습 &amp;hellip; 이제 이걸 가지고 뭘 하지?
@@ -169,20 +169,20 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 책 리뷰 : 금융 전략을 위한 머신러닝</title>
-      <link>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</link>
       <pubDate>Sun, 20 Feb 2022 14:26:18 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-02-20-book-review-ml-ds-blueprint-finance/</guid>
       <description>금융 전략을 위한 머신러닝 (저자: 하리옴 탓샛, 사힐 푸리, 브래드 루카보)
    추천 대상: 금융업계에 종사하는 PM / 기획자 / 소프트웨어 개발자 한줄평: 무엇을 좋아할 지 몰라서 다 준비해봤어  금융 서비스를 위한 머신러닝? 2022년 현재 머신러닝과 데이터사이언스는 커머스, 소셜, 스포츠 등 수많은 분야에서 각자 필요한 영역을 찾아 적용되어지고 있다. 머신러닝을 직접적으로 개발에 관여하지 않는 부서의 사람들이 봤을 때는 크게 단순히 사람의 노동을 대체할 수 있는 자동화의 측면이거나, 혹은 더 나아가 인간의 역량으로는 쉽게 할 수 없던 작업을 할 수 있는 알고리즘을 만드는, 이렇게 2가지로 인식된다.</description>
     </item>
     
     <item>
       <title>[KR] 2021년이 지났다.</title>
-      <link>https://lucaseo.github.io/posts/2022-01-01-review-2021/</link>
+      <link>https://wonyoungseo.github.io/posts/2022-01-01-review-2021/</link>
       <pubDate>Sat, 01 Jan 2022 21:30:35 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2022-01-01-review-2021/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2022-01-01-review-2021/</guid>
       <description>20년 당시 회고글을 돌아보니, 키워드 별로 정리해놓은 포맷이 나쁘지 않은 것 같아 이번에도 같은 포맷으로 회고를 해보고자 합니다.
 &amp;amp;nbsp
 올해의 키워드 1. 올해의 고난 (자세히 기술하지는 못 합니다) 회사에서 기존에 맡고 있던 업무의 비즈니스 모델(BM)이 올해 중반을 기점으로 전혀 예상하지 못 했던 방향으로 계획을 변경되면서 개인적으로는 하반기가 참 힘이 들었습니다. 모든 팀원들이 한번도 경험해보지 못 한 “처음 해보는 일”을 짧은 시간 내 해내야하는 프로젝트가 시작이 되었습니다. 이로 인해 기존에 계획되었던 것보다 더 급하게 자회사가 설립되고, 짧은 시간동안 많은 외부 인사 영입이 이루어졌습니다.</description>
@@ -190,10 +190,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 책 리뷰 : 빅데이터 시대, 성과를 이끌어내는 데이터 문해력</title>
-      <link>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-11-21-book-review-data-literacy/</link>
       <pubDate>Sun, 21 Nov 2021 23:48:43 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-11-21-book-review-data-literacy/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-11-21-book-review-data-literacy/</guid>
       <description>빅데이터 시대, 성과를 이끌어내는 데이터 문해력 (저자: 카시와기 요시키)
    추천 대상: &amp;ldquo;데이터를 들여다보면 되지 않을까?&amp;rdquo; 하는 분들 한줄평: 데이터에는 답이 없다고? 데이터에서 답을 찾으려던거 아니었어?  데이터 문해력 Data Literacy 데이터, 2010년대 후반 들어 가장 많이 언급되는 단어가 아닐까 합니다. 이런 트렌드에 힘입어 데이터 문해력(Data literacy) 또한 많은 사람들이 관심을 가지고 있는 키워드라고 할 수 있습니다.
 데이터 문해력은 어떻게 정의 내릴 수 있을까요? &amp;ldquo;데이터가 쏟아져 흘러 넘치는 빅데이터 시대에 데이터를 읽고 무언가를 해석하는 능력&amp;quot;이라고 하면 알맞은 정답이 될 수 있을까요?</description>
@@ -201,10 +201,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] Hydra를 활용해서 Config 관리 효과적으로 해보자</title>
-      <link>https://lucaseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</link>
       <pubDate>Sun, 07 Nov 2021 01:54:43 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-11-07-hydra-for-machine-learning/</guid>
       <description>데이터 사이언스, 머신러닝 프로젝트를 수행하기 위해서는 다양한 파라미터를 실험하는 과정이 동반됩니다. 이번 글에서는 파라미터와 설정값을 간결하게 관리하고 사용할 수 있게 도와주는 Hydra에 대해 알아보도록 하겠습니다.
 1. Hydra란 Hydra는 페이스북에서 오픈소스로 공개한 프레임워크로, 어플리케이션에서 사용하는 여러가지 설정값을 관리할 수 있는 기능을 제공합니다.
 직접 사용해본 Hydra는 아주 명확한 특징을 가지고 있습니다.
@@ -213,10 +213,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] Streamlit 앱 정말 쉽게 배포하기 (ft. Streamlit Sharing)</title>
-      <link>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</link>
       <pubDate>Sat, 09 Oct 2021 21:39:13 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-10-09-intro-streamlit-sharing/</guid>
       <description>Streamlit은 파이썬 기반으로 웹어플리케이션을 개발할 수 있는 프레임워크입니다. 이번 포스팅에서는 Streamlit에서 제공하는 서비스를 통해 아주 쉽고 간단하게 내가 개발한 웹을 배포하는 방법에 대해 소개하고자 합니다.
 웹 어플리케이션 개발 &amp;hellip; 그 다음에는? 웹개발과 다소 거리가 먼 데이터분석가, 데이터 사이언티스트 분들에게 Streamlit은 분석 결과를 공유하거나, 학습한 모델을 제품으로 프로토타이핑 할 수 있는 아주 강력한 도구로 자리 잡았습니다.
 하지만 나 혼자만 보고 사용하면 무슨 소용일까요&amp;hellip;? (도발)
@@ -225,10 +225,10 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] MLOps: 무엇인가?</title>
-      <link>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</link>
       <pubDate>Sun, 26 Sep 2021 11:35:10 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-09-26-what-is-mlops/</guid>
       <description>Machine Learning Operations(MLOps)에 대한 주제로 공부하며 기초를 정리해보았습니다.
 1. ML VS Real-world ML 1.1. 학술, 연구, 대회, 개인 프로젝트에서의 머신러닝 프로젝트 일반적으로 머신러닝 프로젝트를 시작하거나 학술적인 연구를 하는 경우, 머신러닝 프로젝트는 아래와 같은 성향을 띄고 있음.
    source: Udacity
@@ -237,20 +237,20 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
     
     <item>
       <title>[KR] 주피터노트북만 써왔던 당신을 위한 클린코드 소개서</title>
-      <link>https://lucaseo.github.io/posts/2021-09-11-intro-clean-code/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-09-11-intro-clean-code/</link>
       <pubDate>Sat, 11 Sep 2021 11:01:54 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-09-11-intro-clean-code/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-09-11-intro-clean-code/</guid>
       <description>주피터노트북을 벗어나보자 데이터 분석 공부를 시작하는 분들 중 90% 이상은 주피터 노트북을 활용하는 데에서 출발하셨을 것입니다. 주피터 노트북은 데이터 분석 결과를 빠르게 확인할 수 있고 있다는 점에서 아주 간편하고 입문자들에게는 진입장벽이 낮은 도구입니다. 하지만 주피터노트북 형태의 코드는 정리가 되어있지 않으면 코드가 뒤죽박죽 섞일 수 있고, 재사용이 힘들어 유지보수를 하거나 협업을 하는 관점에서는 활용도가 매우 떨어집니다.
 이런 상황에서 기술적인 방법론이 아닌, 클린코드에 대한 감을 잡을 수 있도록 가이드 형식의 내용을 정리해보았습니다.</description>
     </item>
     
     <item>
       <title>[KR] Airflow 2.x 에서는 Task Group 씁시다</title>
-      <link>https://lucaseo.github.io/posts/2021-08-29-airflow2-task-group/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-08-29-airflow2-task-group/</link>
       <pubDate>Sun, 29 Aug 2021 01:43:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-08-29-airflow2-task-group/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-08-29-airflow2-task-group/</guid>
       <description>Airflow를 처음 알게 된 후, 이것 저것 찾아보는 중, 아래와 이미지를 접한 기억이 납니다.
 Source Airflow: a workflow management platform
 수많은 태스크들이 모여 복잡한 DAG를 이루는 파이프라인이 구축되어 있는데요, 처음에 언뜻 봤을 때는, 정말 그럴 듯하고 멋있어 간지나 보였습니다. 하지만, Airflow를 적극 도입하려고 하는 현재 시점에서 다시 생각해보니, 막상 저런 파이프라인을 전부 다 파악하고 관리할 상상을 하니까 결코 쉽지 않을 것 같다는 인상도 피할 수 없었습니다. 하지만 이런 고민은 Airflow2에서부터 도입된 Task Group의 도움을 받아 개선할 수 있을 것으로 보입니다.</description>
@@ -258,59 +258,59 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] Docker를 활용하여 Airflow 2.x 실행하기</title>
-      <link>https://lucaseo.github.io/posts/2021-08-15-airflow2-with-docker/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-08-15-airflow2-with-docker/</link>
       <pubDate>Sun, 15 Aug 2021 19:43:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-08-15-airflow2-with-docker/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-08-15-airflow2-with-docker/</guid>
       <description>작년 Airflow를 처음으로 실전에 적용하는 과정에서, 다양한 환경설정과 그에 따라 달라지는 데이터베이스 등 신경써야 할 부분이 많았고, 이러한 점 때문에 지식 전달은 물론 다른 동료들이 직접 사용하는데 진입장벽이 좀 생긴다는 점을 느낄 수 있었습니다. 마침 새로운 프로젝트부터는 Airflow 2.x 을 도입하기로 했고, 적용해야 되는 김에 Docker를 활용했습니다. 그리하여 이번 글에서는 Docker를 활용한 Airflow 2.x을 설치하는 과정와 방법을 정리합니다. 기존에 많이 알려진 Airflow와 Docker와 관련된 예제에는 puckel의 Airflow Docker Image가 많이 사용되었는데요, 이 이미지는 Airflow 1.</description>
     </item>
     
     <item>
       <title>[KR] 한 권으로 읽는 컴퓨터 구조와 프로그래밍 2-3장 : 조합논리,  순차논리</title>
-      <link>https://lucaseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</link>
       <pubDate>Sun, 08 Aug 2021 15:03:21 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-08-08-the-secrete-life-of-programs-revie-chp-0203/</guid>
       <description>한 권으로 읽는 컴퓨터 구조와 프로그래밍 (Jonathan E. Steinhart 저, 책만 사) 를 읽고 정리하는 요약 글입니다.
  2장 - 전자 회로의 조합 논리 2.0. 전자 회로의 조합 논리  컴퓨터는 2진법을 적용한 비트를 내부 언어로 사용함. 컴퓨터는 비트를 기반으로 새로운 비트를 표현하고 연산하는 불리언대수 또는 조합논리(combinatorial logic)을 통해 구현한 기능을 통해 동작함.  2.1. 논리 게이트  1960년대 개발된 논리 연산을 수행하는 회로. 간단하게 게이트라고도 함. 앞서 1장에서 다루었던 기본적인 부울대수의 연산을 수행하며, 이들의 결합으로 더욱 복합적인 기능을 구현할 수 있음.</description>
     </item>
     
     <item>
       <title>[KR] 글또 6기의 시작</title>
-      <link>https://lucaseo.github.io/posts/2021-07-30-init-geultto-6/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-07-30-init-geultto-6/</link>
       <pubDate>Fri, 30 Jul 2021 18:33:02 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-07-30-init-geultto-6/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-07-30-init-geultto-6/</guid>
       <description>다시 돌아온 글또 6기 지난 5월 글또 5기를 마친 시점에서 여러가지로 굉장히 지쳤었던 생각이 납니다. 잠시 그때로 기억을 거슬로 올라가보면, 코로나 시국으로 인해 심적 피로가 쌓여가는 것을 느끼고 있었고, 회사 일과 병행하고 있는 방송통신대 3번째 학기 과제와 기말고사가 겹쳐있었던 시점이었던 것 같습니다. 글또 활동을 통해서 쓴 포스팅의 퀄리티도 곤두박칠 치지 않았나 생각이 들었습니다. 그래서 다음 기수에는 참여할 수 있을지 스스로 의문이 들기도 했습니다. 그런데 다시 신청했네요. 또 속냐
 글또를 참여하는 이유 글또를 참여하는 분들마다 참여 동기와, 각자가 느끼는 글또의 매력은 다 다를 것입니다.</description>
     </item>
     
     <item>
       <title>[KR] 한 권으로 읽는 컴퓨터 구조와 프로그래밍 1장 : 컴퓨터 내부의 언어 체계</title>
-      <link>https://lucaseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</link>
       <pubDate>Sun, 25 Jul 2021 14:37:08 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-07-25-the-secrete-life-of-programs-revie-chp-01/</guid>
       <description>한 권으로 읽는 컴퓨터 구조와 프로그래밍 (Jonathan E. Steinhart 저, 책만 사) 를 읽고 정리하는 요약 글입니다.
  1장 - 컴퓨터 언어 체계 1.0. 컴퓨터의 언어  언어는 정보의 소통을 하기 위한 매개체 언어를 사용하기 위해서는 2가지가 필요함  인코딩: 어떠한 기호의 집합으로 변환, 기록되어야 함. 문맥: 의사소통의 당사자들이    1.1. 2진법 체계 1.1.1. 비트  비트(bit) 2진법을 사용하는 체계 참/거짓 (또는 다른 형식의 표현)을 기반으로 하는 비트를 사용하여 논리연산을 할 수 있음  1.</description>
     </item>
     
     <item>
       <title>[KR] 글또 5기를 마무리하며</title>
-      <link>https://lucaseo.github.io/posts/2021-05-02-reivew-geultto-5/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-05-02-reivew-geultto-5/</link>
       <pubDate>Sun, 02 May 2021 00:13:05 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-05-02-reivew-geultto-5/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-05-02-reivew-geultto-5/</guid>
       <description>글또 5기를 마무리하며 글또 5기의 활동이 곧 마지막이라는 알림을 보고 약간 당황했습니다. 5기를 언제부터 시작했는지도 약간 가물가물하던 차, 다시 한번 찾아보니 작년 11월이더라구요. 언제 부터 시작했는지조차 기억이 나지 않는 것을 보니 이번 기수 동안에는 참 개인적으로 정신이 없었다는 걸 새삼 느끼게 되었습니다. 그래도 희미한 기억을 되짚어가며 글또 5기의 되돌아보고자 합니다.
 돌아보기 5기의 시작 어느 직장이나 바쁜 시즌이 있듯이, 현재 일하고 있는 직장에서는 10~12월에 항상 무언가가 터지는 시즌입니다. 연말을 앞두고 쎄한 느낌이 들어서였을까요, 11월 초 글또 5기를 시작하면서 다짐글을 작성하지 않았습니다.</description>
     </item>
     
     <item>
       <title>[KR] 정규표현식 기본 개념과 파이썬 re 패키지</title>
-      <link>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-22-python-regex-basic/</link>
       <pubDate>Thu, 22 Apr 2021 23:40:28 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-22-python-regex-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-22-python-regex-basic/</guid>
       <description>1. 정규표현식이란 Regular Expression (또는 Regex)
  특정한 규칙을 가진 문자열의 집합을 표현하는 데 사용하는 형식 언어. (Wikipedia)
  2. 정규표현식의 구조 /PATTERN/FLAG
@@ -319,10 +319,10 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] Docker Image 개념</title>
-      <link>https://lucaseo.github.io/posts/2021-04-21-docker-image-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-21-docker-image-basic/</link>
       <pubDate>Wed, 21 Apr 2021 23:16:41 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-21-docker-image-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-21-docker-image-basic/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  Docker Image - 도커는 레이어드 파일 시스템 기반
  도커 이미지는 프로세스가 실행되는 파일들의 집합 또는 환경이라고 할 수 있음 프로세스가 실행되면 발생하는 파일들에 대한 변경을 이미지에 쌓는 것  Image  이미지는 두가지로 나뉠 수 있음  읽기전용 Only Read 쓰기가능 Writable   Base Image  읽기 전용 수정할 수 없음 대신 해당 이미지 위에 또 다른 층을 추가할 수 있음    예시 1) docker commit을 통해 이미지 만들기 우분투 베이스 이미지에 Git을 설치하여 새로운 이미지로 저장하기</description>
@@ -330,30 +330,30 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] Docker Compose 개념</title>
-      <link>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-15-docker-compose-basic/</link>
       <pubDate>Thu, 15 Apr 2021 02:12:21 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-15-docker-compose-basic/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-15-docker-compose-basic/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  Docker Compose Docker Compose란  지금까지는 도커에서 개별의 명령어를 쳐서 이미지를 다운로드하고 컨테이너를 띄우는 과정을 거쳤음 도커 명령어를 통한 작업은 실수가 발생할 수 있는데, 도커 컴포즈는 이 문제를 해결할 수 있는 간결한 방법을 제시함 도커 컴포즈는 띄우려고 하는 복수의 컨테이너에 대한 사항을 Yaml(야믈)파일에 정리하여, 한번에 실행시키는 방식으로 동작함.  Docker Compose 설치   도커 컴포즈는 기본적으로 docker for mac을 설치할 때 함께 설치됨 (리눅스의 경우 그러하지 않기 때문에 따로 설치가 필요함)</description>
     </item>
     
     <item>
       <title>[KR] Docker 기본 명령어</title>
-      <link>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-04-11-docker-basic-commands/</link>
       <pubDate>Sun, 11 Apr 2021 23:53:30 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-04-11-docker-basic-commands/</guid>
       <description>본 포스트는 인프런: 초보를 위한 도커 안내서 강의를 수강하며 정리한 내용입니다.
  1. 도커의 기본적인 명령어 ls (또는 ps)  docker container ls (= docker ps)  실행 중인 컨테이넝   docker container ls -a  실행이 중지된 컨테이너까지 출력    stop docker stop [OPTIONS] CONTAINER [CONTAINER ... ]  실행 중인 컨테이너를 중지하는 명령어 실행 중인 컨테이너를 복수로 중지시킬 수도 있음  rm docker rm [OPTIONS] CONTAINER [CONTAINER .</description>
     </item>
     
     <item>
       <title>[KR] 파이썬 기반 데이터 QC 툴 개발기(근데 이제 또 Streamlit을 곁들인)</title>
-      <link>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</link>
       <pubDate>Sat, 06 Mar 2021 13:07:17 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-03-06-streamlit-simple-tool-development/</guid>
       <description>이번 포스트에서는 현재 일하고 있는 Who&amp;rsquo;s Good에서 웹어플리케이션 기반의 간단한 툴을 개발한 과정을 기술합니다. 자세한 사내 업무 내용은 생략하며, 유사한 상황 및 시나리오로 대체했음을 밝힙니다.
  &amp;amp;nbsp
 1. Quality Check (QC) 현재 일하고 있는 Who&amp;rsquo;s Good에서는 뉴스 기사를 기반으로 기업의 *ESG 리스크를 평가합니다. 모델을 통해 산출된 결과에 대해서는 꼭 검토 및 검증 프로세스를 거치는데요, 산출된 결과값이 정답인지 아닌지 여부를 확인하는 과정이고, Quality Check 또는 줄여서 QC라고 합니다. 주로 ESG 도메인의 전문가인 ESG 리서쳐 또는 QC 스태프가 이 과업을 수행합니다.</description>
@@ -361,29 +361,29 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 트리(Tree)</title>
-      <link>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</link>
       <pubDate>Mon, 01 Mar 2021 20:37:43 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-03-01-python-datastructure-tree-bst/</guid>
       <description>1. 트리의 개념 1.1. 트리의 정의  노드와 브랜치를 활용하여 구성한 데이터 구조  1.2. 트리와 관련된 용어 트리 관련 용어  노드(Node)  데이터를 저장하는 기본 요소 다른 노드와 연결되는 브랜치에 대한 정보도 포함   브랜치(Branch)  상위 노드와 하위 노드를 연결하는 가지   루트노드(Root Node)  트리 최상단에 위치한 최상위 노드   레벨(Level)  최상위 노드를 Level 0이라고 할 때, 특정 레벨에 위치한 노드의 집합   부모 노드(Parent Node)  상위 노드   자식 노드(Child Node)  하위 노드   단말 노드(Leaf Node)  하위 노드가 없는 노드   형제 노드(Sibling Node)  동일한 부모 노드를 가진 노드   깊이(Depth)  루트에서 어떤 노드에 도달하기 위해 거쳐야 하는 간선의 수   크기(Size)  자신을 포함한 모든 자식노드의 개수   높이(Height)  하위 트리 개수 / 간선 수 (degree) = 각 노드가 지닌 가지의 수   노드의 차수(Degree of Node)  각 노드가 지닌 가지의 수   트리의 차수(Degree of Tree)  트리의 최대 차수    트리의 종류  이진 트리 vs 이진 탐색 트리  이진 트리(Binary Tree)  노드의 최대 브랜치가 2개인 트리   이진 탐색 트리(Binary Search Tree: BST)  왼쪽 노드는 해당 노드보다 작은 값, 오른쪽 노드는 해당 노드보다 큰 값을 가지는 조건이 적용된 이진트리      1.</description>
     </item>
     
     <item>
       <title>[EN] SQL Practice : select</title>
-      <link>https://lucaseo.github.io/posts/2021-02-28-sql-practice-select/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-28-sql-practice-select/</link>
       <pubDate>Sun, 28 Feb 2021 12:08:24 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-28-sql-practice-select/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-28-sql-practice-select/</guid>
       <description>SQL Practices - SELECT Practices set resources are referenced from w3resource.com
  SQL Exercises, Practice, Solution - Retrieve data from tables SQL Exercises, Practice, Solution - Using Boolean and Relational operators All practice set and answers are written in PostgreSQL   Sample Tables salesman    salesman_id name city commission     5001 James Hoog New York 0.15   5002 Nail Knite Paris 0.13   5005 Pit Alex London 0.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 해시 테이블(Hash Table)</title>
-      <link>https://lucaseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</link>
       <pubDate>Fri, 19 Feb 2021 00:01:45 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-19-python-datastructure-hash-table/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 해쉬 테이블 (Hash Table) 1.1. 해쉬 테이블의 구조   키(Key)에 데이터(Value)가 매핑되어 저장되어 있는 구조
  Key를 통해 데이터를 바로 받아올 수 있으므로, 속도가 빠름 파이썬에서는 딕셔너리(Dictionary)가 해쉬 테이블의 예시.  dict = {&amp;#34;key&amp;#34;: &amp;#34;value&amp;#34;}   1.2. 해쉬 테이블의 용어  해쉬(Hash)  임의의 값을 고정된 길이로 변환하는 것   해쉬 테이블(Hash Table)  Key값의 연산에 의해 직접 접근이 가능한 데이터 구조   해싱 함수(Hashing Function)  Key에 대해 특정 산술 연산을 이용하여 데이터의 위치(해쉬 주소)가 리턴되는 함수   해쉬 값(Hash Value) 또는 해쉬 주소(Hash Address)  Key를 해싱 함수로 연산하여 얻는 값 Key를 해싱 함수로 연산하여 해쉬 값이 데이터의 위치.</description>
@@ -391,30 +391,30 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] 알고리즘 복잡도</title>
-      <link>https://lucaseo.github.io/posts/2021-02-10-complexity/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-10-complexity/</link>
       <pubDate>Wed, 10 Feb 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-10-complexity/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-10-complexity/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 알고리즘 복잡도 1.1. 개념 1.1.1. 알고리즘 복잡도 계산이 필요한 이유  하나의 문제를 푸는 방법(알고리즘)은 다양할 수 있음. 여러가지 방법 중 어느 방법이 더 좋은지를 분석하기 위해 복잡도를 정의하고 계산함. 어느 것이 더 좋은 알고리즘인지 판단하는 기준이 됨.  1.1.2. 알고리즘 복잡도를 계산하는 방식  공간 복잡도 (space complexity)  알고리즘이 사용하는 메모리 사이즈   시간 복잡도 (time complexity)  알고리즘 실행 속도 특히, 시간 복잡도에 대한 이해는 필수    1.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 링크드 리스트(Linked List)</title>
-      <link>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</link>
       <pubDate>Mon, 01 Feb 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-02-01-python-datastructure-linked-list/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  1. 링크드 리스트 : Linked List 의 개념 1.1. 링크드 리스트의 구조  데이터와 데이터 사이를 화살표로 연결하여 관리하는 데이터 구조. 배열(Array)와의 차이점  1.2. 링크드 리스트와 배열(Array)와 차이점  배열 : 번호가 붙여진(인덱싱이 된) 칸에 원소들을 채워 넣어 관리함. 링크드 리스트: 각 원소들을 줄줄이 엮어서 관리함.  1.2.1. 배열과 링크드 리스트의 비유적 비교 (출처: 생활코딩)  메모리라는 개념을 우리는 건물에 비유할 수 있을 것 같습니다.</description>
     </item>
     
     <item>
       <title>[KR] 자료구조 &amp; 알고리즘 : 배열(array), 큐(queue), 스택(stack)</title>
-      <link>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</link>
       <pubDate>Wed, 27 Jan 2021 14:29:33 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-01-27-python-datastructure-array-que-stack/</guid>
       <description>애매모호하게만 알고 있는 자료구조를 다시 공부하고 정리하는 포스트입니다. 잘 못 이해하고 있는 부분이 있다면 주저없이 지적 부탁 드립니다 :)
  0. 자료구조? 알고리즘?  자료구조 Data Structure  대량의 데이터를 효율적으로 관리할 수 있는 데이터의 구조    &amp;amp;nbsp
  체계적인 데이터 구조화의 필요성  코드 상에서 효율적인 데이터 처리하기 위함 어떤 데이터 구조를 사용하느냐에 따라 효율이 달라짐.    &amp;amp;nbsp
@@ -423,10 +423,10 @@ Source Airflow: a workflow management platform
     
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(3) - 파이썬으로 음악 데이터 읽어오기</title>
-      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
       <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
       <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 GTZAN Dataset을 다운받아 음악 파일을 하나 선택했습니다.
 그리고 Librosa는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
 ( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
@@ -435,10 +435,10 @@ import warnings warnings.filterwarnings(action=&amp;#39;ignore&amp;#39;) import 
     
     <item>
       <title>[KR] 2020년 하반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-12-31-review-2020-2nd-half/</link>
       <pubDate>Thu, 31 Dec 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-12-31-review-2020-2nd-half/</guid>
       <description>2020년 올해는 &amp;hellip; &amp;amp;nbsp
 1. 올해의 가장 큰 변화 재택근무
 COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미해질 때쯤, 줄지 않는 확진자수에 결국 재택근무가 주기적으로 자리잡게 되었습니다. 사실 나는 개인적으로 재택근무가 별로라고 생각합니다. 집에서는 집중이 안 되기도 하고, 점심을 제 돈으로 해결해야 합니다. 집에서는 의자도 불편한데 새 의자를 사자니 가격이 만만치 않습니다. 재택근무를 원활하기 하기 위한 문화가 정착이 되지 않다보니, 으레 팀원들끼리 커뮤니케이션도 덜하게 되고 일하다가도 뭔지 모를 답답함을 느끼기도 했습니다.</description>
@@ -446,10 +446,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(2) - Fourier Transform, MFCC</title>
-      <link>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</link>
       <pubDate>Sat, 26 Dec 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-12-26-understanding-audio-data-techniques/</guid>
       <description>이번 포스트에서는 소리의 파형을 분석하기 위해 사용되는 기법인 푸리에 변환과 특징 추출값으로 사용되는 MFCC의 개념에 대해서 알아보겠습니다.
 1. 소리는 주파수의 합산    Piano in Waveform   &amp;amp;nbsp
 위의 이미지는 실제 피아노 소리 파일을 파형(waveform) 형태로 시각화 한 것입니다. 간단한 피아노 소리이지만 매우 복잡한 파형을 그리고 있는 것을 볼 수 있는데요. 사실 우리가 흔히 들을 수 있는 이러한 &amp;ldquo;소리&amp;quot;라는 것은 각기 다른 단일 주파수를 가진 무수히 많은 정현파(sinewave)가 합산되어 형성된 것입니다.</description>
@@ -457,10 +457,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(1) - Waveform, ADC</title>
-      <link>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</link>
       <pubDate>Sun, 13 Dec 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-12-13-understanding-audio-data-sound-waveform-adc/</guid>
       <description>1. 소리 데이터란 소리는 다음 과정에서 생산된 것을 의미합니다.
  (1) 어떠한 물체 또는 매질(object)의 진동(vibration)으로 인해 공기 입자들이 밀고 당겨지는 반복적인 과정(oscilation)에서 생긴 파동(wave) (2) 공기의 압력이 낮아지면 빈 공간이 생기면서 다른 입자들로 채워지고, 압력이 높아지만 입자들을 밀어내는, 밀고 당기는 반복적인 연쇄 작용(oscillation)으로 인해 생기는 파동(wave)  그리고 위에서 정의한 파동은 아래와 같은 파형(waveform)으로 나타낼 수 있습니다.
    &amp;amp;nbsp
@@ -469,19 +469,19 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] fastpages에서 블로그 시작하기</title>
-      <link>https://lucaseo.github.io/posts/2020-11-29-fastpages/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</link>
       <pubDate>Sun, 29 Nov 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-11-29-fastpages/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-11-29-fastpages/</guid>
       <description>항상 내 맘 같지 않은 기술 블로그 개발이 비교적 익숙하지 않은 데이터분석가 또는 데이터사이언티스트가 Github Pages를 활용하여 기술블로그를 운영하기 위해서는 몇 가지 난관이 있습니다. 자료를 찾아보면 주로 Jekyll, Hugo, Hexo, Gatsby.JS 와 같이 낯설고 어려운 프레임워크을 사용해야 합니다. 튜토리얼은 간신히 따라갔다 하더라도, 기존의 테마를 내 입맛에 맞게 커스터마이징을 하거나 기능을 추가하기 위해서는 html, CSS 또는 NodeJS 같은 프레임워크를 알아야 합니다. 마음에 드는 테마가 있어도, 오랜 기간 관리가 되지 않아 Latex 엔진이 제대로 작동하지 않는 경우가 생기기도 하죠.</description>
     </item>
     
     <item>
       <title>[KR] 2020년 상반기가 지났다</title>
-      <link>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-08-02-review-2020-1st-half/</link>
       <pubDate>Sun, 02 Aug 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-08-02-review-2020-1st-half/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-08-02-review-2020-1st-half/</guid>
       <description>한 게 뭐 있다고 벌써 8월이야 시간은 정말 경이로울 정도록 빨리 간다. 사실 상반기에 대한 회고글도 6월이 지난 직후 작성했어야 했는데, 순식간에 8월이 되어, 더 늦기 전에 작성해야겠다는 생각이 들었다. 한살 한살 더 먹어갈 수록 &amp;ldquo;주춤&amp;quot;하면 시간은 이미 지나있더라&amp;hellip; 이번 6개월은 잘 살았는지 잘 모르겠다. 한번 알아보자.
 &amp;amp;nbsp
 누구나 그럴싸한 계획은 있다. OOO 전까지는 난 이런 일을 하겠노라 생각했던 시기가 있었다.
@@ -490,29 +490,29 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 데이콘 원자력발전소 상태 판단 대회 후기</title>
-      <link>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</link>
       <pubDate>Sun, 05 Jul 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-07-05-review-dacon-nuclear-competition/</guid>
       <description>연초, 의욕으로 가득하던 시기에 지인의 권유로 데이콘(Dacon.io)에서 주관하고 한국수력원자력에서 주최한 원자력발전소 상태판단 경진대회에 참가하게 되었다. 지인의 지인도 합류하여 팀은 총 3인으로 구성되었다. 하지만 개개인의 일정과 생업으로 인해서 진행은 각자 하되, 진행사항이나 인사이트 등은 수시로 공유하고, 제출은 팀의 이름으로 제출하는 형식으로 진행되었다. (초기의 으쌰으쌰하던 분위기와 달리 흐지부지된 감이 없잖아 있었다. 팀당 제출횟수가 하루 3회로 제한되었기 때문에, 이럴 줄 알았으면 애초에 각자의 이름으로 혼자 해도 됐겠다 싶기도 했다. 하지만 결과론적인 총평이기 때문에 패스)</description>
     </item>
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Wagon Wheel Effect &amp; Aliasing</title>
-      <link>https://lucaseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</link>
       <pubDate>Sat, 20 Jun 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-06-20-dsp-basic-s01-9/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Wagon Wheel Effect 빠르게 회전하는 바퀴나 물체를 보면 처음에는 반시계 방향으로 회전하는가 싶더니, 어느 순간부터 반대로 시계방향으로 회전하는 것 같은 환영을 볼 수 있다. 아니면 분명히 바퀴는 빠르게 회전하는데, 느리게 회전하는 것처럼 보일 때도 있다. 바로 undersampling과 alias 로 인해 발생하는 현상인데, 명칭은 Wagon Wheel Effect(마차바퀴현상)라 한다.</description>
     </item>
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: 나이퀴스트 샘플링 법칙 (Nyquist Sampling Theorum)</title>
-      <link>https://lucaseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</link>
       <pubDate>Sun, 07 Jun 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-06-07-dsp-basic-s01-8/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt;를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Nyquist-Shannon Sampling Theorem 신호처리에서 Oversampling과 undersampling을 방지하고도, 여전히 신호를 잘 표현할 수 있는 sampling rate(샘플링주기)는 어떻게 선택할 수 있을까? 샘플링 주기는 주로 나이퀴스트-섀넌 샘플링 법칙(Nyquist-Shannon Sampling Theorum)를 따른다.
 이 샘플링 법칙은 다음과 같이 정의된다.
@@ -521,39 +521,39 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 추천시스템의 평가 지표 : nDCG</title>
-      <link>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</link>
       <pubDate>Sun, 10 May 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-05-10-normalized-discounted-cumulative-gain/</guid>
       <description>Precision, Recall 기반의 평가 방법의 한계 앞서 다루었던 MAP(Mean Average Precision)과 같은 추천시스템 평가 지표는 Precision, Recall을 기반으로 우선순위를 반영한 성능 평가 방법을 제시했다. MAP는 추천된 리스트 중 상위 K개에 대한 관련 여부가 명확하게 주어졌을 때 평가 지표로 사용될 수 있다. 하지만 관련(relevence) 여부가 명확하지 않거나, 관련 여부를 이분법으로 표현하지 않는 경우에는 적절하지 않다.
 당장 떠오르는 예로는 넷플릭스와 왓챠가 생각이 난다. 넷플릭스의 경우 사용자가 컨텐츠에 대해 [좋다 vs 안좋다]로 평가를 내릴 수 있지만, 왓챠의 경우에는 유자가 0.</description>
     </item>
     
     <item>
       <title>[KR] 추천시스템의 평가 지표 : MAP</title>
-      <link>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-04-23-mean-average-precision/</link>
       <pubDate>Thu, 23 Apr 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-04-23-mean-average-precision/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-04-23-mean-average-precision/</guid>
       <description>추천 시스템의 평가 지표 &amp;hellip; ? 추천 시스템은 이름에서도 알 수 있듯, 어떤 사용자가 관심을 가질 법한 아이템을 추천하는 알고리즘이다. 추천 시스템의 성능은 어떻게 평가할 수 있을까? 추천시스템에 대해 깊게 생각하지 않았을 적에는 분류 문제에서 성능을 평가하는 것과 비슷하다고 생각했다. &amp;ldquo;사용자가 관심을 가질만한 아이템이 맞다 또는 아니다.&amp;quot; 를 측정한다면, 우리에게 익숙한 precision, recall 등으로 생각해볼 수도 있을 것 같다.
 하지만, 분류 성능 지표에서는 추천의 순서나 순위가 고려되지 않는다. (역시 어줍잖게 생각하면 안 돼 &amp;hellip;)</description>
     </item>
     
     <item>
       <title>[KR] Python으로 구글 스프레드시트 연동하기 (ft. gspread)</title>
-      <link>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</link>
       <pubDate>Sun, 12 Apr 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-04-12-python-spreadsheet-gspread/</guid>
       <description>0. Motivation Who&amp;rsquo;s Good에서는 ESG리서쳐와 분석가/개발자 간에 데이터를 주고 받는 일이 매우 빈번하다. 특히 기업 관련 뉴스 데이터와, 다양한 소스로부터 수집하는 ESG 관련 데이터에 대한 QC를 진행하고 결과를 DB에 적재하는 과정이 있다. 엑셀에서 작업한 데이터를 저장하고, 슬랙으로 전달하는 여러 단계와 여러 사람들을 거치다 보니 주고받은 파일명이 뒤죽박죽인 아주 원초(?)적인 문제부터, 데이터가 언제 업데이트 되었는지 추적이 불가능한 상황도 발생하면서 마음 한 켠에 찝찝함이 남아있는 나날이 계속 되었다. 언제 어디선가 불시에 문제가 생기지는 않을까 하는 두려움.</description>
     </item>
     
     <item>
       <title>[KR] Streamlit 웹 어플리케이션 배포하기 (feat. Heroku)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-29-deploy-streamlit-to-heroku/</guid>
       <description>Source: streamlit.io   Streamlit 배포하기 Streamlit의 주요 기능을 살펴보았던 지난 포스트에 이어, 이번 포스트에서는 Streamlit으로 만든 간단한 웹어플리케이션을 Heroku에 배포하는 과정을 다루어보고자 한다.
 &amp;amp;nbsp
  사전 준비사항 들어가기에 앞서 2가지 사전 준비 사항이 있다.
@@ -563,10 +563,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 파이썬 웹어플리케이션 맛보기 (feat. Streamlit)</title>
-      <link>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</link>
       <pubDate>Fri, 13 Mar 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-03-13-intro-to-streamlit/</guid>
       <description>Streamlit은 데이터사이언스/ML 프로젝트를 간단하게 배포할 수 있는 웹어플리케이션으로, 최근에 많은 관심을 받고 있습니다. 이번 포스트에서는 Streamlit의 간단한 소개와 기본 기능들을 훑어보겠습니다.
   2020-03-13-intro-to-streamlit/streamlit_logo.png &amp;ldquo;Source: streamlit.io&amp;rdquo;)    Source: streamlit.io   Streamlit 이란? Streamlit(스트림릿)은 2019년 하반기에 갑작스레 등장한(?) 파이썬 기반의 웹어플리케이션 툴이다. Medium 플랫폼에서 Streamlit이라는 키워드가 보이는 글이 추천되는 것을 자주 보게 되었는데, &amp;ldquo;데이터사이언스/머신러닝 프로젝트를 웹 어플리케이션에 배포&amp;quot;하는데 아주 편리한 툴이라는 설명이 눈길을 사로 잡았다.
 &amp;amp;nbsp
@@ -575,10 +575,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 글또 4기 다짐글</title>
-      <link>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-02-23-init-geultto-4th/</link>
       <pubDate>Sun, 23 Feb 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-02-23-init-geultto-4th/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-02-23-init-geultto-4th/</guid>
       <description>신년을 맞이하기 직전, 신년을 맞이한 직후 우리는 온갖 계획과 다짐을 세운다. 어느 시점에서부터인가 계획을 세우는 게 무의미하다고 생각이 들기도 했지만, 올해도 어김 없이 그럴 듯한 다짐을 해본다. 또 속아 넘어가는 기분이지만, 이번만큼은 다르다고 해두자.
  글또를 참여하게 됐다.    Source: 글또   &amp;amp;nbsp
 데이터 직군으로 취업을 한 이후로 많은 사람들이 그랬던 것처럼 나도 일하면서 필요하거나 막히는 것들에 대한 해결책을 능력자들의 블로그나 브런치, Medium과 같은 플랫폼을 통해 접하고 있다.</description>
@@ -586,10 +586,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Trigonomatry</title>
-      <link>https://lucaseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</link>
       <pubDate>Sat, 25 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-25-dsp-basic-s01-7/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   The Unit Circle : Trigonometry review unit circle(단위원)과 radian(라디안) Sine wave와 cosine wave를 설명하는 과정에서 단위원을 따라 회전하는 선의 길이와 움직임을 묘사했었다. 이 단위원의 둘레는 phase(위상)라고 하는데, X축과 회전하는 선이 이루는 각도라고 생각할 수 있다. 아니, 각도를 사용하지 않고 라디안(radians)을 사용하도록 하자.
 우리는 원의 둘레를 360도라고 배웠는데, 이번에는 2pi radians(라디안)이라고 불러보자(원의 둘레는 2pi라는 것도 배운 바 있다.</description>
@@ -597,10 +597,10 @@ COVID-19 방역에 다들 지쳐가고 서서히 경각심도 조금씩 희미�
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Sine Wave</title>
-      <link>https://lucaseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</link>
       <pubDate>Thu, 23 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-23-dsp-basic-s01-6/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Periodic Movement and the Circle Sine wave(사인파, 정현파)는, 어떠한 선이 원을 그리며 회전할 때의 모습으로 묘사할 수 있다. Sine wave는 회전하는 선과 Y축 수직의 길이가 밀접한 관계를 보인다.
 sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitude의 폭이 크고, 짧을 수록 amplitude의 폭이 작다.</description>
@@ -608,10 +608,10 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
     
     <item>
       <title>[KR] Pandas 1.0.0 : 바뀐 점을 ARABOJA</title>
-      <link>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-16-pandas-new-release/</link>
       <pubDate>Thu, 16 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-16-pandas-new-release/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-16-pandas-new-release/</guid>
       <description>Major Release !! Pandas 1.0.0 import pandas as pd로 우리에게 익숙한 Pandas. 데이터 분석을 위한 라이브러리라는 사실을 모르는 사람은 거의 없을 것이다. 하지만 부끄럽게도 나는 판다스의 버전조차 모른 상태로 여태껏 공식 문서와 Stackoverflow를 통해서만 사용하고 있었다. 마침 1월 9일 Pandas 1.0.0이 배포되었고, 이번 기회에 1.0.0에서 평소 자주 썼던 부분들을 위주로 중요한 업데이트들을 훑어보고 정리해보고자 한다.
  dataframe.info() 깔끔해진 DataFrame summary DataFrame 요약 기능이 조금 보기 좋은 형태로 개선되었다.
 다음과 같은 예제 DataFrame이 있다고 할 때,</description>
@@ -619,10 +619,10 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Timbre</title>
-      <link>https://lucaseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</link>
       <pubDate>Wed, 15 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-15-dsp-basic-s01-5/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Timbre Harmonics, Overtones, and Wave Shapes 물체가 반복적으로 패턴을 보이며 진동할 경우, 우리의 귀는 pressure wave(압력파)를 음조(tone)이나 음의 높이(pitch)로 해석한다. 반대로 물체의 진동이 반복적이지 않거나, 예측 불가한 패턴으로 진동할 경우 우리의 귀는 이를 소음(noise)나 조성이 없는 형태(atonal)로 받아들이게 된다.
 각기 다른 패턴의 진동은 곧 각기 다른 음색(timbre)으로 연결 된다.</description>
@@ -630,20 +630,20 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Sound Waves</title>
-      <link>https://lucaseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</link>
       <pubDate>Mon, 13 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-13-dsp-basic-s01-4/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Definition and Waves &amp;lsquo;사운드&amp;rsquo;란 공기나 물 같은 매질을 통해 전파되는 공기 압력의 파동이다. 어떤 물체가 진동을 하면 그 즉시 주변에 있는 입자들을 밀고 당기게 되는데, 이 입자들의 움직임과 압력으로 인해 이웃한 입자들로 퍼져나가거나, 빈 공간이 생기면서 압력이 낮아지고 주위의 다른 입자들이 당겨져 공간이 채워지는 움직임을 한다.</description>
     </item>
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Sampling &amp; Aliasing</title>
-      <link>https://lucaseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</link>
       <pubDate>Sun, 12 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-12-dsp-basic-s01-3/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   이산신호 해석하기 Don&amp;rsquo;t connect the dots! 이산신호를 다룰 경우, 섣불리 각 점을 이어 interpolation(보간법: 중간 값을 채워 넣음)을 해서는 안 된다. 지난 번 비행 고도의 예시를 들어 보자.
    &amp;amp;nbsp
@@ -652,10 +652,10 @@ sine wave의 amplitude로 볼 수 있다. 수직의 길이가 길 수록 amplitu
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: Discrete Signals</title>
-      <link>https://lucaseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</link>
       <pubDate>Sat, 11 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-11-dsp-basic-s01-2/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   Discrete Signals (이산 신호) Sampling and Signal Notation(샘플링과 신호의 표기)
 &amp;amp;nbsp
@@ -665,10 +665,10 @@ Sampling 어떠한 분량을 주기적으로 측정하는 행위를 샘플링(sa
     
     <item>
       <title>[KR] 비전공자의 DSP 맛보기 시즌 1: 신호란?</title>
-      <link>https://lucaseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</link>
       <pubDate>Fri, 10 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-10-dsp-basic-s01-1/</guid>
       <description>본 포스트는 Ableton사에서 소프트웨어 개발자로 재직 중인 Jack Schaedler님의 DSP 입문 자료 &amp;lt;strong&amp;gt;&amp;lt;em&amp;gt;Seeing Circles, Sines And Signals&amp;lt;/em&amp;gt;&amp;lt;/strong&amp;gt; 를 통해 공부하면서 다시 풀어서 정리한 내용입니다.
   신호란? Continuous(연속) VS. Discrete(이산)
  신호(signal)은 물리적 현상 및 행동을 묘사한다.  시간의 흐름에 따른 신호 → time-domain signal 시간에 흐름에 따라 바뀌는 것들의 예시  비행기의 고도 변화 도시의 온도 변화 자동차의 속도      &amp;amp;nbsp
@@ -677,10 +677,10 @@ DSP (digital signal processing) DSP는 real-world signal을 컴퓨터에서 측�
     
     <item>
       <title>[KR] 로컬 환경에 엘라스틱서치, 키바나 설치하기</title>
-      <link>https://lucaseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</link>
       <pubDate>Thu, 09 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-09-elasticsearch-kibana-local-env/</guid>
       <description>로컬 머신에서의 디렉토리 만들기 $ mkdir elasticstack $ cd elasticstack &amp;amp;nbsp
 01. Elasticsearch(엘라스틱서치) 설치 다운로드 Linux
 $ wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.1.tar.gz MacOS
@@ -693,10 +693,10 @@ Heap 사이즈 조정 $ cd ~ $ cd elastic/elasticsearch-6.6.1./config $ vi jvm.o
     
     <item>
       <title>[KR] 엘라스틱스택(Elastic Stack) 소개</title>
-      <link>https://lucaseo.github.io/posts/2020-01-05-elastic-stack/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-05-elastic-stack/</link>
       <pubDate>Sun, 05 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-05-elastic-stack/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-05-elastic-stack/</guid>
       <description>Elastic Stack이란 Elastic Stack 이란 모든 유형의 데이터(특히 비정형 데이터)를 저장, 실시간으로 검색, 분석 및 시각화 할 수 있도록 도와주는 Elastic의 오픈소스 서비스 제품이다. 기존에 Elasticsearch, Logstash, Kibana를 같이 묶어 ELK 라는 서비스명으로 제공하기 시작했고, 현재 Beats가 포함되어 Elastic Stack 혹은 ELK Stack이란 이름으로 서비스가 제공되고 있다.
 Elastic Stack의 구성    &amp;amp;nbsp
    종류 기능 특이점     Elasticsearch 데이터 검색, 분석, 저장    Kibana 데이터 시각화, 분석    Logstash 데이터 수집, 변환, 운송 데이터 처리 파이프라인.</description>
@@ -704,10 +704,10 @@ Elastic Stack의 구성    &amp;amp;nbsp
     
     <item>
       <title>[KR] 첫 포스팅</title>
-      <link>https://lucaseo.github.io/posts/2020-01-02-first-post/</link>
+      <link>https://wonyoungseo.github.io/posts/2020-01-02-first-post/</link>
       <pubDate>Thu, 02 Jan 2020 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2020-01-02-first-post/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2020-01-02-first-post/</guid>
       <description>꾸준히 하지 못 했지만, 꾸준히 해보려고 합니다. 시작이 반이니까요.</description>
     </item>
     

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>librosa on Wonyoung&#39;s Tech Blog</title>
-    <link>https://lucaseo.github.io/tags/librosa/</link>
+    <link>https://wonyoungseo.github.io/tags/librosa/</link>
     <description>Recent content in librosa on Wonyoung&#39;s Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Fri, 22 Jan 2021 14:24:01 +0900</lastBuildDate><atom:link href="https://lucaseo.github.io/tags/librosa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Jan 2021 14:24:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/librosa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[KR] ML/DL을 위한 소리 데이터 이해하기(3) - 파이썬으로 음악 데이터 읽어오기</title>
-      <link>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
+      <link>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</link>
       <pubDate>Fri, 22 Jan 2021 14:24:01 +0900</pubDate>
       
-      <guid>https://lucaseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2021-01-22-hands-on-preprocess-audio-data/</guid>
       <description>0. 데이터와 librosa 실제로 소리 데이터를 다뤄보기 위해서 음악 데이터를 준비하겠습니다. 음악 장르 분류 데이터셋으로 유명한 GTZAN Dataset을 다운받아 음악 파일을 하나 선택했습니다.
 그리고 Librosa는 오디오와 음악 분석을 위 빠질 수 없는 파이썬 패키지입니다. 음원이나 소리 파일을 불러와 waveform을 시각화 하거나 다른 형태로 변환할 수 있는 기능을 제공합니다.
 ( Librosa는 pip install librosa 명령어를 통해 설치할 수 있습니다. )
