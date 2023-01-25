@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI on Wonyoung&#39;s Tech Blog</title>
+    <link>https://wonyoungseo.github.io/tags/ci/</link>
+    <description>Recent content in CI on Wonyoung&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2023</copyright>
+    <lastBuildDate>Sun, 22 Jan 2023 01:19:27 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/ci/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Github Actions 개념</title>
+      <link>https://wonyoungseo.github.io/posts/2023-01-22-github-actions-concept/</link>
+      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2023-01-22-github-actions-concept/</guid>
+      <description>GitHub Actions는 CI (Continuous Integration: 지속적인 통합) 와 CD(Continouos Deployment: 지속적인 배포) 의 자동화를 지원하는 도구이다. CI/CD를 자동화 하는 일련의 작업들을 묶어 재사용하거나 공유할 수도 있다.
+해당 포스트에서는 GitHub Actions의 구성요소와 형태를 간략하게 정리한다.
+Actions 구성요소  Event (1)  깃헙에서 발생할 수 있는 대부분의 이벤트   Workflows (2)  이벤트가 발생했을 때 무엇이 어떤 순서로 수행될 지를 정의 Jobs (3)  Workflow를 구성하는 요소 각각의 Job 내부에서도 어떤 step이 수행되어야 하는지 순서를 설정할 수 있음 step은 shell script로 명시 (또는 Action을 사용할 수 있음) Action (4)  Job의 step을 이미 만들어진 Action을 사용하여 수행할 수 있음 Github 또는 3rd party에서 제공되는 것을 사용하면 됨   Runner (5)  VM Machine 또는 Docker container Job은 각각의 개별 Runner라는 컨테이너에서 실행됨        기본적인 형태 .</description>
+    </item>
+    
+  </channel>
+</rss>
