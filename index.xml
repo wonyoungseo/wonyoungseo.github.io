@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 22 Jan 2023 01:19:27 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Jan 2023 17:16:21 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 2022년이 지났다</title>
+      <link>https://wonyoungseo.github.io/posts/2023-01-24-review-2022/</link>
+      <pubDate>Tue, 24 Jan 2023 17:16:21 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2023-01-24-review-2022/</guid>
+      <description>왜인지 모르겠지만 2022년 12월 말에 벌써부터 2022년을 회고하고 싶지 않아서 회고를 질질 미뤘다. 대신 1월 동안 2023년에 대한 기대감을 구체화 하는 과정에서 2022년도 돌아보는 시간을 가졌다.
+2022년 기억나는 부분들을 키워드를 통해 되돌아보고, KSS(Keep / Stop / Start)을 통해 2023년을 기대해본다.
+올해의 키워드 올해의 총대 연초에 우리 회사의 조직문화에 대해 토론하고 비전, 미션, 밸류를 정하는 세션을 자주 가졌었지만. 5, 6월이 되었을 때 우리가 원했던 문화는 흔적도 없이 원상태로 돌아가있었다. 그래서 작게나마 우리회사의 조직문화에 기여 할 수 있는 방법을 스스로 찾아서 사내 북스터디를 만들었다.</description>
+    </item>
+    
     <item>
       <title>[KR] Github Actions 개념</title>
       <link>https://wonyoungseo.github.io/posts/2023-01-22-github-actions-concept/</link>

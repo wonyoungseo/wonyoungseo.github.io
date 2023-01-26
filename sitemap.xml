@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wonyoungseo.github.io/posts/2023-01-24-review-2022/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/blogging/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/blogging/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2023-01-24T17:16:21+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wonyoungseo.github.io/posts/2023-01-22-github-actions-concept/</loc>
     <lastmod>2023-01-22T01:19:27+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/actions/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/categories/</loc>
     <lastmod>2023-01-22T01:19:27+09:00</lastmod>
   </url>
   
@@ -34,21 +64,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/github/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/</loc>
     <lastmod>2023-01-22T01:19:27+09:00</lastmod>
   </url>
   
@@ -104,11 +119,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2022-10-15-reivew-geultto-7/</loc>
-    <lastmod>2022-10-15T00:13:05+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/categories/blogging/</loc>
     <lastmod>2022-10-15T00:13:05+09:00</lastmod>
   </url>
   
@@ -314,11 +324,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2022-01-01-review-2021/</loc>
-    <lastmod>2022-01-01T21:30:35+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/blogging/</loc>
     <lastmod>2022-01-01T21:30:35+09:00</lastmod>
   </url>
   
