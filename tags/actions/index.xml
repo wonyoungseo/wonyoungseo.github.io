@@ -15,8 +15,8 @@
       
       <guid>https://wonyoungseo.github.io/posts/2023-02-07-aws-ec2-deploy-github-actions/</guid>
       <description>지인의 선물로 받은 영화추천 웹서비스로 배우는 풀스택 을 훑어보던 중, Gitlab 배포를 자동화하는 부분을 보고, 이번 기회에 동일한 과정을 내가 익숙한 Github으로 따라해보고 Github Actions에 대해서도 찍먹 해보기로 했다.
- 0. 준비 사항 (1) 서버
- API 를 배포할 AWS EC2 인스턴스 EC2 인스턴스에 연결할 때 사용될 키페어 (.pem 파일) - RSA 유형으로 생성하여 다운로드 받자 (참고링크)  (2) GitHub 계정과 프로젝트를 관리할 repository
+ 0. 준비 사항   서버
+ API 를 배포할 AWS EC2 인스턴스 EC2 인스턴스에 연결할 때 사용될 키페어 (.pem 파일) - RSA 유형으로 생성하여 다운로드 받자 (참고링크)    GitHub 계정과 프로젝트를 관리할 Github Repository
  기본적으로 생성되는 main 브랜치와 별개로 deploy 브랜치를 생성해놓는다.</description>
     </item>
     
