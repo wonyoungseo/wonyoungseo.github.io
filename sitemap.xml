@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wonyoungseo.github.io/posts/2023-02-07-aws-ec2-deploy-github-actions/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/actions/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/cd/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/ci/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/devops/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/fastapi/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/github/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/github-actions/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</loc>
+    <lastmod>2023-02-06T20:35:39+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wonyoungseo.github.io/posts/2023-02-02-init-geultto-8/</loc>
     <lastmod>2023-02-02T23:42:42+09:00</lastmod>
   </url>
@@ -13,27 +78,7 @@
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/categories/</loc>
-    <lastmod>2023-02-02T23:42:42+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wonyoungseo.github.io/tags/geultto/</loc>
-    <lastmod>2023-02-02T23:42:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2023-02-02T23:42:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2023-02-02T23:42:42+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/</loc>
     <lastmod>2023-02-02T23:42:42+09:00</lastmod>
   </url>
   
@@ -49,36 +94,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2023-01-22-github-actions-concept/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/actions/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/cd/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/ci/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/categories/devops/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/github/</loc>
-    <lastmod>2023-01-22T01:19:27+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</loc>
     <lastmod>2023-01-22T01:19:27+09:00</lastmod>
   </url>
   

@@ -7,7 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 02 Feb 2023 23:42:42 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Feb 2023 20:35:39 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>actions</title>
+      <link>https://wonyoungseo.github.io/tags/actions/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CD</title>
+      <link>https://wonyoungseo.github.io/tags/cd/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/cd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CI</title>
+      <link>https://wonyoungseo.github.io/tags/ci/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/ci/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fastapi</title>
+      <link>https://wonyoungseo.github.io/tags/fastapi/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://wonyoungseo.github.io/tags/github/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github actions</title>
+      <link>https://wonyoungseo.github.io/tags/github-actions/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>깃허브</title>
+      <link>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</link>
+      <pubDate>Mon, 06 Feb 2023 20:35:39 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>geultto</title>
       <link>https://wonyoungseo.github.io/tags/geultto/</link>
@@ -23,51 +86,6 @@
       <pubDate>Tue, 24 Jan 2023 17:16:21 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/tags/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>actions</title>
-      <link>https://wonyoungseo.github.io/tags/actions/</link>
-      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/tags/actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CD</title>
-      <link>https://wonyoungseo.github.io/tags/cd/</link>
-      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/tags/cd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CI</title>
-      <link>https://wonyoungseo.github.io/tags/ci/</link>
-      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/tags/ci/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>github</title>
-      <link>https://wonyoungseo.github.io/tags/github/</link>
-      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>깃허브</title>
-      <link>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</link>
-      <pubDate>Sun, 22 Jan 2023 01:19:27 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/tags/%EA%B9%83%ED%97%88%EB%B8%8C/</guid>
       <description></description>
     </item>
     
