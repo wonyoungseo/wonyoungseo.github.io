@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cookiecutter on Wonyoung&#39;s Tech Blog</title>
+    <link>https://wonyoungseo.github.io/tags/cookiecutter/</link>
+    <description>Recent content in cookiecutter on Wonyoung&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2023</copyright>
+    <lastBuildDate>Wed, 15 Feb 2023 00:26:06 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/cookiecutter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Cookiecutter로 개발 프로젝트 템플릿 미리 만들어놓기</title>
+      <link>https://wonyoungseo.github.io/posts/2023-02-15-intro-cookiecutter/</link>
+      <pubDate>Wed, 15 Feb 2023 00:26:06 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2023-02-15-intro-cookiecutter/</guid>
+      <description>매번 반복되는 작업 지겨우셨죠? (홈쇼핑 쇼호스트 톤으로) 업무를 하다보면 프로토타입을 만들어 공유하는 일이 종종 있다. 개발하는 하는 과정도 시간이 소요되지만, 그에 못지 않게 시간이 소요되는 부분이 초기 설정이나 프로젝트 구조를 구성하는 일이다. 이 작업이 불가피하다는 것은 알고 있지만 꽤 아깝고 또 반복작업이라 답답하게 느껴지기도 했다.
+이번 포스트에서는 이런 고민을 상당 부분 해결하는 Cookiecutter에 대해서 다뤄보려고 한다. 특히 반복적인 프로토타입, 머신러닝 프로젝트, 모델 서빙 API 측면에서 아주 잘 사용할 수 있을 것 같다고 판단되어 내용을 정리해보았다.</description>
+    </item>
+    
+  </channel>
+</rss>
