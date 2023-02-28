@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Wed, 15 Feb 2023 00:26:06 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 15:04:54 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Review</title>
+      <link>https://wonyoungseo.github.io/categories/book-review/</link>
+      <pubDate>Tue, 28 Feb 2023 15:04:54 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/categories/book-review/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Dev</title>
       <link>https://wonyoungseo.github.io/categories/dev/</link>
@@ -32,15 +41,6 @@
       <pubDate>Thu, 02 Feb 2023 23:42:42 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/categories/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book Review</title>
-      <link>https://wonyoungseo.github.io/categories/book-review/</link>
-      <pubDate>Thu, 29 Dec 2022 16:31:07 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/categories/book-review/</guid>
       <description></description>
     </item>
     

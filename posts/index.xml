@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Wed, 15 Feb 2023 00:26:06 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Feb 2023 15:04:54 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] 책 리뷰 : 업무에 바로 쓰는 AWS 입문</title>
+      <link>https://wonyoungseo.github.io/posts/2023-02-28-book-review-intro-to-aws/</link>
+      <pubDate>Tue, 28 Feb 2023 15:04:54 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2023-02-28-book-review-intro-to-aws/</guid>
+      <description>요즘 구인공고를 보다보면 클라우드서비스에 능숙한 부분을 필수로 요구하는 곳들이 많아지는 것을 보면서, 현재 온프레미스 업무 환경에 안주하지 않고 클라우드를 따로 공부해야겠다는 생각이 들고 있다. AWS EC2만 조금 알고 있는 상태였는데, 좋은 기회에 한빛미디어에서 입문서인 업무에 바로 쓰는 AWS 입문 를 지원 받았다.
+   업무에 바로 쓰는 AWS 입문 (저자: 김성민)
+  업무에 바로 쓰는 AWS 입문 이 책은 AWS 클라우드 서비스를 처음 다루는 사람들에게 적합한 입문서이다. IAM, EC2, S3, Lambda, RDS, DynamoDB, ECR 같은 서비스를 소개하면서, 기본적인 AWS 아키텍처와 사용법을 설명해준다.</description>
+    </item>
+    
     <item>
       <title>[KR] Cookiecutter로 개발 프로젝트 템플릿 미리 만들어놓기</title>
       <link>https://wonyoungseo.github.io/posts/2023-02-15-intro-cookiecutter/</link>

@@ -3,12 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2023-02-15-intro-cookiecutter/</loc>
-    <lastmod>2023-02-15T00:26:06+09:00</lastmod>
+    <loc>https://wonyoungseo.github.io/posts/2023-02-28-book-review-intro-to-aws/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/book-review/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/%EC%97%85%EB%AC%B4%EC%97%90%EB%B0%94%EB%A1%9C%EC%93%B0%EB%8A%94aws%EC%9E%85%EB%AC%B8/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2023/</loc>
+    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2023-02-15-intro-cookiecutter/</loc>
     <lastmod>2023-02-15T00:26:06+09:00</lastmod>
   </url>
   
@@ -23,22 +58,7 @@
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2023-02-15T00:26:06+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wonyoungseo.github.io/tags/python/</loc>
-    <lastmod>2023-02-15T00:26:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2023-02-15T00:26:06+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/</loc>
     <lastmod>2023-02-15T00:26:06+09:00</lastmod>
   </url>
   
@@ -119,11 +139,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2022-12-29-book-review-nlp-with-huggingface/</loc>
-    <lastmod>2022-12-29T16:31:07+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/categories/book-review/</loc>
     <lastmod>2022-12-29T16:31:07+09:00</lastmod>
   </url>
   
