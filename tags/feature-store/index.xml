@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>feature store on Wonyoung&#39;s Tech Blog</title>
+    <link>https://wonyoungseo.github.io/tags/feature-store/</link>
+    <description>Recent content in feature store on Wonyoung&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2023</copyright>
+    <lastBuildDate>Sun, 26 Mar 2023 22:44:57 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/feature-store/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Feature Store 의 개념</title>
+      <link>https://wonyoungseo.github.io/posts/2023-03-26-introduction-feature-store/</link>
+      <pubDate>Sun, 26 Mar 2023 22:44:57 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2023-03-26-introduction-feature-store/</guid>
+      <description>MLOps 시스템에서 Feature Store는 빠지지 않는 구성 요소 중 하나이다. 하지만 여타 다른 구성요소들과는 달리 한번에 이해가 잘 되지 않아, 이번 기회에 개념을 정리해본다.
+Feature Store는 무엇인가? Feature Store는 머신러닝 모델 또는 데이터사이언스 프로젝트에 사용되는 Feature를 저장, 관리, 제공하는 중앙저장소 역할을 수행하기 위해 등장한 개념이다. Feature Store가 있음으로서 여러가지 모델에 사용되는 반복적인 Feature Engineering 작업을 줄이고, Feature들을 관리하고 추적할 수 있다.
+Feature Store는 왜 필요한가? 개인적으로 처음에는 잘 와닿지 않았다. 아마도 실무를 하던 각각의 ML엔지니어, 데이터사이언티스트들이 각자 담당하던 모델의 실험과 서비스의 PoC 단계의 업무만 해와서 그럴 수도 있었다.</description>
+    </item>
+    
+  </channel>
+</rss>

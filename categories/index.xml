@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Tue, 28 Feb 2023 15:04:54 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 22:44:57 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ml</title>
+      <link>https://wonyoungseo.github.io/categories/ml/</link>
+      <pubDate>Sun, 26 Mar 2023 22:44:57 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/categories/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MLOps</title>
+      <link>https://wonyoungseo.github.io/categories/mlops/</link>
+      <pubDate>Sun, 26 Mar 2023 22:44:57 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/categories/mlops/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Book Review</title>
       <link>https://wonyoungseo.github.io/categories/book-review/</link>
@@ -41,24 +59,6 @@
       <pubDate>Thu, 02 Feb 2023 23:42:42 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/categories/blogging/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ml</title>
-      <link>https://wonyoungseo.github.io/categories/ml/</link>
-      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/categories/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MLOps</title>
-      <link>https://wonyoungseo.github.io/categories/mlops/</link>
-      <pubDate>Sun, 04 Sep 2022 22:47:00 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/categories/mlops/</guid>
       <description></description>
     </item>
     

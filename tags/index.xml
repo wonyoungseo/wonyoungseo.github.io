@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Tue, 28 Feb 2023 15:04:54 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 22:44:57 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>feature store</title>
+      <link>https://wonyoungseo.github.io/tags/feature-store/</link>
+      <pubDate>Sun, 26 Mar 2023 22:44:57 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/feature-store/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>업무에바로쓰는AWS입문</title>
       <link>https://wonyoungseo.github.io/tags/%EC%97%85%EB%AC%B4%EC%97%90%EB%B0%94%EB%A1%9C%EC%93%B0%EB%8A%94aws%EC%9E%85%EB%AC%B8/</link>
