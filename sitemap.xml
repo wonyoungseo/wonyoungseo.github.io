@@ -3,12 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2023-03-26-introduction-feature-store/</loc>
-    <lastmod>2023-03-26T22:44:57+09:00</lastmod>
+    <loc>https://wonyoungseo.github.io/posts/2023-04-19-book-review-web-with-fastapi/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2023-04-23-book-review-web-with-fastapi/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/book-review/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/fastapi%EB%A5%BC%EC%82%AC%EC%9A%A9%ED%95%9C%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9B%B9%EA%B0%9C%EB%B0%9C/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2023/</loc>
+    <lastmod>2023-04-19T13:29:50+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2023-03-26-introduction-feature-store/</loc>
     <lastmod>2023-03-26T22:44:57+09:00</lastmod>
   </url>
   
@@ -28,37 +68,12 @@
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2023-03-26T22:44:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2023-03-26T22:44:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/</loc>
-    <lastmod>2023-03-26T22:44:57+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wonyoungseo.github.io/posts/2023-02-28-book-review-intro-to-aws/</loc>
     <lastmod>2023-02-28T15:04:54+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/categories/book-review/</loc>
-    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wonyoungseo.github.io/tags/%EC%97%85%EB%AC%B4%EC%97%90%EB%B0%94%EB%A1%9C%EC%93%B0%EB%8A%94aws%EC%9E%85%EB%AC%B8/</loc>
-    <lastmod>2023-02-28T15:04:54+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/%ED%95%9C%EB%B9%9B%EB%AF%B8%EB%94%94%EC%96%B4-%EB%82%98%EB%8A%94-%EB%A6%AC%EB%B7%B0%EC%96%B4%EB%8B%A4-2023/</loc>
     <lastmod>2023-02-28T15:04:54+09:00</lastmod>
   </url>
   
