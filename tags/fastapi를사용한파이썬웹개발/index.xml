@@ -19,16 +19,5 @@
 이번에 한빛미디어에서 출간한 &amp;ldquo;FastAPI를 사용한 파이썬 웹개발&amp;rdquo; 에서 밝힌 대상 독자는 &amp;ldquo;웹 API 구축에 관심 있는 파이썬 개발자&amp;rdquo; 이다. 책의 내용은 대부분 익숙하지만, FastAPI를 몰랐던 과거의 내가 읽었다면 얼마나 도움이 되었을지에 초점을 맞추어보았다.</description>
     </item>
     
-    <item>
-      <title>[KR] 책 리뷰 : FastAPI를 사용한 파이썬 웹개발</title>
-      <link>https://wonyoungseo.github.io/posts/2023-04-23-book-review-web-with-fastapi/</link>
-      <pubDate>Wed, 19 Apr 2023 13:29:50 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/posts/2023-04-23-book-review-web-with-fastapi/</guid>
-      <description>FastAPI를 사용한 파이썬 웹개발 (저자: 압둘라지즈 압둘라지즈 아데시나)
-  파이썬 개발자를 위한 FastAPI 입문서 업무를 하던 중 사내 대상으로 모델을 서빙하는 API를 만들어야 했던 시기가 있었는데, FastAPI를 기반으로 만들게 되었다. FastAPI라는 도구도 처음이었거니와, API를 만든다는 것 자체가 처음이어서 상당한 기간 헤맸던 기억이 난다.
-이번에 한빛미디어에서 출간한 &amp;ldquo;FastAPI를 사용한 파이썬 웹개발&amp;rdquo; 에서 밝힌 대상 독자는 &amp;ldquo;웹 API 구축에 관심 있는 파이썬 개발자&amp;rdquo; 이다. 책의 내용은 대부분 익숙하지만, FastAPI를 몰랐던 과거의 내가 읽었다면 얼마나 도움이 되었을지에 초점을 맞추어보았다.</description>
-    </item>
-    
   </channel>
 </rss>
