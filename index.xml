@@ -7,20 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Mon, 15 Jan 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Feb 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubeflow - 개념 정리</title>
+      <link>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</link>
+      <pubDate>Thu, 08 Feb 2024 14:17:49 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</guid>
+      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
+ Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
+ 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - Network, Service</title>
-      <link>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</link>
-      <pubDate>Mon, 15 Jan 2024 14:17:49 +0900</pubDate>
+      <link>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</link>
+      <pubDate>Thu, 25 Jan 2024 14:17:49 +0900</pubDate>
       
-      <guid>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</guid>
       <description>Network Single Node 상황  쿠버네티스에서는 내부 IP 주소가 Pod에 할당됨. 쿠버네티스 클러스터는 처음 설정될 때, internal private network 를 생성함  모든 pods는 이 네트워크의 레인지 내에서 IP를 부여받음   Pod가 재생성될 때는 또 새로운 IP를 부여받음  따라서, Pod에 부여된 IP로 접근하는 것은 적절한 방법이 아님    Multiple Nodes in a Cluster 상황  각 Node 의 IP는 다르지만, 각 노드 내 Pod의 네트워크가 같을 수 있음 하지만,  모든 Container / Pod는 NAT 없이도 서로 networking 가능 모든 Node는 NAT 없이도 서로 networking 가능   따라서 IP conflict 을 피하기 위한 조치가 필요함 pre-built solution 존재하기도 함  cisco big cloud fabric flannel vmware nsx calico cilium … etc     Service   helps connecting applications together with other applications OR userss ex)  backend server frontend application external datasource etc …    Service 개념  Service는 Kubernetes를 기반으로 하는 어플리케이션 내외의 통신과 접근을 위한 obejct Service 유형  Node Port service  node의 port 에서부터 listen(응답대기) → request 를 pod로 전달하는 역할   Cluster IP  클러스터 내 virtual IP를 생성하여 제각기 다른 service들 간의 통신을 가능케 함.</description>
     </item>
     
     <item>
       <title>Kubernetes - Pod, ReplicaSet, Deployment</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</link>
-      <pubDate>Sat, 13 Jan 2024 15:12:01 +0900</pubDate>
+      <pubDate>Thu, 18 Jan 2024 15:12:01 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</guid>
       <description>Pod Pod 뿐만 아니라 쿠버네티스에서 object을 정의하는 yaml의 형태는 다음과 같다.
@@ -35,7 +46,7 @@ ReplicaSet Replication Controllers (OLD)  High Availability  레플리카 Pod in
     <item>
       <title>Kubernetes - 개념 정리</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</link>
-      <pubDate>Wed, 10 Jan 2024 21:33:01 +0900</pubDate>
+      <pubDate>Mon, 15 Jan 2024 21:33:01 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</guid>
       <description>1 쿠버네티스 개념 아키텍처 1.1. 개념  컨테이너화 된 어플리케이션의 배포, 확장, 운영을 자동화하기 위한 오픈소스 시스템 구글에 의해 개발됨. CNCF에 기반을 둠  1.2. 주요 특징  자동화된 롤아웃 및 롤백  어플리케이션 업데이트 시 롤아웃을 자동으로 관리 문제 발생 시 이전 버전으로 롤백   서비스 접근 및 로드 밸런싱  클러스터 내의 어플리케이션에 쉬벡 접근 트래픽을 자동으로 분산   스케일링  리소스의 사용에 따라 자동 또는 수동으로 스케일링   자체 회복  실패한 컨테이너 재시작.</description>
@@ -862,17 +873,6 @@ Elastic Stack의 구성    &amp;amp;nbsp
       
       <guid>https://wonyoungseo.github.io/archives/</guid>
       <description>archives</description>
-    </item>
-    
-    <item>
-      <title>Kubeflow - 개념 정리</title>
-      <link>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</guid>
-      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
- Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
- 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
     </item>
     
     <item>

@@ -7,13 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Mon, 15 Jan 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/ml/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Feb 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/ml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubeflow - 개념 정리</title>
+      <link>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</link>
+      <pubDate>Thu, 08 Feb 2024 14:17:49 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</guid>
+      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
+ Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
+ 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - Network, Service</title>
-      <link>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</link>
-      <pubDate>Mon, 15 Jan 2024 14:17:49 +0900</pubDate>
+      <link>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</link>
+      <pubDate>Thu, 25 Jan 2024 14:17:49 +0900</pubDate>
       
-      <guid>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</guid>
+      <guid>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</guid>
       <description>Network Single Node 상황  쿠버네티스에서는 내부 IP 주소가 Pod에 할당됨. 쿠버네티스 클러스터는 처음 설정될 때, internal private network 를 생성함  모든 pods는 이 네트워크의 레인지 내에서 IP를 부여받음   Pod가 재생성될 때는 또 새로운 IP를 부여받음  따라서, Pod에 부여된 IP로 접근하는 것은 적절한 방법이 아님    Multiple Nodes in a Cluster 상황  각 Node 의 IP는 다르지만, 각 노드 내 Pod의 네트워크가 같을 수 있음 하지만,  모든 Container / Pod는 NAT 없이도 서로 networking 가능 모든 Node는 NAT 없이도 서로 networking 가능   따라서 IP conflict 을 피하기 위한 조치가 필요함 pre-built solution 존재하기도 함  cisco big cloud fabric flannel vmware nsx calico cilium … etc     Service   helps connecting applications together with other applications OR userss ex)  backend server frontend application external datasource etc …    Service 개념  Service는 Kubernetes를 기반으로 하는 어플리케이션 내외의 통신과 접근을 위한 obejct Service 유형  Node Port service  node의 port 에서부터 listen(응답대기) → request 를 pod로 전달하는 역할   Cluster IP  클러스터 내 virtual IP를 생성하여 제각기 다른 service들 간의 통신을 가능케 함.</description>
     </item>
     
@@ -47,17 +58,6 @@ Feature Store는 왜 필요한가? 개인적으로 처음에는 잘 와닿지 �
       <guid>https://wonyoungseo.github.io/posts/2022-07-22-inference-system-pattern/</guid>
       <description>0. 머신러닝 추론 시스템이란 최근 머신러닝 모델을 서비스하기 위한 파이프라인을 구축하는 프로젝트를 진행하게 되었다. 경험 없이 밑바닥에서부터 시작하는 입장이었기 때문에 프로젝트를 본격적으로 진행하기에 앞서 여러가지 케이스를 분석하고 참고하는 시간을 가져보았다. 그 과정의 일환으로, 이번 글에서는 머신러닝 파이프라인의 한 부분을 담당하는 추론 시스템(ML inference system)에 대해 간단히 정리해보았다.
 머신러닝 추론 시스템은 학습된 머신러닝 모델을 불러와 실제 데이터에 대한 추론 결과를 사용자에게 제공하는 기능을 한다. 추론시스템은 누군가가 실제로 머신러닝 모델 프로덕트를 사용한다. 따라서, 머신러닝에서 우리가 익숙한 [데이터수집 -&amp;gt; 데이터정제 -&amp;gt; 모델링 -&amp;gt; 학습 -&amp;gt; 성능평가 -&amp;gt; 실험반복]의 패턴과는 확연히 다르며, 다양한 관점에서 고려해야할 부분들이 생긴다.</description>
-    </item>
-    
-    <item>
-      <title>Kubeflow - 개념 정리</title>
-      <link>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</guid>
-      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
- Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
- 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
     </item>
     
   </channel>

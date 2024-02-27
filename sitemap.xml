@@ -4,67 +4,72 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/kubeflow/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <loc>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</loc>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/ml/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/mlops/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/</loc>
-    <lastmod>2024-01-15T14:17:49+09:00</lastmod>
+    <lastmod>2024-02-08T14:17:49+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</loc>
+    <lastmod>2024-01-25T14:17:49+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/k8s/</loc>
-    <lastmod>2024-01-13T15:12:01+09:00</lastmod>
+    <lastmod>2024-01-18T15:12:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/kubernetes/</loc>
-    <lastmod>2024-01-13T15:12:01+09:00</lastmod>
+    <lastmod>2024-01-18T15:12:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</loc>
-    <lastmod>2024-01-13T15:12:01+09:00</lastmod>
+    <lastmod>2024-01-18T15:12:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/ops/</loc>
-    <lastmod>2024-01-13T15:12:01+09:00</lastmod>
+    <lastmod>2024-01-18T15:12:01+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</loc>
-    <lastmod>2024-01-10T21:33:01+09:00</lastmod>
+    <lastmod>2024-01-15T21:33:01+09:00</lastmod>
   </url>
   
   <url>
@@ -914,10 +919,6 @@
   
   <url>
     <loc>https://wonyoungseo.github.io/archives/</loc>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</loc>
   </url>
   
   <url>
