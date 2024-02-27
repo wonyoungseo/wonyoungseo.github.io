@@ -7,22 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sun, 11 Feb 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/mlops/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Kubeflow - 개념 정리</title>
-      <link>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</link>
-      <pubDate>Sun, 11 Feb 2024 14:17:49 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</guid>
-      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
- Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
- 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
-    </item>
-    
+    <lastBuildDate>Mon, 15 Jan 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes - Network, Service</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</link>
-      <pubDate>Sat, 10 Feb 2024 14:17:49 +0900</pubDate>
+      <pubDate>Mon, 15 Jan 2024 14:17:49 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-01-31-k8s-trial-network-service/</guid>
       <description>Network Single Node 상황  쿠버네티스에서는 내부 IP 주소가 Pod에 할당됨. 쿠버네티스 클러스터는 처음 설정될 때, internal private network 를 생성함  모든 pods는 이 네트워크의 레인지 내에서 IP를 부여받음   Pod가 재생성될 때는 또 새로운 IP를 부여받음  따라서, Pod에 부여된 IP로 접근하는 것은 적절한 방법이 아님    Multiple Nodes in a Cluster 상황  각 Node 의 IP는 다르지만, 각 노드 내 Pod의 네트워크가 같을 수 있음 하지만,  모든 Container / Pod는 NAT 없이도 서로 networking 가능 모든 Node는 NAT 없이도 서로 networking 가능   따라서 IP conflict 을 피하기 위한 조치가 필요함 pre-built solution 존재하기도 함  cisco big cloud fabric flannel vmware nsx calico cilium … etc     Service   helps connecting applications together with other applications OR userss ex)  backend server frontend application external datasource etc …    Service 개념  Service는 Kubernetes를 기반으로 하는 어플리케이션 내외의 통신과 접근을 위한 obejct Service 유형  Node Port service  node의 port 에서부터 listen(응답대기) → request 를 pod로 전달하는 역할   Cluster IP  클러스터 내 virtual IP를 생성하여 제각기 다른 service들 간의 통신을 가능케 함.</description>
@@ -92,6 +81,17 @@ DAG 파이프라인은 대개 DAG(Directed acyclic graph: 방향성 비순환 �
 1. ML VS Real-world ML 1.1. 학술, 연구, 대회, 개인 프로젝트에서의 머신러닝 프로젝트 일반적으로 머신러닝 프로젝트를 시작하거나 학술적인 연구를 하는 경우, 머신러닝 프로젝트는 아래와 같은 성향을 띄고 있음.
    source: Udacity
    해결하고자 하는 문제의 정의와 데이터셋이 주어져 있음. 프로젝트의 목적은 주어진 데이터셋을 기반으로 평가 메트릭에서 모델의 성능이 가장 높게 나오는 모델링을 실행하는 것 프로젝트 진행 동안 만족할만한 모델 성능이 나올 때까지 일련의 과정을 사이클로 반복함  데이터셋에 대한 탐구 여러가지 피쳐 엔지니어링 테크닉 적용 여러가지 하이퍼파라미터 조절 여러가지 머신러닝 알고리즘의 적용    1.</description>
+    </item>
+    
+    <item>
+      <title>Kubeflow - 개념 정리</title>
+      <link>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-02-11-kubeflow-concept/</guid>
+      <description>KubeFlow  쿠버네티스 기반 ML 워크플로우를 구축, 실행, 관리하기 위한 오픈소스 플랫폼 모델 개발과 배포를 위한 E2E 솔루션 제공 확장성과 유연성을 가지고, 다양한 머신러닝 프레임워크 통합 가능  기능적 특징
+ Distributed Training Pipeline Model Serving Model Management Jupyter Notebook Integration Metadata Store  활용 예시
+ 분산모델 트레이닝  대규모 데이터셋을 다루는 복잡한 머신러닝 모델을 분산환경에서 트레이닝   모델 서빙 및 배포  학습된 모델을 쿠버네티스 클러스터에 배포 효율적 리소스 관리 스케일링 통해 모델 서빙 최적화    1.</description>
     </item>
     
   </channel>
