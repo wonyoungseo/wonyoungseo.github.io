@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>kubernetes on Wonyoung&#39;s Tech Blog</title>
+    <link>https://wonyoungseo.github.io/tags/kubernetes/</link>
+    <description>Recent content in kubernetes on Wonyoung&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2023</copyright>
+    <lastBuildDate>Sat, 13 Jan 2024 15:12:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - Pod, ReplicaSet, Deployment</title>
+      <link>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</link>
+      <pubDate>Sat, 13 Jan 2024 15:12:01 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</guid>
+      <description>Pod Pod 뿐만 아니라 쿠버네티스에서 object을 정의하는 yaml의 형태는 다음과 같다.
+# pod-definition.yml apiVersion: kind: metadata: spec: containers: - name: # - before the name indicates, its first item in the list image: Pod 관련 명령어
+kubectl create -f [FILE NAME].yml
+kubectl create -f [FILE NAME].yml --record 또는 kubectl apply -f [FILE NAME].yml
+kubectl get pods
+kubectl describe pod [POD NAME]
+ReplicaSet Replication Controllers (OLD)  High Availability  레플리카 Pod instance를 생성하고 관리함 Pod가 하나인 상황에서도, 만약 죽으면 새로 다시 올리는 역할을 함   Load Balancing &amp;amp; Scaling  multiple pod , multiple node 상황에서도 관리    Replication controller 예시</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes - 개념 정리</title>
+      <link>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</link>
+      <pubDate>Wed, 10 Jan 2024 21:33:01 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</guid>
+      <description>1 쿠버네티스 개념 아키텍처 1.1. 개념  컨테이너화 된 어플리케이션의 배포, 확장, 운영을 자동화하기 위한 오픈소스 시스템 구글에 의해 개발됨. CNCF에 기반을 둠  1.2. 주요 특징  자동화된 롤아웃 및 롤백  어플리케이션 업데이트 시 롤아웃을 자동으로 관리 문제 발생 시 이전 버전으로 롤백   서비스 접근 및 로드 밸런싱  클러스터 내의 어플리케이션에 쉬벡 접근 트래픽을 자동으로 분산   스케일링  리소스의 사용에 따라 자동 또는 수동으로 스케일링   자체 회복  실패한 컨테이너 재시작.</description>
+    </item>
+    
+  </channel>
+</rss>
