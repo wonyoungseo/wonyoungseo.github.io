@@ -20,15 +20,6 @@
     </item>
     
     <item>
-      <title>Kubernetes - Network, Service</title>
-      <link>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</link>
-      <pubDate>Thu, 25 Jan 2024 14:17:49 +0900</pubDate>
-      
-      <guid>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</guid>
-      <description>Network Single Node 상황  쿠버네티스에서는 내부 IP 주소가 Pod에 할당됨. 쿠버네티스 클러스터는 처음 설정될 때, internal private network 를 생성함  모든 pods는 이 네트워크의 레인지 내에서 IP를 부여받음   Pod가 재생성될 때는 또 새로운 IP를 부여받음  따라서, Pod에 부여된 IP로 접근하는 것은 적절한 방법이 아님    Multiple Nodes in a Cluster 상황  각 Node 의 IP는 다르지만, 각 노드 내 Pod의 네트워크가 같을 수 있음 하지만,  모든 Container / Pod는 NAT 없이도 서로 networking 가능 모든 Node는 NAT 없이도 서로 networking 가능   따라서 IP conflict 을 피하기 위한 조치가 필요함 pre-built solution 존재하기도 함  cisco big cloud fabric flannel vmware nsx calico cilium … etc     Service   helps connecting applications together with other applications OR userss ex)  backend server frontend application external datasource etc …    Service 개념  Service는 Kubernetes를 기반으로 하는 어플리케이션 내외의 통신과 접근을 위한 obejct Service 유형  Node Port service  node의 port 에서부터 listen(응답대기) → request 를 pod로 전달하는 역할   Cluster IP  클러스터 내 virtual IP를 생성하여 제각기 다른 service들 간의 통신을 가능케 함.</description>
-    </item>
-    
-    <item>
       <title>[KR] Feature Store 의 개념</title>
       <link>https://wonyoungseo.github.io/posts/2023-03-26-introduction-feature-store/</link>
       <pubDate>Sun, 26 Mar 2023 22:44:57 +0900</pubDate>

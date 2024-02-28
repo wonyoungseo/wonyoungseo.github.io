@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 18 Jan 2024 15:12:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Feb 2024 03:18:50 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/k8s/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - PV &amp; PVC</title>
+      <link>https://wonyoungseo.github.io/posts/2024-01-27-k8s-pv-pvc/</link>
+      <pubDate>Thu, 29 Feb 2024 03:18:50 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-01-27-k8s-pv-pvc/</guid>
+      <description>K8s PV / PVC 기본 개념 데이터를 영구적으로 저장하는 매커니즘 Persistent Storage
+1. 주요 개념 PV (Persistent Volume)  K8s Object 클러스터의 스토리지역할을 하는 클러스터 리소스의 일종 관리자가 프로비저닝하거나 Storage Class를 통해 동적으로 프로비저닝 됨 일반 볼륨과의 차이점  일반 볼륨은 Pod와 같은 라이프사이클을 가짐. 함께 생성되고 함께 내려간다는 뜻 PV는 Pod와 별개의 라이프사이클을 가지므로, Pod가 종료되어도 PV에 기록된 데이터는 삭제되지 않음    PVC (Persistent Volume Claim)  K8s Object PVC는 PV 라는 리소스에 대한 요청 + 리소스에 대한 클레임 검사 역할 PVC를 명시하면 쿠버네티스는 적정한 크기와 접근 모드의 PV를 찾고 PVC를 PV에 할당함.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes - Network, Service</title>
+      <link>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</link>
+      <pubDate>Thu, 25 Jan 2024 14:17:49 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</guid>
+      <description>Network Single Node 상황  쿠버네티스에서는 내부 IP 주소가 Pod에 할당됨. 쿠버네티스 클러스터는 처음 설정될 때, internal private network 를 생성함  모든 pods는 이 네트워크의 레인지 내에서 IP를 부여받음   Pod가 재생성될 때는 또 새로운 IP를 부여받음  따라서, Pod에 부여된 IP로 접근하는 것은 적절한 방법이 아님    Multiple Nodes in a Cluster 상황  각 Node 의 IP는 다르지만, 각 노드 내 Pod의 네트워크가 같을 수 있음 하지만,  모든 Container / Pod는 NAT 없이도 서로 networking 가능 모든 Node는 NAT 없이도 서로 networking 가능   따라서 IP conflict 을 피하기 위한 조치가 필요함 pre-built solution 존재하기도 함  cisco big cloud fabric flannel vmware nsx calico cilium … etc     Service   helps connecting applications together with other applications OR userss ex)  backend server frontend application external datasource etc …    Service 개념  Service는 Kubernetes를 기반으로 하는 어플리케이션 내외의 통신과 접근을 위한 obejct Service 유형  Node Port service  node의 port 에서부터 listen(응답대기) → request 를 pod로 전달하는 역할   Cluster IP  클러스터 내 virtual IP를 생성하여 제각기 다른 service들 간의 통신을 가능케 함.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - Pod, ReplicaSet, Deployment</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</link>

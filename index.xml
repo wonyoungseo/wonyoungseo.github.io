@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 08 Feb 2024 14:17:49 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Feb 2024 03:18:50 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - PV &amp; PVC</title>
+      <link>https://wonyoungseo.github.io/posts/2024-01-27-k8s-pv-pvc/</link>
+      <pubDate>Thu, 29 Feb 2024 03:18:50 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-01-27-k8s-pv-pvc/</guid>
+      <description>K8s PV / PVC 기본 개념 데이터를 영구적으로 저장하는 매커니즘 Persistent Storage
+1. 주요 개념 PV (Persistent Volume)  K8s Object 클러스터의 스토리지역할을 하는 클러스터 리소스의 일종 관리자가 프로비저닝하거나 Storage Class를 통해 동적으로 프로비저닝 됨 일반 볼륨과의 차이점  일반 볼륨은 Pod와 같은 라이프사이클을 가짐. 함께 생성되고 함께 내려간다는 뜻 PV는 Pod와 별개의 라이프사이클을 가지므로, Pod가 종료되어도 PV에 기록된 데이터는 삭제되지 않음    PVC (Persistent Volume Claim)  K8s Object PVC는 PV 라는 리소스에 대한 요청 + 리소스에 대한 클레임 검사 역할 PVC를 명시하면 쿠버네티스는 적정한 크기와 접근 모드의 PV를 찾고 PVC를 PV에 할당함.</description>
+    </item>
+    
     <item>
       <title>Kubeflow - 개념 정리</title>
       <link>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</link>
