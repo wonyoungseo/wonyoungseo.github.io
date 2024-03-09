@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Tue, 05 Mar 2024 01:44:13 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Mar 2024 01:44:13 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - Multi-Container Pod</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-08-k8s-multiple-container-pod/</link>
+      <pubDate>Fri, 08 Mar 2024 01:44:13 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-08-k8s-multiple-container-pod/</guid>
+      <description>Multi-Container Pod  (처음 쿠버네티스와 Pod의 개념에 대해 설명할 때) 파드는 최소의 배포단위이기에 여러 개의 어플리케이션 컨테이너를 묶어 하나의 파드로 배포하는 것은 적절한 사용법이 아님. 그러나, 하나의 파드에 복수의 컨테이너를 함께 구성하여 배포하는 방식이 충분히 고려될 수 있음.  다른 컨테이너를 통해 실행되는 서비스가 메인 어플리케이션을 보조하는 경우 동일 스토리지 또는 네트워크의 공유하는 서비스가 필요한 경우 동일한 라이프사이클을 이루는 경우  생성, 배포, 삭제, 스케일 업다운이 동일하게 적용되어야 하는 경우.   예) 웹서버와 별도로 로깅 서비스가 함께 페어를 이룬 경우   따라서 굳이 별도의 파드에 분리할 필요가 없음.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - NameSpace</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-05-k8s-namespace/</link>
