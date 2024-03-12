@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Fri, 08 Mar 2024 01:44:13 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Mar 2024 12:32:08 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - Command / Args / Configmap / Secret</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/</link>
+      <pubDate>Tue, 12 Mar 2024 12:32:08 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/</guid>
+      <description>Command &amp;amp; Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우
+  예시 Docker Image
+# 예시 DockerfileFROMubuntuENTRYPOINT [&amp;#34;sleep&amp;#34;]CMD [&amp;#34;5&amp;#34;]  Pod definition 파일에서 CMD 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleep-pod spec: containers: - name: ubuntu-sleep-pod image: ubuntu-sleep-pod args: [&amp;#34;10&amp;#34;] ## &amp;lt;--- CMD override   Pod definition 파일에서 ENTRYPOINT 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - name: ubuntu-sleeper-pod image: ubuntu-sleeper-pod command: [&amp;#34;echo&amp;#34;] # &amp;lt;--- ENTRYPOINT override args: [&amp;#34;10&amp;#34;] # &amp;lt;--- CMD override   Environment Variables 환경변수 K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음</description>
+    </item>
+    
     <item>
       <title>Kubernetes - Multi-Container Pod</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-08-k8s-multiple-container-pod/</link>
@@ -57,7 +70,7 @@
     </item>
     
     <item>
-      <title>Kubernetes - Pod, ReplicaSet, Deployment</title>
+      <title>Kubernetes - Pod / ReplicaSet / Deployment</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</link>
       <pubDate>Thu, 18 Jan 2024 15:12:01 +0900</pubDate>
       

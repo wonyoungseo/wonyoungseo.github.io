@@ -1,0 +1,165 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Kubernetes - Command / Args / Configmap / Secret | Wonyoung's Tech Blog</title><meta name=keywords content="kubernetes,k8s"><meta name=description content="Command & Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우
+  예시 Docker Image
+# 예시 DockerfileFROMubuntuENTRYPOINT [&#34;sleep&#34;]CMD [&#34;5&#34;]  Pod definition 파일에서 CMD 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleep-pod spec: containers: - name: ubuntu-sleep-pod image: ubuntu-sleep-pod args: [&#34;10&#34;] ## <--- CMD override   Pod definition 파일에서 ENTRYPOINT 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - name: ubuntu-sleeper-pod image: ubuntu-sleeper-pod command: [&#34;echo&#34;] # <--- ENTRYPOINT override args: [&#34;10&#34;] # <--- CMD override   Environment Variables 환경변수 K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음"><meta name=author content="Wonyoung Seo"><link rel=canonical href=https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/><meta name=google-site-verification content="XYZabc"><link href=/assets/css/stylesheet.min.d8cbf60331b9ced42909130bf88f8b97d2eb3de242444dcc9e2df410ceb098b9.css integrity="sha256-2Mv2AzG5ztQpCRML+I+Ll9LrPeJCRE3Mni30EM6wmLk=" rel="preload stylesheet" as=style><link rel=icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.80.0"><meta property="og:title" content="Kubernetes - Command / Args / Configmap / Secret"><meta property="og:description" content="Command & Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우
+  예시 Docker Image
+# 예시 DockerfileFROMubuntuENTRYPOINT [&#34;sleep&#34;]CMD [&#34;5&#34;]  Pod definition 파일에서 CMD 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleep-pod spec: containers: - name: ubuntu-sleep-pod image: ubuntu-sleep-pod args: [&#34;10&#34;] ## <--- CMD override   Pod definition 파일에서 ENTRYPOINT 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - name: ubuntu-sleeper-pod image: ubuntu-sleeper-pod command: [&#34;echo&#34;] # <--- ENTRYPOINT override args: [&#34;10&#34;] # <--- CMD override   Environment Variables 환경변수 K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음"><meta property="og:type" content="article"><meta property="og:url" content="https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/"><meta property="og:image" content="https://wonyoungseo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:published_time" content="2024-03-12T12:32:08+09:00"><meta property="article:modified_time" content="2024-03-12T12:32:08+09:00"><meta property="og:site_name" content="WY's Tech Blog"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://wonyoungseo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Kubernetes - Command / Args / Configmap / Secret"><meta name=twitter:description content="Command & Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우
+  예시 Docker Image
+# 예시 DockerfileFROMubuntuENTRYPOINT [&#34;sleep&#34;]CMD [&#34;5&#34;]  Pod definition 파일에서 CMD 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleep-pod spec: containers: - name: ubuntu-sleep-pod image: ubuntu-sleep-pod args: [&#34;10&#34;] ## <--- CMD override   Pod definition 파일에서 ENTRYPOINT 오버라이드 하기
+apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - name: ubuntu-sleeper-pod image: ubuntu-sleeper-pod command: [&#34;echo&#34;] # <--- ENTRYPOINT override args: [&#34;10&#34;] # <--- CMD override   Environment Variables 환경변수 K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Kubernetes - Command / Args / Configmap / Secret","name":"Kubernetes - Command \/ Args \/ Configmap \/ Secret","description":"Command \u0026amp;amp; Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우\n  예시 Docker Image\n# 예시 DockerfileFROMubuntuENTRYPOINT [\u0026amp;#34;sleep\u0026amp;#34;]CMD [\u0026amp;#34;5\u0026amp;#34;]  Pod …","keywords":["kubernetes","k8s"],"articleBody":"Command \u0026 Arguments Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우\n  예시 Docker Image\n# 예시 DockerfileFROMubuntuENTRYPOINT [\"sleep\"]CMD [\"5\"]  Pod definition 파일에서 CMD 오버라이드 하기\napiVersion: v1 kind: Pod metadata: name: ubuntu-sleep-pod spec: containers: - name: ubuntu-sleep-pod image: ubuntu-sleep-pod args: [\"10\"] ##   Pod definition 파일에서 ENTRYPOINT 오버라이드 하기\napiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - name: ubuntu-sleeper-pod image: ubuntu-sleeper-pod command: [\"echo\"] # args: [\"10\"] #   Environment Variables 환경변수 K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음\nPlain Key-Value  env 아래 Key-Value 형태로 명시함.  apiVersion: v1  kind: Pod  metadata: name: webapp-color labels: name: webapp-color spec: containers: - name: webapp-color image: webapp-color ports: - containerPort: 8080 # environment variable env: - name: APP_COLOR value: blue command: [\"python\", \"app.py\"] args: [\"--color\", \"blue\"] ConfigMap  ConfigMap은 K8s에서 config를 따로 저장 및 관리할 수 있는 오브젝트. Key-Value 페어로 정의하고 pod가 생성될 때 주입할 수 있음  ConfigMap 생성 방법   CLI를 통해 바로 생성\n kubectl create configmap {NAME} --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod    기존에 정의된 파일로부터 생성\n kubectl create configmap {NAME} --from-file={FILE_PATH}    ConfigMap 오브젝트 생성\n# ex) config-map.yaml apiVersion: v1 kind: ConfigMap metadata: name: app-config data: APP_COLOR: blue APP_MODE: prod yaml 파일 작성 이후 오브젝트 생성\n kubectl create -f config-map.yaml    ConfigMap 주입하기   ConfigMap 전체 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... env: - name: APP_COLOR envFrom: - configMapRef: name: app-config  # config map 이름을 통해 전체 주입   ConfigMap 내 특정 값만 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... env: - name: APP_COLOR valueFrom: - configMapKeyRef: name: app-config  key: APP_COLOR  # config map 중에서 APP_COLOR 라는 하나의 변수만 주입   ConfigMap을 애플리케이션과 동일한 Storage에 위치할 수 있도록 Volume에 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... volumes: - name: app-config-volume configMap: name: app-config  # config를 하나의 파일로서 pod의 volume에 포함시키고자 할 때   Secrets  민감한 정보를 담을 때 사용하는 오브젝트 ConfigMap과 마찬가지로 Key-Value 페어로 정의함 pod가 생성될 때 주입할 수 있음  Secrets 생성하기   CLI를 통해 바로 생성\n kubectl create secret generic {SECRETE_NAME} —-from-literal={KEY}={VALUE} kubectl create secret generic db-secret —-from-literal=DB_USER=ROOT --from-literal=DB_PASSWORD=passwrd    기존 파일을 사용하여 생성\n kubectl create secret generic {SECRET_NAME} --from-file={PATH_TO_SECRET_FILE} kubectl create secret generic db-secret --from-file=app_secret.properties    Secret 오브젝트 생성\n# ex) db-secret.yaml apiVersion: v1 kind: Secret metadata: name: db-secret data: DB_HOST: postgres DB_USER: root DB_PASSWORD: passwrd yaml 파일 작성 이후 오브젝트 생성\n kubectl create -f db-secret.yaml    Secret 관련 주의 사항  secret 을 저장하기 위해서는 encoded format이 효과적임  echo -n ‘passwrd’ | base64 와 같이 인코딩해서 표기하기  디코딩은 echo -n ‘cG9zdGdyZXM=’ | base64 —decode 추후 kubectl describe secret 을 통해 오브젝트의 정보를 조회하더라도 민감한 정보가 그대로 표기되지 않고, 형태만 bytes 로 표기됨 인코딩 되지 않은 값을 직접 조회하려면  kubectl get secret {SECRET_NAME} -o yaml        # ex) db-secret.yaml (인코딩 한 후 파일 작성한 예시) apiVersion: v1 kind: Secret metadata: name: db-secret data: DB_HOST: cG9zdGdyZXM= DB_USER: cm9vdA== DB_PASSWORD: cGFzc3dyZA== Secret 주입하기   Secret 전체 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... envFrom: - secretRef: name: db-secret   Secret 내 특정 값만 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... env: - name: DB_PASSWORD valueFrom: secretKeyRef: name: db-secret  key: DB_PASSWORD # secret 중에서 하나의 값만 주입   Secret 을 애플리케이션과 동일한 Storage에 위치할 수 있도록 Volume에 주입\n# pod definition 상위 부분 생략 ... spec: containers: ... volumes: - name: db-secret-volume secret: secretName: db-secret  # config를 하나의 파일로서 pod의 volume에 포함시키고자 할 때   Note  Kubernetes 내에서도 표현하는 Secret은 다음과 같음  ConfigMap과 비슷하다 하지만 confidential data, sensitive information을 담는데 유용함  별도로 생성 및 관리가 가능함. 코드에 드러나지 않도록 사용하는데 적절함   그야말로 “safer option”   기본적으로 Secret 오브젝트는 encryption이 되는 것이 아니기 때문에, 디코딩을 통해 얼마든지 값을 알아낼 수 있으므로, secret object 또는 yaml 파일을 공개적으로 push 등의 작업은 권장되지 않음. 보안을 위해서는 다음과 같은 방법들이 제안 됨. (이 부분은 따로 공부하고 정리 예정)  Enable Encryption at REST Roll Based Access Control 적용 Access 제안 적용 (위와 비슷) Cloud Provider 또는 Thrid-party에서 제공하는 encryption secret store 를 사용    Reference  Kubernetes Documentation  https://kubernetes.io/docs/concepts/configuration/configmap/ https://kubernetes.io/docs/concepts/configuration/secret/   KodeKloud  ","wordCount":"655","inLanguage":"en","datePublished":"2024-03-12T12:32:08+09:00","dateModified":"2024-03-12T12:32:08+09:00","author":{"@type":"Person","name":"Wonyoung Seo"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/"},"publisher":{"@type":"Organization","name":"Wonyoung's Tech Blog","logo":{"@type":"ImageObject","url":"https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E"}}}</script></head><body id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://wonyoungseo.github.io/ accesskey=h title="Tech Blog (Alt + H)">Tech Blog</a>
+<span class=logo-switches><a id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></div><ul id=menu onscroll=menu_on_scroll()><li><a href=https://wonyoungseo.github.io/archives/ title=posts><span>posts</span></a></li><li><a href=https://wonyoungseo.github.io/categories/ title=categories><span>categories</span></a></li><li><a href=https://wonyoungseo.github.io/tags/ title=tags><span>tags</span></a></li><li><a href=https://wonyoungseo.github.io/about/ title=about><span>about</span></a></li><li><a href=https://wonyoungseo.github.io/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>Kubernetes - Command / Args / Configmap / Secret</h1><div class=post-meta>March 12, 2024&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Wonyoung Seo</div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><div class=details>Table of Contents</div></summary><div class=inner><ul><li><a href=#command--arguments aria-label="Command &amp;amp; Arguments">Command & Arguments</a></li><li><a href=#environment-variables-%ed%99%98%ea%b2%bd%eb%b3%80%ec%88%98 aria-label="Environment Variables 환경변수">Environment Variables 환경변수</a><ul><li><a href=#plain-key-value aria-label="Plain Key-Value">Plain Key-Value</a></li><li><a href=#configmap aria-label=ConfigMap>ConfigMap</a><ul><li><a href=#configmap-%ec%83%9d%ec%84%b1-%eb%b0%a9%eb%b2%95 aria-label="ConfigMap 생성 방법">ConfigMap 생성 방법</a></li><li><a href=#configmap-%ec%a3%bc%ec%9e%85%ed%95%98%ea%b8%b0 aria-label="ConfigMap 주입하기">ConfigMap 주입하기</a></li></ul></li><li><a href=#secrets aria-label=Secrets>Secrets</a><ul><li><a href=#secrets-%ec%83%9d%ec%84%b1%ed%95%98%ea%b8%b0 aria-label="Secrets 생성하기">Secrets 생성하기</a></li><li><a href=#secret-%ea%b4%80%eb%a0%a8-%ec%a3%bc%ec%9d%98-%ec%82%ac%ed%95%ad aria-label="Secret 관련 주의 사항">Secret 관련 주의 사항</a></li><li><a href=#secret-%ec%a3%bc%ec%9e%85%ed%95%98%ea%b8%b0 aria-label="Secret 주입하기">Secret 주입하기</a><ul><li><a href=#note aria-label=Note>Note</a></li></ul></li></ul></li></ul></li><li><a href=#reference aria-label=Reference>Reference</a></li></ul></div></details></div><div class=post-content><h1 id=command--arguments>Command & Arguments<a hidden class=anchor aria-hidden=true href=#command--arguments>#</a></h1><p>Docker Image를 기반으로 Pod 를 생성하면서 command 와 argument를 주입하려는 경우</p><ul><li><p>예시 Docker Image</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-Dockerfile data-lang=Dockerfile><span style=color:#75715e># 예시 Dockerfile</span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010></span><span style=color:#66d9ef>FROM</span><span style=color:#e6db74> ubuntu</span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010></span><span style=color:#66d9ef>ENTRYPOINT</span> [<span style=color:#e6db74>&#34;sleep&#34;</span>]<span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010>
+</span><span style=color:#960050;background-color:#1e0010></span><span style=color:#66d9ef>CMD</span> [<span style=color:#e6db74>&#34;5&#34;</span>]<span style=color:#960050;background-color:#1e0010>
+</span></code></pre></div></li><li><p>Pod definition 파일에서 CMD 오버라이드 하기</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+<span style=color:#f92672>metadata</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>ubuntu-sleep-pod</span>
+      
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+        - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>ubuntu-sleep-pod</span>
+            <span style=color:#f92672>image</span>: <span style=color:#ae81ff>ubuntu-sleep-pod</span>
+            <span style=color:#f92672>args</span>: [<span style=color:#e6db74>&#34;10&#34;</span>]   <span style=color:#75715e>## &lt;--- CMD override</span>
+</code></pre></div></li><li><p>Pod definition 파일에서 ENTRYPOINT 오버라이드 하기</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+<span style=color:#f92672>metadata</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>ubuntu-sleeper-pod</span>
+      
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+        - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>ubuntu-sleeper-pod</span>
+            <span style=color:#f92672>image</span>: <span style=color:#ae81ff>ubuntu-sleeper-pod</span>
+            <span style=color:#f92672>command</span>: [<span style=color:#e6db74>&#34;echo&#34;</span>] <span style=color:#75715e># &lt;--- ENTRYPOINT override</span>
+            <span style=color:#f92672>args</span>: [<span style=color:#e6db74>&#34;10&#34;</span>]   <span style=color:#75715e># &lt;--- CMD override</span>
+</code></pre></div></li></ul><h1 id=environment-variables-환경변수>Environment Variables 환경변수<a hidden class=anchor aria-hidden=true href=#environment-variables-환경변수>#</a></h1><p>K8s Pod을 생성하는 과정에서 환경 변수 타입은 크게 3가지가 있음</p><h2 id=plain-key-value>Plain Key-Value<a hidden class=anchor aria-hidden=true href=#plain-key-value>#</a></h2><ul><li><code>env</code> 아래 Key-Value 형태로 명시함.</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1 </span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod </span>
+<span style=color:#f92672>metadata</span>:
+  <span style=color:#f92672>name</span>: <span style=color:#ae81ff>webapp-color</span>
+  <span style=color:#f92672>labels</span>:
+      <span style=color:#f92672>name</span>: <span style=color:#ae81ff>webapp-color</span>
+
+<span style=color:#f92672>spec</span>:
+  <span style=color:#f92672>containers</span>:
+  - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>webapp-color</span>
+    <span style=color:#f92672>image</span>: <span style=color:#ae81ff>webapp-color</span>
+    <span style=color:#f92672>ports</span>:
+	    - <span style=color:#f92672>containerPort</span>: <span style=color:#ae81ff>8080</span>
+	  
+	  <span style=color:#75715e># environment variable</span>
+	  <span style=color:#f92672>env</span>:
+		  - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>APP_COLOR</span>
+             <span style=color:#f92672>value</span>: <span style=color:#ae81ff>blue</span>
+    
+    <span style=color:#f92672>command</span>: [<span style=color:#e6db74>&#34;python&#34;</span>, <span style=color:#e6db74>&#34;app.py&#34;</span>]
+    <span style=color:#f92672>args</span>: [<span style=color:#e6db74>&#34;--color&#34;</span>, <span style=color:#e6db74>&#34;blue&#34;</span>]
+</code></pre></div><h2 id=configmap>ConfigMap<a hidden class=anchor aria-hidden=true href=#configmap>#</a></h2><ul><li>ConfigMap은 K8s에서 config를 따로 저장 및 관리할 수 있는 오브젝트.</li><li>Key-Value 페어로 정의하고</li><li>pod가 생성될 때 주입할 수 있음</li></ul><h3 id=configmap-생성-방법>ConfigMap 생성 방법<a hidden class=anchor aria-hidden=true href=#configmap-생성-방법>#</a></h3><ol><li><p>CLI를 통해 바로 생성</p><ul><li><code>kubectl create configmap {NAME} --from-literal=APP_COLOR=blue --from-literal=APP_MODE=prod</code></li></ul></li><li><p>기존에 정의된 파일로부터 생성</p><ul><li><code>kubectl create configmap {NAME} --from-file={FILE_PATH}</code></li></ul></li><li><p>ConfigMap 오브젝트 생성</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ex) config-map.yaml</span>
+
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>ConfigMap</span>
+<span style=color:#f92672>metadata</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>app-config</span>
+<span style=color:#f92672>data</span>:
+    <span style=color:#f92672>APP_COLOR</span>: <span style=color:#ae81ff>blue</span>
+    <span style=color:#f92672>APP_MODE</span>: <span style=color:#ae81ff>prod</span>
+</code></pre></div><p>yaml 파일 작성 이후 오브젝트 생성</p><ul><li><code>kubectl create -f config-map.yaml</code></li></ul></li></ol><h3 id=configmap-주입하기>ConfigMap 주입하기<a hidden class=anchor aria-hidden=true href=#configmap-주입하기>#</a></h3><ul><li><p>ConfigMap 전체 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>env</span>:
+            - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>APP_COLOR</span>
+            <span style=color:#f92672>envFrom</span>:
+                - <span style=color:#f92672>configMapRef</span>:
+                        <span style=color:#f92672>name</span>: <span style=color:#ae81ff>app-config   </span> <span style=color:#75715e># config map 이름을 통해 전체 주입</span>
+</code></pre></div></li><li><p>ConfigMap 내 특정 값만 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>env</span>:
+            - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>APP_COLOR</span>
+            <span style=color:#f92672>valueFrom</span>:
+                - <span style=color:#f92672>configMapKeyRef</span>:
+                        <span style=color:#f92672>name</span>: <span style=color:#ae81ff>app-config    </span>
+                        <span style=color:#f92672>key</span>: <span style=color:#ae81ff>APP_COLOR  </span> <span style=color:#75715e># config map 중에서 APP_COLOR 라는 하나의 변수만 주입</span>
+</code></pre></div></li><li><p>ConfigMap을 애플리케이션과 동일한 Storage에 위치할 수 있도록 Volume에 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>volumes</span>:
+            - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>app-config-volume</span>
+            <span style=color:#f92672>configMap</span>:
+                <span style=color:#f92672>name</span>: <span style=color:#ae81ff>app-config   </span> <span style=color:#75715e># config를 하나의 파일로서 pod의 volume에 포함시키고자 할 때</span>
+</code></pre></div></li></ul><h2 id=secrets>Secrets<a hidden class=anchor aria-hidden=true href=#secrets>#</a></h2><ul><li>민감한 정보를 담을 때 사용하는 오브젝트</li><li>ConfigMap과 마찬가지로 Key-Value 페어로 정의함</li><li>pod가 생성될 때 주입할 수 있음</li></ul><h3 id=secrets-생성하기>Secrets 생성하기<a hidden class=anchor aria-hidden=true href=#secrets-생성하기>#</a></h3><ol><li><p>CLI를 통해 바로 생성</p><ul><li><code>kubectl create secret generic {SECRETE_NAME} —-from-literal={KEY}={VALUE}</code></li><li><code>kubectl create secret generic db-secret —-from-literal=DB_USER=ROOT --from-literal=DB_PASSWORD=passwrd</code></li></ul></li><li><p>기존 파일을 사용하여 생성</p><ul><li><code>kubectl create secret generic {SECRET_NAME} --from-file={PATH_TO_SECRET_FILE}</code></li><li><code>kubectl create secret generic db-secret --from-file=app_secret.properties</code></li></ul></li><li><p>Secret 오브젝트 생성</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ex) db-secret.yaml</span>
+   
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Secret</span>
+<span style=color:#f92672>metadata</span>:
+    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>db-secret</span>
+       
+<span style=color:#f92672>data</span>:
+    <span style=color:#f92672>DB_HOST</span>: <span style=color:#ae81ff>postgres</span>
+    <span style=color:#f92672>DB_USER</span>: <span style=color:#ae81ff>root</span>
+    <span style=color:#f92672>DB_PASSWORD</span>: <span style=color:#ae81ff>passwrd</span>
+</code></pre></div><p>yaml 파일 작성 이후 오브젝트 생성</p><ul><li><code>kubectl create -f db-secret.yaml</code></li></ul></li></ol><h3 id=secret-관련-주의-사항>Secret 관련 주의 사항<a hidden class=anchor aria-hidden=true href=#secret-관련-주의-사항>#</a></h3><ul><li>secret 을 저장하기 위해서는 encoded format이 효과적임<ul><li><code>echo -n ‘passwrd’ | base64</code> 와 같이 인코딩해서 표기하기<ul><li>디코딩은 <code>echo -n ‘cG9zdGdyZXM=’ | base64 —decode</code></li><li>추후 <code>kubectl describe secret</code> 을 통해 오브젝트의 정보를 조회하더라도 민감한 정보가 그대로 표기되지 않고, 형태만 bytes 로 표기됨</li><li>인코딩 되지 않은 값을 직접 조회하려면<ul><li><code>kubectl get secret {SECRET_NAME} -o yaml</code></li></ul></li></ul></li></ul></li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ex) db-secret.yaml (인코딩 한 후 파일 작성한 예시)</span>
+
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Secret</span>
+<span style=color:#f92672>metadata</span>:
+	<span style=color:#f92672>name</span>: <span style=color:#ae81ff>db-secret</span>
+	
+<span style=color:#f92672>data</span>:
+	<span style=color:#f92672>DB_HOST</span>: <span style=color:#ae81ff>cG9zdGdyZXM=</span>
+	<span style=color:#f92672>DB_USER</span>: <span style=color:#ae81ff>cm9vdA==</span>
+	<span style=color:#f92672>DB_PASSWORD</span>: <span style=color:#ae81ff>cGFzc3dyZA==</span>
+</code></pre></div><h3 id=secret-주입하기>Secret 주입하기<a hidden class=anchor aria-hidden=true href=#secret-주입하기>#</a></h3><ul><li><p>Secret 전체 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>envFrom</span>:
+            - <span style=color:#f92672>secretRef</span>:
+                        <span style=color:#f92672>name</span>: <span style=color:#ae81ff>db-secret</span>
+</code></pre></div></li><li><p>Secret 내 특정 값만 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>env</span>:
+            - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>DB_PASSWORD</span>
+            <span style=color:#f92672>valueFrom</span>:
+                <span style=color:#f92672>secretKeyRef</span>:
+                    <span style=color:#f92672>name</span>: <span style=color:#ae81ff>db-secret    </span>
+                    <span style=color:#f92672>key</span>: <span style=color:#ae81ff>DB_PASSWORD</span> <span style=color:#75715e># secret 중에서 하나의 값만 주입</span>
+</code></pre></div></li><li><p>Secret 을 애플리케이션과 동일한 Storage에 위치할 수 있도록 Volume에 주입</p><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># pod definition 상위 부분 생략</span>
+... 
+<span style=color:#f92672>spec</span>:
+    <span style=color:#f92672>containers</span>:
+    <span style=color:#ae81ff>...</span>
+
+        <span style=color:#f92672>volumes</span>:
+        - <span style=color:#f92672>name</span>: <span style=color:#ae81ff>db-secret-volume</span>
+           <span style=color:#f92672>secret</span>:
+              <span style=color:#f92672>secretName</span>: <span style=color:#ae81ff>db-secret   </span> <span style=color:#75715e># config를 하나의 파일로서 pod의 volume에 포함시키고자 할 때</span>
+</code></pre></div></li></ul><h4 id=note>Note<a hidden class=anchor aria-hidden=true href=#note>#</a></h4><ul><li>Kubernetes 내에서도 표현하는 Secret은 다음과 같음<ul><li>ConfigMap과 비슷하다</li><li>하지만 confidential data, sensitive information을 담는데 유용함<ul><li>별도로 생성 및 관리가 가능함.</li><li>코드에 드러나지 않도록 사용하는데 적절함</li></ul></li><li>그야말로 &ldquo;safer option&rdquo;</li></ul></li><li>기본적으로 Secret 오브젝트는 encryption이 되는 것이 아니기 때문에, 디코딩을 통해 얼마든지 값을 알아낼 수 있으므로, secret object 또는 yaml 파일을 공개적으로 push 등의 작업은 권장되지 않음.</li><li>보안을 위해서는 다음과 같은 방법들이 제안 됨. (이 부분은 따로 공부하고 정리 예정)<ul><li>Enable Encryption at REST</li><li>Roll Based Access Control 적용</li><li>Access 제안 적용 (위와 비슷)</li><li>Cloud Provider 또는 Thrid-party에서 제공하는 encryption secret store 를 사용</li></ul></li></ul><h1 id=reference>Reference<a hidden class=anchor aria-hidden=true href=#reference>#</a></h1><ul><li>Kubernetes Documentation<ul><li><a href=https://kubernetes.io/docs/concepts/configuration/configmap/>https://kubernetes.io/docs/concepts/configuration/configmap/</a></li><li><a href=https://kubernetes.io/docs/concepts/configuration/secret/>https://kubernetes.io/docs/concepts/configuration/secret/</a></li></ul></li><li><a href=https://kodekloud.com/ target=_blank>KodeKloud</a></li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://wonyoungseo.github.io/tags/kubernetes/>kubernetes</a></li><li><a href=https://wonyoungseo.github.io/tags/k8s/>k8s</a></li></ul></footer></article></main><footer class=footer><span>© Wonyoung Seo 2023</span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+<span>&#183;</span>
+<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
+<script defer src=/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w=" onload=hljs.initHighlightingOnLoad();></script><script>window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener("click",function(e){e.preventDefault();var id=this.getAttribute("href").substr(1);if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({behavior:"smooth"});}else{document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();}
+if(id==="top"){history.replaceState(null,null," ");}else{history.pushState(null,null,`#${id}`);}});});var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{if(document.body.className.includes("dark")){document.body.classList.remove('dark');localStorage.setItem("pref-theme",'light');}else{document.body.classList.add('dark');localStorage.setItem("pref-theme",'dark');}})</script></body></html>
