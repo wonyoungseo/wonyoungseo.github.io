@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Tue, 12 Mar 2024 12:32:08 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Mar 2024 21:18:33 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - SecurityContext</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-14-securitycontext/</link>
+      <pubDate>Thu, 14 Mar 2024 21:18:33 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-14-securitycontext/</guid>
+      <description>K8s에서의 컨테이너 보안 기능 도커에서는 네임스페이스를 통해 user (User Namespace), file system (Mount Namespace) 등을 분리하고, Capabilities 에서 선택적인 권한을 부여하는 등 보안 기능이 있는데, 쿠버네티스에서도 Security Context를 통해 동일하게 적용이 가능하다.
+ 쿠버네티스에서 컨테이너는 Pod로 캡슐화 되므로, 위의 보안 적용은 컨테이너 레벨 또는 Pod 레벨 모두 적용 가능함. Pod 레벨에서 적용할 경우, Pod 내 모든 컨테이너에 동일하게 적용됨. 만일 서로 다른 설정을 컨테이너와 Pod에 설정하면, 컨테이너 설정이 Pod를 오버라이드 함.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - Command / Args / Configmap / Secret</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-12-k8s-configmap-secret/</link>
