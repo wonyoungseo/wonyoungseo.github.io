@@ -3,7 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wonyoungseo.github.io/categories/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/langchain/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/categories/llm/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/llm/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/openai/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/rag/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/tags/vectordb/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2024-03-18T23:57:30+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-18-k8s-node-affinity/</loc>
     <lastmod>2024-03-18T11:09:22+09:00</lastmod>
   </url>
   
@@ -18,27 +73,7 @@
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2024-03-18-k8s-node-affinity/</loc>
-    <lastmod>2024-03-18T11:09:22+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://wonyoungseo.github.io/categories/ops/</loc>
-    <lastmod>2024-03-18T11:09:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2024-03-18T11:09:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2024-03-18T11:09:22+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://wonyoungseo.github.io/</loc>
     <lastmod>2024-03-18T11:09:22+09:00</lastmod>
   </url>
   
@@ -78,12 +113,12 @@
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/tags/kubeflow/</loc>
+    <loc>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</loc>
     <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2024-02-08-kubeflow-concept/</loc>
+    <loc>https://wonyoungseo.github.io/tags/kubeflow/</loc>
     <lastmod>2024-02-08T14:17:49+09:00</lastmod>
   </url>
   

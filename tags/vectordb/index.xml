@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vectordb on Wonyoung&#39;s Tech Blog</title>
+    <link>https://wonyoungseo.github.io/tags/vectordb/</link>
+    <description>Recent content in vectordb on Wonyoung&#39;s Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Wonyoung Seo 2023</copyright>
+    <lastBuildDate>Mon, 18 Mar 2024 23:57:30 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/vectordb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] LangChain 과 RAG 찍먹 후기</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</guid>
+      <description>최근에 VectorDB 라는 키워드를 접하고 훑어보다, Vector Database → RAG (Retrieval Augmented Generation) → LangChain 의 흐름으로 연관이 있음을 알게 되었고, RAG 튜토리얼을 간단하게 따라가보았다.
+참고 튜토리얼 - LangChain: Q&amp;amp;amp;A with RAG
+&amp;amp;nbsp
+테니스GPT 챗GPT가 처음 등장했을 때, 테니스 관련해서 이것저것 물어보며 가지고 놀았던 기억이 있어, 이번에도 테니스 관련된 아주 간단한 QA애플리케이션을 만들어보면 어떨까 했다. 대부분의 구현은 튜토리얼을 따라갔지만, 아주 약간은 다르게 설정했다.
+&amp;amp;nbsp
+전처리 Loader  테니스와 관련된 문서를 그 자리에서 간략하게 수집했다.</description>
+    </item>
+    
+  </channel>
+</rss>

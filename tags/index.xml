@@ -7,7 +7,52 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Mon, 18 Mar 2024 11:09:22 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 23:57:30 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>langchain</title>
+      <link>https://wonyoungseo.github.io/tags/langchain/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/langchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>llm</title>
+      <link>https://wonyoungseo.github.io/tags/llm/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/llm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openai</title>
+      <link>https://wonyoungseo.github.io/tags/openai/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/openai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rag</title>
+      <link>https://wonyoungseo.github.io/tags/rag/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/rag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vectordb</title>
+      <link>https://wonyoungseo.github.io/tags/vectordb/</link>
+      <pubDate>Mon, 18 Mar 2024 23:57:30 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/tags/vectordb/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>k8s</title>
       <link>https://wonyoungseo.github.io/tags/k8s/</link>

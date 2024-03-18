@@ -9,7 +9,7 @@
     <copyright>© Wonyoung Seo 2023</copyright>
     <lastBuildDate>Mon, 18 Mar 2024 11:09:22 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/categories/ops/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Kubernetes - Node Selector &amp; Node Affinity</title>
+      <title>[KR] Kubernetes - Node Selector &amp; Node Affinity</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-18-k8s-node-affinity/</link>
       <pubDate>Mon, 18 Mar 2024 11:09:22 +0900</pubDate>
       
@@ -21,7 +21,7 @@
     </item>
     
     <item>
-      <title>Kubernetes - Taints &amp; Tolerance</title>
+      <title>[KR] Kubernetes - Taints &amp; Tolerance</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-17-k8s-taints-tolerance/</link>
       <pubDate>Sun, 17 Mar 2024 18:11:07 +0900</pubDate>
       
@@ -31,7 +31,7 @@
     </item>
     
     <item>
-      <title>Kubernetes - Resource Requirements</title>
+      <title>[KR] Kubernetes - Resource Requirements</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-16-k8s-resource-requirements/</link>
       <pubDate>Sat, 16 Mar 2024 14:17:03 +0900</pubDate>
       
@@ -41,7 +41,7 @@
     </item>
     
     <item>
-      <title>Kubernetes - SecurityContext</title>
+      <title>[KR] Kubernetes - SecurityContext</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-14-securitycontext/</link>
       <pubDate>Thu, 14 Mar 2024 21:18:33 +0900</pubDate>
       
@@ -64,7 +64,7 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
     </item>
     
     <item>
-      <title>Kubernetes - Multi-Container Pod</title>
+      <title>[KR] Kubernetes - Multi-Container Pod</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-08-k8s-multiple-container-pod/</link>
       <pubDate>Fri, 08 Mar 2024 01:44:13 +0900</pubDate>
       
@@ -73,7 +73,7 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
     </item>
     
     <item>
-      <title>Kubernetes - NameSpace</title>
+      <title>[KR] Kubernetes - NameSpace</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-05-k8s-namespace/</link>
       <pubDate>Tue, 05 Mar 2024 01:44:13 +0900</pubDate>
       
@@ -82,7 +82,7 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
     </item>
     
     <item>
-      <title>Kubernetes - PV &amp; PVC</title>
+      <title>[KR] Kubernetes - PV &amp; PVC</title>
       <link>https://wonyoungseo.github.io/posts/2024-02-29-k8s-pv-pvc/</link>
       <pubDate>Thu, 29 Feb 2024 03:18:50 +0900</pubDate>
       
@@ -92,7 +92,7 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
     </item>
     
     <item>
-      <title>Kubernetes - Network, Service</title>
+      <title>[KR] Kubernetes - Network, Service</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-25-k8s-trial-network-service/</link>
       <pubDate>Thu, 25 Jan 2024 14:17:49 +0900</pubDate>
       
@@ -101,7 +101,7 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
     </item>
     
     <item>
-      <title>Kubernetes - Pod / ReplicaSet / Deployment</title>
+      <title>[KR] Kubernetes - Pod / ReplicaSet / Deployment</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</link>
       <pubDate>Thu, 18 Jan 2024 15:12:01 +0900</pubDate>
       
@@ -116,7 +116,7 @@ ReplicaSet Replication Controllers (OLD)  High Availability  레플리카 Pod in
     </item>
     
     <item>
-      <title>Kubernetes - 개념 정리</title>
+      <title>[KR] Kubernetes - 개념 정리</title>
       <link>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</link>
       <pubDate>Mon, 15 Jan 2024 21:33:01 +0900</pubDate>
       
