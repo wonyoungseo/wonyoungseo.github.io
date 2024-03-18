@@ -7,14 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Thu, 14 Mar 2024 21:18:33 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 11:09:22 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes - Node Selector &amp; Node Affinity</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-18-k8s-node-affinity/</link>
+      <pubDate>Mon, 18 Mar 2024 11:09:22 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-18-k8s-node-affinity/</guid>
+      <description>Node Selector와 Node Affinity는 Pod에 제한을 걸어 특정 노드에만 스케줄링 될 수 있도록 하는 설정임
+예시)
+ 만일 클러스터 중에 하나의 노드에 GPU가 장착이 되어 있다면 딥러닝 훈련 Pod는 해당 노드에 스케줄링되어 구동되도록 함  NodeSelector  간단하고, 가볍게 하나의 Pod에 적용시킬 수 있는 설정    Node에 레이블 적용하기
+ kubectl label nodes &amp;lt;node-name&amp;gt; &amp;lt;label-key&amp;gt;=&amp;lt;label-value&amp;gt; 예시) kubectl label nodes node01 size=Large    Pod에도 &amp;lt;label-value&amp;gt; 명시하기. Node에 적용된 Label 과 매칭되어 스케줄링 됨.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes - Taints &amp; Tolerance</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-17-k8s-taints-tolerance/</link>
+      <pubDate>Sun, 17 Mar 2024 18:11:07 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-17-k8s-taints-tolerance/</guid>
+      <description>Taints and Tolerance  특정 노드에 파드의 무작위 스케줄링을 제한하고, 특정 유형의 파드의 스케줄링만 허용할 때 사용되는 설정 노드를 taint (오염) 시켜서 파드가 접근하지 못 하게 한 후, 노드에 적용된 taint에 대한 tolerance(내성) 을 가진 파드만 스케줄링 된다는 개념  Node에 Taint 적용하기 kubectl taint nodes &amp;lt;node-name&amp;gt; &amp;lt;key&amp;gt;=&amp;lt;value&amp;gt;:&amp;lt;taint-effect&amp;gt; 예시)
+# node1에 taint 적용 kubectl taint nodes node1 app=blue:NoSchedule # taint 제거 kubectl taint nodes node1 app=blue:NoSchedule- taint-effect 의 유형  NoSchedule - 포드가 스케쥴되지 않음 PreferNoSchedule - 해당 노드는 피하지만 보장된 것은 아님 NoExecute - 파드가 스케쥴되지 않으며, 현재 존재하는 파드도 tolerant가 없다면 제외함.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes - Resource Requirements</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-16-k8s-resource-requirements/</link>
+      <pubDate>Sat, 16 Mar 2024 14:17:03 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-16-k8s-resource-requirements/</guid>
+      <description>쿠버네티스 상에서의 자원 할당 쿠버네티스에서 Pod가 구동되기 위해서는 스케줄링 된 노드 내 가용할 수 있는 리소스를 사용한다.
+ kube-schduler 는 Pod가 필요로 하는 자원을 어느 노드에서 구동시킬 지 결정함. 만일 모든 노드에서 Pod를 구동시킬 수 있는 자원이 충분히 남아있지 않을 경우  스케줄러는 Pod를 할당하지 않고 스케줄링을 멈춤. Pod를 Pending State 이 됨.  STATUS=pending 표기가 되며, Event 에도 Insufficient resource로 표기됨      Resource Requirements  Resource Requirements 는 Pod를 구동시키기 위해 필요한 최소 자원을 명시하는 것.</description>
+    </item>
+    
     <item>
       <title>Kubernetes - SecurityContext</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-14-securitycontext/</link>
       <pubDate>Thu, 14 Mar 2024 21:18:33 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-03-14-securitycontext/</guid>
-      <description>K8s에서의 컨테이너 보안 기능 도커에서는 네임스페이스를 통해 user (User Namespace), file system (Mount Namespace) 등을 분리하고, Capabilities 에서 선택적인 권한을 부여하는 등 보안 기능이 있는데, 쿠버네티스에서도 Security Context를 통해 동일하게 적용이 가능하다.
+      <description>K8s에서의 컨테이너 보안 기능 도커에서는 Namespace를 통해 user (User Namespace), file system (Mount Namespace) 등을 분리하고, Capabilities 에서 선택적인 권한을 부여하는 등 보안 기능이 있는데, 쿠버네티스에서도 Security Context를 통해 동일하게 적용이 가능하다.
  쿠버네티스에서 컨테이너는 Pod로 캡슐화 되므로, 위의 보안 적용은 컨테이너 레벨 또는 Pod 레벨 모두 적용 가능함. Pod 레벨에서 적용할 경우, Pod 내 모든 컨테이너에 동일하게 적용됨. 만일 서로 다른 설정을 컨테이너와 Pod에 설정하면, 컨테이너 설정이 Pod를 오버라이드 함.</description>
     </item>
     
