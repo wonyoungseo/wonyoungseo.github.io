@@ -1,0 +1,108 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>[KR] Kubernetes - Readiness & Liveness Probes | Wonyoung's Tech Blog</title><meta name=keywords content="kubernetes,k8s"><meta name=description content="Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.
+&nbsp
+Pod Status
+ kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태 Running - 실행 중       &nbsp
+Pod Condition
+ kubectl describe pods Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음. 4가지 상태 카테고리를 True/False 로 나타냄."><meta name=author content="Wonyoung Seo"><link rel=canonical href=https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/><meta name=google-site-verification content="XYZabc"><link href=/assets/css/stylesheet.min.d8cbf60331b9ced42909130bf88f8b97d2eb3de242444dcc9e2df410ceb098b9.css integrity="sha256-2Mv2AzG5ztQpCRML+I+Ll9LrPeJCRE3Mni30EM6wmLk=" rel="preload stylesheet" as=style><link rel=icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.80.0"><meta property="og:title" content="[KR] Kubernetes - Readiness & Liveness Probes"><meta property="og:description" content="Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.
+&nbsp
+Pod Status
+ kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태 Running - 실행 중       &nbsp
+Pod Condition
+ kubectl describe pods Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음. 4가지 상태 카테고리를 True/False 로 나타냄."><meta property="og:type" content="article"><meta property="og:url" content="https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/"><meta property="og:image" content="https://wonyoungseo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="article:published_time" content="2024-03-20T16:33:33+09:00"><meta property="article:modified_time" content="2024-03-20T16:33:33+09:00"><meta property="og:site_name" content="WY's Tech Blog"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://wonyoungseo.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="[KR] Kubernetes - Readiness & Liveness Probes"><meta name=twitter:description content="Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.
+&nbsp
+Pod Status
+ kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태 Running - 실행 중       &nbsp
+Pod Condition
+ kubectl describe pods Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음. 4가지 상태 카테고리를 True/False 로 나타냄."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"[KR] Kubernetes - Readiness \u0026 Liveness Probes","name":"[KR] Kubernetes - Readiness \u0026 Liveness Probes","description":"Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.\n\u0026amp;amp;nbsp\nPod Status\n kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating …","keywords":["kubernetes","k8s"],"articleBody":"Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.\n\u0026nbsp\nPod Status\n kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태 Running - 실행 중       \u0026nbsp\nPod Condition\n kubectl describe pods Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음. 4가지 상태 카테고리를 True/False 로 나타냄.  PodScheduled - 파드가 노드에 스케줄 됨. Initialized - 초기화 컨테이너가 성공적으로 실행완료 됨. ContainersReady - 파드 내 모든 컨테이너가 준비 됨. Ready  컨테이너 내 애플리케이션이 실행 중. Pod Status를 조회할 때 함께 표기됨.         \u0026nbsp  Note : Ready Condition 에 대한 주의사항 실제 애플리케이션 상태와 Ready Condition의 괴리\n 애플리케이션에 따라 실제로 사용할 수 있기까지 수초 이상의 시간이 더 걸릴 수 있음. 그러나 쿠버네티스는 Pod condition을 Ready 로 표기하는 경우가 있음. 이 경우, 쿠버네티스는 파드 배포를 완료하여 유저 트래픽을 허용하고 요청을 받지만, 유저는 애플리케이션에 접근할 수 없는 상황이 발생함.  Probes 개발자는 실제로 파드가 Ready 상태인지 확인할 수 있도록 Probe를 띄울 수 있음. Readiness Probe, Liveness Probe가 존재함.\nReadiness Probe Pod 정의 과정에서 readinessProbe 를 설정하면, 개발자는 Probe를 통해 의도한 결과를 얻기 전까지는 쿠버네티스는 Pod condition을 Ready로 표시하지 않음\n예시)\n 웹 애플리케이션일 경우 HTTP test를 수행 데이터베이스일 경우 TCP소켓이 반응하는지 테스트 테스트 스크립트가 성공적으로 실행 및 종료 되는지 테스트  # ex) pod-definition.yaml apiVersion: v1 kind: Pod metadata: name: my-webapp labels: name: my-webapp spec: containers: - name: my-webapp image: my-webapp ports: -containerPort: 8080 readinessProbe: # HTTP 테스트 httpGet: path: /api/ready port: 80 # 초기 실행되는 시간이 있음을 인지하고 있는 경우, 다음과 같이 설정 가능 initialDelaySeconds: 10 # 반복 수행 주기 설정 periodSeconds: 5 # 반복 수행 횟수 상한 설정 (설정하지 않는 경우 디폴트 3회) failureThreshold: 10 # TCP 테스트 tcpSocket: port: 3306 # 스크립트 실행 커맨드 exec: command: - cat - /app/is_ready.sh Liveness Probe 애플리케이션 내부 코드의 버그 또는 그 외 예상치 못 한 문제로 인해 컨테이너 자체는 실행 중이지만 애플리케이션이 준비가 되지 못 한 경우가 발생할 수 있음. 무한대로 로딩되는 경우도 마찬가지.\n이러한 경우 컨테이너는 재시작이 되거나 배포를 중지하고 내려야 하는 상황이 생김. Readiness Probe와 마찬가지로 테스트를 수행하여, 애플리케이션이 제대로 실행 중인지 테스트할 수 있음.\n예시)\n 웹애플리케이션일 경우 HTTP health check을 날려봄 데이터베이스일 경우 TCP소켓이 반응하는지 테스트 테스트 스크립트가 성공적으로 실행 및 종료 되는지 테스트  # ex) pod-definition.yaml apiVersion: v1 kind: Pod metadata: name: my-webapp labels: name: my-webapp spec: containers: - name: my-webapp image: my-webapp ports: -containerPort: 8080 livenessProbe: # http test httpGet: path: /api/health port: 8080 # 초기 실행되는 시간이 있음을 인지하고 있는 경우, 다음과 같이 설정 가능 initialDelaySeconds: 10 # 반복 수행 주기 설정 periodSeconds: 5 # 반복 수행 횟수 상한 설정 (설정하지 않는 경우 디폴트 3회) failureThreshold: 10 # TCP Test tcpSocket: port: 3306 # Execution command exec: command: - cat - /app/is_healthy.sh Reference  Kubernetes Docs - Pod Lifecycle Kubernetes Docs - Container Probes  ","wordCount":"458","inLanguage":"en","datePublished":"2024-03-20T16:33:33+09:00","dateModified":"2024-03-20T16:33:33+09:00","author":{"@type":"Person","name":"Wonyoung Seo"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/"},"publisher":{"@type":"Organization","name":"Wonyoung's Tech Blog","logo":{"@type":"ImageObject","url":"https://wonyoungseo.github.io/%3Clink%20/%20abs%20url%3E"}}}</script></head><body id=top><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://wonyoungseo.github.io/ accesskey=h title="Tech Blog (Alt + H)">Tech Blog</a>
+<span class=logo-switches><a id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></div><ul id=menu onscroll=menu_on_scroll()><li><a href=https://wonyoungseo.github.io/archives/ title=posts><span>posts</span></a></li><li><a href=https://wonyoungseo.github.io/categories/ title=categories><span>categories</span></a></li><li><a href=https://wonyoungseo.github.io/tags/ title=tags><span>tags</span></a></li><li><a href=https://wonyoungseo.github.io/about/ title=about><span>about</span></a></li><li><a href=https://wonyoungseo.github.io/search/ title="search (Alt + /)" accesskey=/><span>search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>[KR] Kubernetes - Readiness & Liveness Probes</h1><div class=post-meta>March 20, 2024&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Wonyoung Seo</div></header><div class=toc><details open><summary accesskey=c title="(Alt + C)"><div class=details>Table of Contents</div></summary><div class=inner><ul><li><a href=#status%ec%99%80-conditions aria-label="Status와 Conditions">Status와 Conditions</a><ul><li><a href=#note--ready-condition-%ec%97%90-%eb%8c%80%ed%95%9c-%ec%a3%bc%ec%9d%98%ec%82%ac%ed%95%ad aria-label="Note : Ready Condition 에 대한 주의사항">Note : Ready Condition 에 대한 주의사항</a></li></ul></li><li><a href=#probes aria-label=Probes>Probes</a><ul><li><a href=#readiness-probe aria-label="Readiness Probe">Readiness Probe</a></li><li><a href=#liveness-probe aria-label="Liveness Probe">Liveness Probe</a></li></ul></li><li><a href=#reference aria-label=Reference>Reference</a></li></ul></div></details></div><div class=post-content><h1 id=status와-conditions>Status와 Conditions<a hidden class=anchor aria-hidden=true href=#status와-conditions>#</a></h1><p>쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.</p><p>&nbsp</p><p><strong>Pod Status</strong></p><ul><li><code>kubectl get pods</code></li><li>상태 예시<ul><li>Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면</li><li>ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태</li><li>Running - 실행 중</li></ul></li></ul><figure><center><img src=/2024-03-20-k8s-readiness-liveness-probes/pod_status.png></center></figure><p>&nbsp</p><p><strong>Pod Condition</strong></p><ul><li><code>kubectl describe pods</code></li><li>Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음.</li><li>4가지 상태 카테고리를 True/False 로 나타냄.<ul><li>PodScheduled - 파드가 노드에 스케줄 됨.</li><li>Initialized - 초기화 컨테이너가 성공적으로 실행완료 됨.</li><li>ContainersReady - 파드 내 모든 컨테이너가 준비 됨.</li><li>Ready<ul><li>컨테이너 내 애플리케이션이 실행 중.</li><li>Pod Status를 조회할 때 함께 표기됨.</li></ul></li></ul></li></ul><figure><center><img src=/2024-03-20-k8s-readiness-liveness-probes/pod_condition.png></center></figure><pre><code>&amp;nbsp
+</code></pre><h2 id=note--ready-condition-에-대한-주의사항>Note : Ready Condition 에 대한 주의사항<a hidden class=anchor aria-hidden=true href=#note--ready-condition-에-대한-주의사항>#</a></h2><p>실제 애플리케이션 상태와 Ready Condition의 괴리</p><ul><li>애플리케이션에 따라 실제로 사용할 수 있기까지 수초 이상의 시간이 더 걸릴 수 있음.</li><li>그러나 쿠버네티스는 Pod condition을 Ready 로 표기하는 경우가 있음.</li><li>이 경우, 쿠버네티스는 파드 배포를 완료하여 유저 트래픽을 허용하고 요청을 받지만, 유저는 애플리케이션에 접근할 수 없는 상황이 발생함.</li></ul><h1 id=probes>Probes<a hidden class=anchor aria-hidden=true href=#probes>#</a></h1><p>개발자는 실제로 파드가 Ready 상태인지 확인할 수 있도록 Probe를 띄울 수 있음. Readiness Probe, Liveness Probe가 존재함.</p><h2 id=readiness-probe>Readiness Probe<a hidden class=anchor aria-hidden=true href=#readiness-probe>#</a></h2><p>Pod 정의 과정에서 <code>readinessProbe</code> 를 설정하면, 개발자는 Probe를 통해 의도한 결과를 얻기 전까지는 쿠버네티스는 Pod condition을 Ready로 표시하지 않음</p><p>예시)</p><ul><li>웹 애플리케이션일 경우 HTTP test를 수행</li><li>데이터베이스일 경우 TCP소켓이 반응하는지 테스트</li><li>테스트 스크립트가 성공적으로 실행 및 종료 되는지 테스트</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ex) pod-definition.yaml</span>
+
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+<span style=color:#f92672>metadata</span>:
+	<span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+	<span style=color:#f92672>labels</span>:
+		<span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+		
+<span style=color:#f92672>spec</span>:
+	<span style=color:#f92672>containers</span>:
+	- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+		<span style=color:#f92672>image</span>: <span style=color:#ae81ff>my-webapp</span>
+		<span style=color:#f92672>ports</span>:
+			<span style=color:#f92672>-containerPort</span>: <span style=color:#ae81ff>8080</span>
+			
+		<span style=color:#f92672>readinessProbe</span>:
+
+			<span style=color:#75715e># HTTP 테스트</span>
+			<span style=color:#f92672>httpGet</span>:
+				<span style=color:#f92672>path</span>: <span style=color:#ae81ff>/api/ready</span>
+				<span style=color:#f92672>port</span>: <span style=color:#ae81ff>80</span>
+				
+				<span style=color:#75715e># 초기 실행되는 시간이 있음을 인지하고 있는 경우, 다음과 같이 설정 가능</span>
+				<span style=color:#f92672>initialDelaySeconds</span>: <span style=color:#ae81ff>10</span>
+				
+				<span style=color:#75715e># 반복 수행 주기 설정</span>
+				<span style=color:#f92672>periodSeconds</span>: <span style=color:#ae81ff>5</span>
+				
+				<span style=color:#75715e># 반복 수행 횟수 상한 설정 (설정하지 않는 경우 디폴트 3회)</span>
+				<span style=color:#f92672>failureThreshold</span>: <span style=color:#ae81ff>10</span>
+				
+			<span style=color:#75715e># TCP 테스트</span>
+			<span style=color:#f92672>tcpSocket</span>:
+				<span style=color:#f92672>port</span>: <span style=color:#ae81ff>3306</span>
+				
+			<span style=color:#75715e># 스크립트 실행 커맨드</span>
+			<span style=color:#f92672>exec</span>:
+				<span style=color:#f92672>command</span>:
+					- <span style=color:#ae81ff>cat</span>
+					- <span style=color:#ae81ff>/app/is_ready.sh</span>
+</code></pre></div><h2 id=liveness-probe>Liveness Probe<a hidden class=anchor aria-hidden=true href=#liveness-probe>#</a></h2><p>애플리케이션 내부 코드의 버그 또는 그 외 예상치 못 한 문제로 인해 컨테이너 자체는 실행 중이지만 애플리케이션이 준비가 되지 못 한 경우가 발생할 수 있음. 무한대로 로딩되는 경우도 마찬가지.</p><p>이러한 경우 컨테이너는 재시작이 되거나 배포를 중지하고 내려야 하는 상황이 생김. Readiness Probe와 마찬가지로 테스트를 수행하여, 애플리케이션이 제대로 실행 중인지 테스트할 수 있음.</p><p>예시)</p><ul><li>웹애플리케이션일 경우 HTTP health check을 날려봄</li><li>데이터베이스일 경우 TCP소켓이 반응하는지 테스트</li><li>테스트 스크립트가 성공적으로 실행 및 종료 되는지 테스트</li></ul><div class=highlight><pre style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=color:#75715e># ex) pod-definition.yaml</span>
+
+<span style=color:#f92672>apiVersion</span>: <span style=color:#ae81ff>v1</span>
+<span style=color:#f92672>kind</span>: <span style=color:#ae81ff>Pod</span>
+<span style=color:#f92672>metadata</span>:
+	<span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+	<span style=color:#f92672>labels</span>:
+		<span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+		
+<span style=color:#f92672>spec</span>:
+	<span style=color:#f92672>containers</span>:
+	- <span style=color:#f92672>name</span>: <span style=color:#ae81ff>my-webapp</span>
+		<span style=color:#f92672>image</span>: <span style=color:#ae81ff>my-webapp</span>
+		<span style=color:#f92672>ports</span>:
+			<span style=color:#f92672>-containerPort</span>: <span style=color:#ae81ff>8080</span>
+			
+		<span style=color:#f92672>livenessProbe</span>:
+		
+		
+			<span style=color:#75715e># http test</span>
+			<span style=color:#f92672>httpGet</span>:
+				<span style=color:#f92672>path</span>: <span style=color:#ae81ff>/api/health</span>
+				<span style=color:#f92672>port</span>: <span style=color:#ae81ff>8080</span>
+				
+				<span style=color:#75715e># 초기 실행되는 시간이 있음을 인지하고 있는 경우, 다음과 같이 설정 가능</span>
+				<span style=color:#f92672>initialDelaySeconds</span>: <span style=color:#ae81ff>10</span>
+				
+				<span style=color:#75715e># 반복 수행 주기 설정</span>
+				<span style=color:#f92672>periodSeconds</span>: <span style=color:#ae81ff>5</span>
+				
+				<span style=color:#75715e># 반복 수행 횟수 상한 설정 (설정하지 않는 경우 디폴트 3회)</span>
+				<span style=color:#f92672>failureThreshold</span>: <span style=color:#ae81ff>10</span>
+				
+			<span style=color:#75715e># TCP Test</span>
+			<span style=color:#f92672>tcpSocket</span>:
+				<span style=color:#f92672>port</span>: <span style=color:#ae81ff>3306</span>
+				
+			<span style=color:#75715e># Execution command</span>
+			<span style=color:#f92672>exec</span>:
+				<span style=color:#f92672>command</span>:
+					- <span style=color:#ae81ff>cat</span>
+					- <span style=color:#ae81ff>/app/is_healthy.sh</span>
+</code></pre></div><h1 id=reference>Reference<a hidden class=anchor aria-hidden=true href=#reference>#</a></h1><ul><li><a href=https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/ target=_blank>Kubernetes Docs - Pod Lifecycle</a></li><li><a href=https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/#container-probes target=_blank>Kubernetes Docs - Container Probes</a></li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://wonyoungseo.github.io/tags/kubernetes/>kubernetes</a></li><li><a href=https://wonyoungseo.github.io/tags/k8s/>k8s</a></li></ul></footer></article></main><footer class=footer><span>© Wonyoung Seo 2023</span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+<span>&#183;</span>
+<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)"><button class=top-link id=top-link type=button accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></button></a>
+<script defer src=/assets/js/highlight.min.27cd435cc9ed6abb4b496581b151804f79f366c412620272bb94e2f5f598ebcc.js integrity="sha256-J81DXMntartLSWWBsVGAT3nzZsQSYgJyu5Ti9fWY68w=" onload=hljs.initHighlightingOnLoad();></script><script>window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
+document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener("click",function(e){e.preventDefault();var id=this.getAttribute("href").substr(1);if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({behavior:"smooth"});}else{document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();}
+if(id==="top"){history.replaceState(null,null," ");}else{history.pushState(null,null,`#${id}`);}});});var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{if(document.body.className.includes("dark")){document.body.classList.remove('dark');localStorage.setItem("pref-theme",'light');}else{document.body.classList.add('dark');localStorage.setItem("pref-theme",'dark');}})</script></body></html>

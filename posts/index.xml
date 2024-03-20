@@ -7,7 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Mon, 18 Mar 2024 23:57:30 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 16:33:33 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Kubernetes - Readiness &amp; Liveness Probes</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/</link>
+      <pubDate>Wed, 20 Mar 2024 16:33:33 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/</guid>
+      <description>Status와 Conditions 쿠버네티스에서 Pod Status와 Conditions 은 파드의 상태를 확인하는 가장 기본적인 방법이다.
+&amp;amp;nbsp
+Pod Status
+ kubectl get pods 상태 예시  Pending - 스케줄러가 파드를 스케줄링할 노드를 찾지 못 하면 ContainerCreating - 스케줄링되면, 이미지를 받아 컨테이너를 실행하는 상태 Running - 실행 중       &amp;amp;nbsp
+Pod Condition
+ kubectl describe pods Pod Status 에 비해 더 세부적인 현상태를 조회할 수 있음. 4가지 상태 카테고리를 True/False 로 나타냄.</description>
+    </item>
+    
+    <item>
+      <title>[KR] Kubernetes - Monitoring &amp; Logging</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-20-k8s-logging-monitoring/</link>
+      <pubDate>Wed, 20 Mar 2024 15:07:09 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-20-k8s-logging-monitoring/</guid>
+      <description>CKAD 를 준비하는 선에서 과정에서 정리한 내용으로, 실제로 쿠버네티스에서 로깅과 모니터링과 관련된 내용은 훨씬 더 방대할 수 있습니다.
+ Monitoring  쿠버네티스의 클러스터를 모니터링하고자 한다면, 주로 다음과 같은 데이터를 보고자 함일 것이다.  Node 별 리소스 사용 현황 Node 별 Pod의 갯수 Pod 별 리소스 사용 현황 etc &amp;hellip;   쿠버네티스는 빌트인 모니터링 기능을 제공하고 있지 않지만, 여러가지 툴이 존재함.  Metrics Server Prometheus Elastic Stack Data Dog dynatrace etc &amp;hellip;    Metrics Server (모니터링 툴 예시)  하나의 클러스터를 기준으로 작동함.</description>
+    </item>
+    
     <item>
       <title>[KR] LangChain 과 RAG 찍먹 후기</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</link>
@@ -15,7 +39,7 @@
       
       <guid>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</guid>
       <description>최근에 VectorDB 라는 키워드를 접하고 훑어보다, Vector Database → RAG (Retrieval Augmented Generation) → LangChain 의 흐름으로 연관이 있음을 알게 되었고, RAG 튜토리얼을 간단하게 따라해보았다.
-참고 튜토리얼 - LangChain: QA with RAG
+참고 튜토리얼 - LangChain: QnA with RAG
 &amp;amp;nbsp
 테니스GPT 챗GPT가 처음 등장했을 때, 테니스 관련해서 이것저것 물어보며 가지고 놀았던 기억이 있어, 튜토리얼을 기반으로 테니스와 관련된 아주 간단한 QA애플리케이션을 만들어보면 어떨까 했다.
 &amp;amp;nbsp

@@ -15,7 +15,7 @@
       
       <guid>https://wonyoungseo.github.io/posts/2024-03-19-langchain-rag-qa-toy-tennis-app/</guid>
       <description>최근에 VectorDB 라는 키워드를 접하고 훑어보다, Vector Database → RAG (Retrieval Augmented Generation) → LangChain 의 흐름으로 연관이 있음을 알게 되었고, RAG 튜토리얼을 간단하게 따라해보았다.
-참고 튜토리얼 - LangChain: QA with RAG
+참고 튜토리얼 - LangChain: QnA with RAG
 &amp;amp;nbsp
 테니스GPT 챗GPT가 처음 등장했을 때, 테니스 관련해서 이것저것 물어보며 가지고 놀았던 기억이 있어, 튜토리얼을 기반으로 테니스와 관련된 아주 간단한 QA애플리케이션을 만들어보면 어떨까 했다.
 &amp;amp;nbsp
