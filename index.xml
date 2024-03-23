@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 16:33:33 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 21:28:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Kubernetes - Job / CronJob</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-23-k8s-job/</link>
+      <pubDate>Sat, 23 Mar 2024 21:28:01 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-23-k8s-job/</guid>
+      <description>Job  단발성으로 연산, 데이터 처리 등을 이유로 자원을 써야하는 경우도 있음 이러한 작업을 Pod로 구현한다면, Pod는 중료 후 재생성 되는 사이클을 반복함  restartPolicy: Always가 디폴트이기 때문에 사용자가 삭제하지 않는 한 Pod 는 실행 상태를 유지하는 것이 K8s 의 특성 restartPolicy: Never 로 설정하면 한번 실행하고 종료가 되긴 함.    만일 다수의 파드를 생성하고 배치로 스케쥴링 및 관리하고 싶다면 Job 오브젝트를 사용하면 됨. 싶다면?
+Job 정의 apiVersion: batch/v1  # 버전 주의 kind: Job metadata: name: my-job spec: template: spec: cotainers: - name: math-add image: ubuntu command: [&amp;#39;expr&amp;#39;, &amp;#39;3&amp;#39;, &amp;#39;+&amp;#39;, &amp;#39;2&amp;#39;] restartPolicy: Never completions: 3 parallelism: 3   completion</description>
+    </item>
+    
     <item>
       <title>[KR] Kubernetes - Readiness &amp; Liveness Probes</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-20-k8s-readiness-liveness-probes/</link>
@@ -155,13 +165,14 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
       <pubDate>Thu, 18 Jan 2024 15:12:01 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-01-18-k8s-trial-pod-replica-deployment/</guid>
-      <description>Pod Pod 뿐만 아니라 쿠버네티스에서 object을 정의하는 yaml의 형태는 다음과 같다.
+      <description>Pod 쿠버네티스에서 Pod를 정의하는 정의하는 yaml의 형태는 다음과 같다.
+(Pod 뿐만 아니라 다른 오브젝트도 동일)
 # pod-definition.yml apiVersion: kind: metadata: spec: containers: - name: # - before the name indicates, its first item in the list image: Pod 관련 명령어
 kubectl create -f [FILE NAME].yml
 kubectl create -f [FILE NAME].yml --record 또는 kubectl apply -f [FILE NAME].yml
 kubectl get pods
 kubectl describe pod [POD NAME]
-ReplicaSet Replication Controllers (OLD)  High Availability  레플리카 Pod instance를 생성하고 관리함 Pod가 하나인 상황에서도, 만약 죽으면 새로 다시 올리는 역할을 함   Load Balancing &amp;amp; Scaling  multiple pod , multiple node 상황에서도 관리    Replication controller 예시</description>
+Labels, Selectors 개념  Labels and Selectors act as a filter, filtering pods for ReplicsSet Labels와 Selectors는 필터로서의 기능을 함.</description>
     </item>
     
     <item>
