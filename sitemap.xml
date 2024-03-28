@@ -3,42 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://wonyoungseo.github.io/posts/2024-03-23-k8s-job/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-28-k8s-helm/</loc>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/k8s/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/kubernetes/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/categories/ops/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/posts/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/tags/</loc>
-    <lastmod>2024-03-23T21:28:01+09:00</lastmod>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://wonyoungseo.github.io/</loc>
+    <lastmod>2024-03-28T15:13:38+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-26-k8s-stateful-set/</loc>
+    <lastmod>2024-03-26T17:22:13+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-23-k8s-job/</loc>
     <lastmod>2024-03-23T21:28:01+09:00</lastmod>
   </url>
   
@@ -1005,6 +1015,10 @@
   <url>
     <loc>https://wonyoungseo.github.io/posts/2020-01-02-first-post/</loc>
     <lastmod>2020-01-02T14:24:01+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://wonyoungseo.github.io/posts/2024-03-02-k8s-storage-class/</loc>
   </url>
   
   <url>

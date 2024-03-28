@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Wonyoung Seo 2023</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 21:28:01 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 15:13:38 +0900</lastBuildDate><atom:link href="https://wonyoungseo.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[KR] Kubernetes - Helm</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-28-k8s-helm/</link>
+      <pubDate>Thu, 28 Mar 2024 15:13:38 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-28-k8s-helm/</guid>
+      <description>Helm  쿠버네티스는 하나의 애플리케이션 배포를 위해 수많은 yaml 파일을 작성 수정해야 함 helm 은 위의 과정을 해결해줄 수 있는 패키징 툴  ubuntu - apt, mac - brew, python - pip 같은 거라고 보면 됨   helm-chart는 쿠버네티스 리소스를 하나로 묶은 패키지  Helm 설치하기 Helm | Installing Helm
+Helm을 통해 애플리케이션 설치하기 # 설치 helm install wordpress # 업그레이드 helm upgrade wordpress # 롤백 helm rollback wordpress # 삭제 helm uninstall wordpress values.</description>
+    </item>
+    
+    <item>
+      <title>[KR] Kubernetes - Stateful Sets</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-26-k8s-stateful-set/</link>
+      <pubDate>Tue, 26 Mar 2024 17:22:13 +0900</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-26-k8s-stateful-set/</guid>
+      <description>Stateful Sets  Pod template 으로 생성, 스케일업 다운이 가능해서 deployment 와 비슷함 Pod에 저장된 데이터 또는 Pod의 설정을 stateful하게 유지해야 하는 경우 사용됨 Stateful Set은 스케쥴링 될 Pod에 특정 규칙에 따라 유니크한 인덱스를 부여함  이렇게 생성된 Pod는 재생성 되는 상황에서도 랜덤한 문자열이 아닌 규칙에 따른 이름이 부여됨   따라서 인덱스에 따라 Pod 스케줄링에 순서 또는 특정한 패턴을 부여할 수 있음 Stateful Set으로 생성한 Pod의 스토리지는 PVC로만 연결 가능  Stateful Set이 필요한 이유  인스턴스들이 특정 순서로 실행되어야 하는 경우  예) 멀티노드 구조로 데이터베이스를 구축하고자 할 때 - Master 노드 먼저 생성 → Slave 노드 이후 생성   Pod 이름, 네트워크 등의 정보를 초기화하지 않고, 유지해야 하는 경우  Stateful Set 생성 방법 ex) statefulset-definition apiVersion: apps/v1 kind: StatefulSet metadata: name: mysql labels: app: mysql spec: template: metadata: labels: app: mysql spec: containers: - name: mysql image: mysql replicas: 3 selector: matchLabels: app: mysql serviceName: mysql-h # 서비스 이름 지정 podManagementPolicy: OrderedReady # default.</description>
+    </item>
+    
     <item>
       <title>[KR] Kubernetes - Job / CronJob</title>
       <link>https://wonyoungseo.github.io/posts/2024-03-23-k8s-job/</link>
@@ -121,8 +140,8 @@ apiVersion: v1 kind: Pod metadata: name: ubuntu-sleeper-pod spec: containers: - 
       <pubDate>Thu, 29 Feb 2024 03:18:50 +0900</pubDate>
       
       <guid>https://wonyoungseo.github.io/posts/2024-02-29-k8s-pv-pvc/</guid>
-      <description>K8s PV / PVC 기본 개념 데이터를 영구적으로 저장하는 매커니즘 Persistent Storage
-1. 주요 개념 PV (Persistent Volume)  K8s Object 클러스터의 스토리지역할을 하는 클러스터 리소스의 일종 관리자가 프로비저닝하거나 Storage Class를 통해 동적으로 프로비저닝 됨 일반 볼륨과의 차이점  일반 볼륨은 Pod와 같은 라이프사이클을 가짐. 함께 생성되고 함께 내려간다는 뜻 PV는 Pod와 별개의 라이프사이클을 가지므로, Pod가 종료되어도 PV에 기록된 데이터는 삭제되지 않음    PVC (Persistent Volume Claim)  K8s Object PVC는 PV 라는 리소스에 대한 요청 + 리소스에 대한 클레임 검사 역할 PVC를 명시하면 쿠버네티스는 적정한 크기와 접근 모드의 PV를 찾고 PVC를 PV에 할당함.</description>
+      <description>데이터를 영구적으로 저장하는 매커니즘 Persistent Storage
+ PV / PVC 의 주요 개념 PV (Persistent Volume)  K8s 어드민이 설정한 클러스터 레벨의 스토리지 볼륨군이며, 클러스터 리소스의 일ㅈ오. 관리자가 프로비저닝하거나 Storage Class를 통해 동적으로 프로비저닝 됨 일반 볼륨과의 차이점  일반 볼륨은 Pod와 같은 라이프사이클을 가짐. 함께 생성되고 함께 내려간다는 뜻 PV는 Pod와 별개의 라이프사이클을 가지므로, Pod가 종료되어도 PV에 기록된 데이터는 삭제되지 않음    PV 생성하기 # ex) pv-definition.</description>
     </item>
     
     <item>
@@ -157,6 +176,17 @@ Labels, Selectors 개념  Labels and Selectors act as a filter, filtering pods f
       
       <guid>https://wonyoungseo.github.io/posts/2024-01-15-k8s-concept/</guid>
       <description>1 쿠버네티스 개념 아키텍처 1.1. 개념  컨테이너화 된 어플리케이션의 배포, 확장, 운영을 자동화하기 위한 오픈소스 시스템 구글에 의해 개발됨. CNCF에 기반을 둠  1.2. 주요 특징  자동화된 롤아웃 및 롤백  어플리케이션 업데이트 시 롤아웃을 자동으로 관리 문제 발생 시 이전 버전으로 롤백   서비스 접근 및 로드 밸런싱  클러스터 내의 어플리케이션에 쉬벡 접근 트래픽을 자동으로 분산   스케일링  리소스의 사용에 따라 자동 또는 수동으로 스케일링   자체 회복  실패한 컨테이너 재시작.</description>
+    </item>
+    
+    <item>
+      <title>[KR] Kubernetes - Storage Class</title>
+      <link>https://wonyoungseo.github.io/posts/2024-03-02-k8s-storage-class/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wonyoungseo.github.io/posts/2024-03-02-k8s-storage-class/</guid>
+      <description>Storage Class  PV를 수동으로 생성하는 과정은 정적 프로비저닝 Static Provisioning 매번 PV를 수동으로 생성하지 않고, 스토리지가 필요한 경우 자동으로 프로비저닝 하길 원한다면 Storage Class 를 활용함  Storage Class 오브젝트는 Google Storage 등 PV 프로바이더 이용해 동적인 프로비저닝 (Dynamic Provisioning) 함
+Storage Class는 PVC와의 바인딩을 통해 연결함
+# ex) sc-definition.yaml apiVersion: storage.k8s.io/v1 kind: StorageClass metadata: name: google-storage provisioner: kubernetes.io/gce-pd # ex) pvc-definition.yaml apiVersion: v1 kind: PersistentVolumeClaim metadata: name: myclaim spec: accessModes: - ReadWriteOnce storageClassName: google-storage  # storage class resources: requests: storage: 500Mi  각기 다른 thrid party provider가 선택지로 있음  Reference  Kubernetes Docs - Storage Classes  </description>
     </item>
     
   </channel>
